@@ -503,3 +503,105 @@ function openingIdea(me, a) {
   const list = ideas[m.piece] || [];
   return list[a.ply % list.length] || '';
 }
+
+/* ------------------------------------------------------------ version compacte */
+
+const T = s => s ? s[0].toUpperCase() + s.slice(1) : s;
+
+/**
+ * Explication condensée : mêmes informations, en lignes courtes étiquetées.
+ * @returns {{ title, items: [{ tag, kind, html, line? }] }}
+ */
+export function explainCompact(a, positions, evals) {
+  if (!a) return { title: 'Position de départ', items: [{ tag: 'Info', kind: 'info', html: 'Parcourez la partie avec les flèches ou le graphique.' }] };
+  const title = `${a.san} ${CLASSES[a.cls].text}`;
+  const prevFen = positions[a.ply - 1].fen, fen = positions[a.ply].fen;
+  const prevMove = positions[a.ply - 1].move;
+  const color = a.color, opp = other(color);
+  const me = describeMove(prevFen, a.uci, { prevMove, ply: a.ply });
+  const best = a.bestUci && a.bestUci !== a.uci ? describeMove(prevFen, a.bestUci, { prevMove, ply: a.ply }) : null;
+  const bestPv = evals[a.ply - 1].lines[0]?.pv || [];
+  const replyPv = evals[a.ply].lines[0]?.pv || [];
+  const b = s => `<b>${esc(s)}</b>`;
+  const items = [];
+  const add = (tag, kind, html, line) => items.push({ tag, kind, html, line: line || null });
+  const did = joinMotifs(me.motifs);
+  const loss = Math.round(a.loss);
+
+  const bestItem = (label = 'Mieux') => {
+    if (!best?.m) return;
+    const gain = lineOutcome(prevFen, bestPv, 6, color);
+    let why = best.motifs.filter(x => x.w >= 10).map(x => x.txt);
+    if (why.length < 2 && best.c) why = why.concat(positionalEdge(best.c.fen(), fen, color, a.ply).filter(t => !(t.includes('roi') && why.some(w => w.includes('roque'))) && !(t.includes('développe') && why.some(w => w.includes('développe'))))).slice(0, 2);
+    if (!why.length) why = best.motifs.map(x => x.txt).slice(0, 1);
+    if (gain.mate) why.push('force le mat');
+    else if (gain.delta >= 1) why.push(`gagne ${materialWord(gain.delta)}`);
+    add(label, 'best', `${b(best.m.san)}${why.length ? ' : ' + (why.length > 1 ? why.slice(0, -1).join(', ') + ' et ' + why[why.length - 1] : why[0]) : ''}.`, lineText(prevFen, bestPv, 6));
+  };
+
+  switch (a.cls) {
+    case 'book': {
+      const name = a.opening ? a.opening.split('|')[1] : null;
+      if (did) add('Coup', 'info', T(did) + '.');
+      add('Théorie', 'book', name ? b(name) : 'Coup connu de la théorie.');
+      break;
+    }
+    case 'forced':
+      add('Coup', 'info', 'Seul coup légal.');
+      break;
+    case 'brilliant': {
+      const sac = sacrificedPiece(fen, color);
+      add('Coup', 'brilliant', `${T(did || 'coup surprenant')}${sac ? ` — laisse ${LE[sac.target.type]} ${sac.target.square} en prise` : ''}.`);
+      const out = lineOutcome(fen, replyPv, 6, color);
+      add('Pourquoi', 'best', out.mate ? 'Accepter le sacrifice mène au mat.' : `Le sacrifice tient${out.delta >= 1 ? ` et récupère ${materialWord(out.delta)} de plus` : ''}.`, lineText(fen, replyPv, 6));
+      break;
+    }
+    case 'great': {
+      if (did) add('Coup', 'info', T(did) + '.');
+      const second = evals[a.ply - 1].lines[1];
+      if (second?.pv?.length) {
+        const alt = play(prevFen, second.pv[0]);
+        add('Seul coup', 'great', `l'alternative ${b(alt?.m.san || '?')} ne donnait que ${evalSentence(second.score, color, true)} (contre ${evalSentence(a.scoreAfter, color, true)}).`);
+      }
+      const th = newThreat(prevFen, fen, color, me.motifs);
+      if (th) add('Menace', 'threat', th.type === 'mate' ? `mat avec ${b(th.san)}.` : `gagner ${LE[th.target.type]} ${th.target.square} (${b(th.san)}).`);
+      break;
+    }
+    case 'best':
+    case 'excellent':
+    case 'good': {
+      add('Coup', 'info', did ? T(did) + '.' : 'Coup solide.');
+      const th = newThreat(prevFen, fen, color, me.motifs);
+      if (th) add('Menace', 'threat', th.type === 'mate' ? `mat avec ${b(th.san)}.` : `gagner ${LE[th.target.type]} ${th.target.square} (${b(th.san)}).`);
+      if (a.cls !== 'best') bestItem('Plus précis');
+      const oppTh = threatsOf(fen, opp);
+      if (oppTh && oppTh.type === 'mate') add('Attention', 'bad', `l'adversaire menace mat avec ${b(oppTh.san)}.`);
+      break;
+    }
+    default: {
+      if (did) add('Coup', 'info', T(did) + '.');
+      // le problème, en une ligne
+      const sc = a.scoreAfter;
+      const reply = replyPv[0] ? describeMove(fen, replyPv[0], { prevMove: null, ply: a.ply + 1 }) : null;
+      const out = lineOutcome(prevFen, [a.uci, ...replyPv], 6, color);
+      const hang = threatsOf(fen, opp);
+      if (isMateFor(sc, opp) && sc.mate) {
+        add('Problème', 'bad', `permet un mat en ${Math.abs(sc.mate)}.`, lineText(fen, replyPv, Math.min(9, Math.abs(sc.mate) * 2)));
+      } else if (out.delta <= -1 && reply?.m) {
+        const what = reply.motifs.find(x => ['fork', 'pin', 'skewer', 'disco', 'double', 'win', 'capture', 'attack', 'threatmate'].includes(x.k));
+        add('Problème', 'bad', `${b(reply.m.san)}${what ? ` ${what.txt}` : ''} → vous perdez ${materialWord(-out.delta)}.`, lineText(fen, replyPv, 5));
+      } else if (hang && hang.type === 'capture' && hang.gain >= 2) {
+        add('Problème', 'bad', `${LE[hang.target.type]} ${hang.target.square} n'est plus défendu (${b(hang.san)}).`);
+      } else {
+        const strong = reply?.motifs.filter(x => x.w >= 15) || [];
+        add('Problème', 'bad', reply?.m && strong.length
+          ? `${b(reply.m.san)} ${joinMotifs(strong)} — ${loss} % de chances de gain en moins.`
+          : `pas de perte de matériel, mais ${loss} % de chances de gain en moins${reply?.m ? ` (réponse : ${b(reply.m.san)})` : ''}.`,
+          strong.length ? lineText(fen, replyPv, 4) : null);
+      }
+      if (a.cls === 'miss') add('Occasion', 'miss', `${b(prevMove?.san || '…')} adverse était une erreur à punir.`);
+      bestItem('Mieux');
+    }
+  }
+  return { title, items };
+}

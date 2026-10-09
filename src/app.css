@@ -378,3 +378,46 @@
   .sm-player.b .sm-acc { margin-left: auto; margin-right: 0; }
 }
 .story-modal { z-index: 300; }
+
+/* ---------- Coach compact ---------- */
+.coach-review .bubble { padding: 9px 12px; }
+.coach-review .coach-title { font-size: 15px; }
+.coach-review .coach-text { margin-top: 6px; display: flex; flex-direction: column; gap: 5px; }
+.ex-row { display: flex; gap: 8px; align-items: flex-start; font-size: 13px; line-height: 1.4; color: #4b4845; }
+.ex-tag {
+  flex: none; width: 74px; margin-top: 1px; padding: 1px 0; border-radius: 4px; text-align: center;
+  font-size: 10px; font-weight: 800; letter-spacing: .4px; text-transform: uppercase;
+  background: #ecebe9; color: #6b6966;
+}
+.ex-txt { flex: 1; min-width: 0; }
+.ex-txt b { color: #312e2b; }
+.ex-line { display: block; margin-top: 1px; font: 600 11.5px/1.35 Consolas, "Cascadia Mono", monospace; color: #8b8987; }
+.ex-bad .ex-tag { background: #fde3df; color: #c9301e; }
+.ex-best .ex-tag { background: #e6f1da; color: #4e7f27; }
+.ex-threat .ex-tag { background: #fff1d0; color: #a26d00; }
+.ex-great .ex-tag { background: #e1ebf5; color: #46709a; }
+.ex-brilliant .ex-tag { background: #d6f3ed; color: #1a8a74; }
+.ex-book .ex-tag { background: #f1e8de; color: #8a6845; }
+.ex-miss .ex-tag { background: #ffe5e2; color: #d2493b; }
+.coach-moment { display: flex; align-items: center; gap: 6px; margin-top: 4px; padding: 5px 8px; font-size: 12.5px; border-left-width: 3px; }
+.coach-moment .ico { color: #e0a82e; }
+.coach-moment span { flex: 1; }
+.cm-more { border: 0; background: none; color: #5d8c32; font-weight: 800; font-size: 12px; cursor: pointer; padding: 0 2px; }
+.cm-more:hover { text-decoration: underline; }
+.coach-actions { margin-top: 7px; }
+.coach-actions .btn { padding: 5px 9px; font-size: 12.5px; }
+
+/* ---------- Récit : textes plus compacts ---------- */
+.story-title { font-size: 22px; margin-bottom: 12px; }
+.story-body { padding: 16px 20px 22px; }
+.timeline { gap: 8px; }
+.tl-card { padding: 9px 12px; }
+.tl-title { font-size: 14px; }
+.tl-card p { font-size: 13px; line-height: 1.45; margin-top: 4px; }
+.tl-go { display: none; }
+.chapters { gap: 10px; }
+.chapter { padding: 11px 14px 12px; }
+.chapter h3 { font-size: 15px; }
+.chapter p { font-size: 13px; line-height: 1.55; }
+.tip-card { padding: 11px 12px; }
+.tip-card p { font-size: 13px; }

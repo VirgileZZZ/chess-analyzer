@@ -18,12 +18,7 @@ Tout tourne dans le navigateur : rien à installer d'autre, aucun serveur.
   - chapitres (ouverture, tournant, finale, gestion du temps…) ;
   - conseils personnalisés.
 - **Analyse en direct** sur plusieurs lignes, variantes libres, flèches au clic droit.
-- **Puzzles** créés à partir de vos erreurs, avec classement, séries et génération depuis vos parties chess.com.
-- **Ouvertures**, entraînement façon Chessable :
-  - répétition espacée ;
-  - modes Apprendre, Réviser, Entraînement libre, Parcourir ;
-  - bibliothèque de 27 répertoires tirés d'études Lichess populaires ;
-  - import de vos PGN (En Croissant, Lichess, ChessBase…) avec variantes, commentaires et flèches.
+- **Chargement de parties** : lien chess.com, PGN, FEN, vos dernières parties chess.com, analyses récentes en cache.
 - **Nombreux paramètres** : moteur, profondeur, nombre de moteurs en parallèle, sévérité, thèmes d'échiquier, pièces, sons…
 
 ## Installation
@@ -44,16 +39,11 @@ Par défaut, l'extension utilise Stockfish 19 **Lite** (1,7 Mo), largement suffi
 
 L'option apparaît alors dans les paramètres.
 
-### Répertoires En Croissant
-
-`sync-repertoires.bat` copie les répertoires d'[En Croissant](https://encroissant.org) (`Documents\EnCroissant`) dans `data/repertoires/`. La page Ouvertures les charge ensuite automatiquement.
-
 ## Crédits et licences
 
 - [Stockfish](https://stockfishchess.org) / [stockfish.js](https://github.com/nmrugg/stockfish.js) — GPLv3. Ce projet est donc distribué sous **GPLv3** (voir `LICENSE`).
 - [chess.js](https://github.com/jhlywa/chess.js) — BSD-2.
 - Base d'ouvertures : [lichess-org/chess-openings](https://github.com/lichess-org/chess-openings) (CC0).
 - Pièces : jeux cburnett, merida, maestro et alpha de [Lichess](https://github.com/lichess-org/lila).
-- Répertoires de la bibliothèque : études publiques [Lichess](https://lichess.org/study/topic/Openings/popular), avec leurs auteurs crédités dans l'extension.
 
 Extension non officielle, sans lien avec Chess.com.

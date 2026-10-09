@@ -6,14 +6,14 @@ import { loadSettings, onSettingsChanged, ENGINES, usableEngine } from './settin
 import { renderSettings } from './settings-ui.js';
 import { CLASSES, SUMMARY_ORDER, classIcon } from './classes.js';
 import {
-  buildPositions, evaluatePositions, classifyGame, explain, extractPuzzles,
+  buildPositions, evaluatePositions, classifyGame,
   scoreToCp, winPct, moverWin, formatScore, pvToSan,
 } from './analysis.js';
 import { fetchChessComGame, parsePgn, fetchRecentGames, avatarBlobUrl, parseGameUrl } from './chesscom.js';
-import { cacheKey, getCachedAnalysis, saveAnalysis, expandEvals, listAnalyses, deleteAnalysis, addPuzzles } from './storage.js';
+import { cacheKey, getCachedAnalysis, saveAnalysis, expandEvals, listAnalyses, deleteAnalysis } from './storage.js';
 import { EvalGraph } from './graph.js';
 import { buildNarrative } from './narrative.js';
-import { explainRich } from './explain.js';
+import { explainCompact } from './explain.js';
 import { configureSound, play, playForMove } from './sound.js';
 import { icon, hydrateIcons, timeClassIcon } from './icons.js';
 
@@ -343,10 +343,6 @@ async function startGame(game, { force = false, evals = null, key = null } = {})
     play('end');
     const sum = S.result.summary.players;
     if (S.settings.cacheAnalyses) saveAnalysis(S.key, game, evals, { accW: sum.w.accuracy, accB: sum.b.accuracy }).catch(console.warn);
-    if (S.settings.autoPuzzles) {
-      const pz = extractPuzzles({ ...game, gtype: game.gtype }, S.positions, evals, S.result.moves, S.settings);
-      addPuzzles(pz).then(n => { if (n) toast(`${n} nouveau${n > 1 ? 'x' : ''} puzzle${n > 1 ? 's' : ''} créé${n > 1 ? 's' : ''} à partir de cette partie`); });
-    }
   }
   S.cur = S.positions.length - 1;
   setView('summary');
@@ -927,14 +923,15 @@ function renderCoach() {
     addBtn('Premier coup', () => goTo(1), true, 'next');
     return;
   }
-  const ex = explainRich(a, S.positions, S.evals);
+  const ex = explainCompact(a, S.positions, S.evals);
   title.innerHTML = `${classIcon(a.cls, 24)}<span style="color:${CLASSES[a.cls].color === '#81b64c' ? '#5d8c32' : 'inherit'}">${esc(ex.title)}</span>${evalChip(a.scoreAfter)}`;
-  text.innerHTML = ex.paragraphs.map(p => `<p>${p}</p>`).join('');
+  text.innerHTML = renderExplainItems(ex.items);
   const moment = S.narrative?.moments.find(m => m.ply === a.ply);
   if (moment) {
     const d = document.createElement('div');
     d.className = 'coach-moment';
-    d.innerHTML = `<b>${icon('bolt', 13)} Moment clé · ${esc(moment.title)}</b><br>${moment.html}`;
+    d.innerHTML = `${icon('bolt', 13)}<span>Moment clé · <b>${esc(moment.title)}</b></span><button class="cm-more">Récit</button>`;
+    d.querySelector('.cm-more').onclick = () => openStory('moments');
     text.appendChild(d);
   }
   if (ERROR_CLASSES.has(a.cls) || a.cls === 'good' || a.cls === 'excellent') {
@@ -947,6 +944,13 @@ function renderCoach() {
   if (nextErr) addBtn('Erreur suivante', () => goTo(nextErr.ply), false, 'last');
   const nextMoment = S.narrative?.moments.find(m => m.ply > a.ply);
   if (nextMoment) addBtn('Moment clé', () => goTo(nextMoment.ply), false, 'bolt');
+}
+
+const capFirst = h => h.replace(/^(<b>)?([a-zàâéèêëîïôûùç])/, (m, t, c) => (t || '') + c.toUpperCase());
+
+/** Lignes compactes du coach : étiquette colorée + texte, suite de coups en petit. */
+function renderExplainItems(items) {
+  return items.map(it => `<div class="ex-row ex-${it.kind}"><span class="ex-tag">${esc(it.tag)}</span><div class="ex-txt">${capFirst(it.html)}${it.line ? `<span class="ex-line">${esc(it.line)}</span>` : ''}</div></div>`).join('');
 }
 
 function myColor() {
@@ -1149,7 +1153,7 @@ function showSolution() {
   r.after = { fen: c.fen(), move: varMove(m, c.fen()) };
   r.badge = 'best';
   r.title = `${m.san} était le meilleur coup`;
-  r.message = explainRich(a, S.positions, S.evals).paragraphs.join(' ').replace(/<[^>]+>/g, '').replace(/&#39;/g, "'").replace(/&amp;/g, '&');
+  r.message = explainCompact(a, S.positions, S.evals).items.filter(it => it.kind !== 'info').map(it => `${it.tag} : ${it.html}`).join(' ').replace(/<[^>]+>/g, '').replace(/&#39;/g, "'").replace(/&amp;/g, '&');
   r.state = 'solution';
   display({ sound: true });
 }

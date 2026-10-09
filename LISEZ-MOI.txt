@@ -18,8 +18,6 @@ CHESS ANALYZER — installation (Chrome, Opera, Opera GX, Edge, Brave)
 Ce qui est inclus, sans rien installer d'autre :
   - Stockfish 19 (version Lite, tourne dans le navigateur)
   - Bilan de partie façon chess.com en cliquant sur "Bilan de la partie" sur chess.com
-  - Puzzles créés à partir de vos erreurs
-  - Bibliothèque de 27 répertoires d'ouvertures (Blancs et Noirs) à travailler
-    dans la page "Ouvertures" (études Lichess populaires, commentaires en anglais)
+  - Explications de chaque coup et récit de la partie
 
 Astuce : Alt + clic sur "Bilan de la partie" ouvre l'analyse normale de chess.com.

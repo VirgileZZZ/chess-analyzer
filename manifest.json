@@ -3,7 +3,7 @@
   "name": "Chess Analyzer — Stockfish",
   "short_name": "Chess Analyzer",
   "version": "1.0.0",
-  "description": "Bilan de partie façon chess.com, propulsé par Stockfish 19 en local : brillants, très bons coups, théorie, gaffes, occasions manquées, puzzles…",
+  "description": "Bilan de partie façon chess.com, propulsé par Stockfish 19 en local : brillants, très bons coups, théorie, gaffes, occasions manquées, explications et récit de la partie.",
   "icons": {
     "16": "icons/icon16.png",
     "32": "icons/icon32.png",

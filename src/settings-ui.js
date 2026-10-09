@@ -48,19 +48,12 @@ export const SECTIONS = [
   },
   {
     title: 'Chess.com', icon: 'external', fields: [
-      { key: 'username', label: 'Votre pseudo chess.com', type: 'text', placeholder: 'ex : Hikaru', hint: 'Sert à orienter le plateau, charger vos parties et créer vos puzzles' },
+      { key: 'username', label: 'Votre pseudo chess.com', type: 'text', placeholder: 'ex : Hikaru', hint: 'Sert à orienter le plateau et à charger vos parties' },
       { key: 'intercept', label: 'Remplacer « Bilan de la partie » / « Analyse »', type: 'select', options: opt({ all: 'Toujours (boutons + pages d\'analyse)', button: 'Seulement les clics sur les boutons', off: 'Jamais (bouton flottant uniquement)' }), hint: 'Astuce : Alt + clic pour ouvrir l\'analyse normale de chess.com' },
       { key: 'openIn', label: 'Ouvrir l\'analyse', type: 'select', options: opt({ newtab: 'Dans un nouvel onglet', sametab: 'Dans le même onglet' }) },
       { key: 'floatingButton', label: 'Bouton flottant « Analyser » sur les parties', type: 'toggle' },
       { key: 'autoFlip', label: 'Orienter le plateau de mon côté', type: 'toggle' },
       { key: 'cacheAnalyses', label: 'Mémoriser les analyses (réouverture instantanée)', type: 'toggle' },
-    ],
-  },
-  {
-    title: 'Puzzles', icon: 'puzzle', fields: [
-      { key: 'autoPuzzles', label: 'Créer des puzzles à partir de mes erreurs', type: 'toggle' },
-      { key: 'puzzleSide', label: 'Erreurs de', type: 'select', options: opt({ me: 'Moi seulement (pseudo requis)', both: 'Les deux joueurs' }) },
-      { key: 'puzzleMinClass', label: 'À partir de', type: 'select', options: opt({ inaccuracy: 'Imprécisions', mistake: 'Erreurs', blunder: 'Gaffes uniquement' }) },
     ],
   },
 ];

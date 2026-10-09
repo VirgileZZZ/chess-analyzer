@@ -46,10 +46,6 @@ export const DEFAULTS = {
   autoFlip: true,
   cacheAnalyses: true,
 
-  // Puzzles
-  autoPuzzles: true,
-  puzzleSide: 'me',               // me | both
-  puzzleMinClass: 'mistake',      // inaccuracy | mistake | blunder
 };
 
 export async function loadSettings() {
