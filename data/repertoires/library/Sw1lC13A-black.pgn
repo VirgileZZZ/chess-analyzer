@@ -1,0 +1,179 @@
+[Event "The Caro-Kann Defense🏹: The Caro-Kann Defense"]
+[Date "2021.03.04"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "B12"]
+[Opening "Caro-Kann Defense"]
+[StudyName "The Caro-Kann Defense🏹"]
+[ChapterName "The Caro-Kann Defense"]
+[ChapterURL "https://lichess.org/study/Sw1lC13A/cu0v5LwH"]
+[Annotator "https://lichess.org/@/heyucatchthis"]
+[UTCDate "2021.03.04"]
+[UTCTime "01:53:43"]
+[Orientation "black"]
+[ChapterMode "gamebook"]
+
+{ Hello! In this study, you will be learning the Caro-Kann Defense. The Caro-Kann defense was created in the 1800s by--well, Misters Caro and Kann, and is a great opening against 1. e4, the most common move. This opening is very solid and it is not attacked easily. You should try this out in one of your games :D }
+1. e4 { In the Caro-Kann you have to respond with 1. ...c6, preparing 2. ...d5. } { [%csl Re4,Gc7][%cal Re2e4] } 1... c6 { This move prepares 2. ...d5. } { [%csl Gc6][%cal Gc7c6] } 2. d4 { 2. d4 is a good move because it puts two pawns in the center.
+What did we play c6 for? } { [%csl Rd4,Re4,Bd7,Rc5,Rd5,Re5,Rf5][%cal Rd2d4,Re4f5,Re4d5,Rd4e5,Rd4c5] } 2... d5 { This is the Caro-Kann defense. Super solid! Many players are not expecting this so this should be a good game for you. This opening is also very easy to memorize: only 3 branches! Our opponent can either leave the e pawn there, take the d pawn, or push it. In this study we will be going to go over all 3 of them. } { [%csl Gd5,Bc6,Rd4,Re4][%cal Gd7d5] } *
+
+[Event "The Caro-Kann Defense🏹: Caro-Kann Defense: Classical Variation"]
+[Date "2021.03.04"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "B19"]
+[Opening "Caro-Kann Defense: Classical Variation, Spassky Variation"]
+[StudyName "The Caro-Kann Defense🏹"]
+[ChapterName "Caro-Kann Defense: Classical Variation"]
+[ChapterURL "https://lichess.org/study/Sw1lC13A/NPdgkdVm"]
+[Annotator "https://lichess.org/@/heyucatchthis"]
+[UTCDate "2021.03.04"]
+[UTCTime "02:08:50"]
+[Orientation "black"]
+[ChapterMode "gamebook"]
+
+{ Play everything you have learned so far. }
+1. e4 { The move? } { [%csl Gc7,Re4][%cal Re2e4] } 1... c6 { [%csl Gc6][%cal Gc7c6,Bd7d5] } 2. d4 { What did we play c6 for? } { [%csl Rd4][%cal Rd2d4] } 2... d5 { Yes!
+In this chapter we will be looking at the Classical variation of the Caro-Kann Defense. This is the variation where our opponent leaves the e pawn there. } { [%csl Re4,Rd4,Gd5,Gc6] } 3. Nc3 { Whenever our opponent leaves the e pawn there, we will take it. Play it now. } { [%csl Rc3,Bd5][%cal Rb1c3] } 3... dxe4 { [%csl Ge4][%cal Gd5e4] } 4. Nxe4 { How do you attack the center knight with your bishop? } { [%csl Re4,Bc8][%cal Rc3e4] } 4... Bf5 { [%csl Gf5,Be4][%cal Gc8f5,Bf5e4] } 5. Ng3 { Our opponent retreats their knight and attacks our bishop. How do we retreat our bishop? } { [%csl Rg3,Yf5][%cal Re4g3,Yg3f5] } 5... Bg6 { [%csl Gg6][%cal Gf5g6] } 6. h4 { White wants to trap our bishop! Make a space for it on h7. } { [%csl Rh4,Yh5,Rf5,Re4,Rd3,Rc2][%cal Rh2h4,Yh4h5] } 6... h6 { [%csl Gh6,Bh7][%cal Gh7h6,Bg6h7] } 7. Nf3 { In this position, Nd7 is the only move. If you don't play it, Ne5 is coming, and just trust me, this will not be a position you want to play. } { [%csl Rf3][%cal Rg1f3] } 7... Nd7 { [%csl Gd7,Re5][%cal Gb8d7,Rd7e5] } 8. h5 { [%csl Rh5,Yg6][%cal Rh4h5,Yh5g6] } 8... Bh7 { [%csl Gh7][%cal Gg6h7] } 9. Bd3 { When the bishop comes out, you have to take. } { [%csl Rd3][%cal Rf1d3,Bh7d3] } 9... Bxd3 { [%csl Gd3][%cal Gh7d3] } 10. Qxd3 { The dark squared bishop is terrible. How do we improve it? } { [%csl Rd3,Yf8,Ye7][%cal Rd1d3] } 10... e6 { [%csl Ge6,Ba3,Bb4,Bc5,Bd6,Be7,Bf8][%cal Ge7e6,Bf8a3] } 11. Bd2 { Develop your g knight. What's the best square? } { [%csl Rd2,Bg8][%cal Rc1d2] } 11... Ngf6 { [%csl Gf6][%cal Gg8f6] } 12. O-O-O { Yes! This is a typical position in the classical variation of the Caro-Kann.
+You can develop your bishop to d6, castle on the king side, and then go aggressive and attack the white king with a5-a4 and just smash white. This will be a good game for you with a lot of attacking plans, as well as a completely solid pawn structure. Go to the next chapter to learn about the Advanced variation. } { [%csl Rc1,Bd6,Bg8,Ba4,Ba5,Bb5,Bb4][%cal Re1c1,Bf8d6,Be8g8,Ba7a5,Ba5a4,Bb7b5,Bb5b4] } *
+
+[Event "The Caro-Kann Defense🏹: Caro-Kann Defense: Advanced Variation"]
+[Date "2021.03.04"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "B12"]
+[Opening "Caro-Kann Defense: Advance Variation, Short Variation"]
+[StudyName "The Caro-Kann Defense🏹"]
+[ChapterName "Caro-Kann Defense: Advanced Variation"]
+[ChapterURL "https://lichess.org/study/Sw1lC13A/nEAlOmhD"]
+[Annotator "https://lichess.org/@/heyucatchthis"]
+[FEN "rnbqkbnr/pp2pppp/2p5/3p4/3PP3/8/PPP2PPP/RNBQKBNR w KQkq - 0 1"]
+[SetUp "1"]
+[UTCDate "2021.03.04"]
+[UTCTime "02:52:54"]
+[Orientation "black"]
+[ChapterMode "gamebook"]
+
+{ In this chapter we will be looking at the Advanced Variation of the Caro-Kann. This is when our opponent pushes the e4 pawn. This looks scary, but don't worry! White has wasted 3 tempo building this center, so you will be ahead in development. If we manage to undermine his center with pawn breaks such as c5, we will be ahead. Also super solid. } { [%csl Re4,Rd4,Gd5,Gc6] }
+1. e5 { Before we play e6, we have to develop this bishop. If we close down the pawn chain first with e6, this bishop will be miserable for the rest of the game.
+So, where to? } { [%csl Bc8,Re5][%cal Re4e5] } 1... Bf5 { If you get the opportunity to trade this bishop off, do so, it is almost useless because it is on light squares, and all of your pawns will be on light squares later on. It will be staring at the c pawn for the rest of the game. } { [%csl Gf5,Bc2][%cal Gc8f5,Bf5c2] } 2. Nf3 { This bishop is terrible. How do we make it better? } { [%csl Rf3,Bf8][%cal Rg1f3] } 2... e6 { Yay :D } { [%csl Ba3,Bb4,Bc5,Bd6,Be7,Ge6][%cal Ge7e6,Bf8a3] } 3. Be2 { How do we break down this extreme center with a pawn break? } { [%csl Rd4,Re5,Re2,Gc6][%cal Rf1e2] } 3... c5 { Keep this in mind. White wasted 3 moves building this gigantic center, so if we break it down with moves like c5, we will be much better. Do this by adding extreme presure, Knight out to c6, Queen out to b6 :D } { [%csl Gc5,Bd4][%cal Gc6c5,Bc5d4] } 4. O-O { Develop this knight. } { [%csl Rg1,Bb8][%cal Re1g1] } 4... Nc6 { [%csl Gc6][%cal Gb8c6] } 5. c3 { Capture the pawn. } { [%csl Rc3][%cal Rc2c3] } 5... cxd4 { [%csl Gd4][%cal Gc5d4] } 6. cxd4 { The g knight develops to g6. How do we put it there? } { [%csl Rd4,Bg8][%cal Rc3d4] } 6... Nge7 { Yes! Now we put the e knight on g6, get our dark squared bishop out, and castle. If you trade your light squared bishop away, f5 is a very very nice square for your knight. White has a space advantage, but you are a tempo up and you have a very solid position. This should be a good game for you :D } { [%csl Bg6,Bb5,Bb6,Yb4,Bf5,Ye7][%cal Gg8e7,Be7g6,Ba7a6,Bb7b5,Bd8b6,Yf8b4,Be7f5] } *
+
+[Event "The Caro-Kann Defense🏹: Caro-Kann Defense: Exchange Variation"]
+[Date "2021.03.04"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "B13"]
+[Opening "Caro-Kann Defense: Exchange Variation"]
+[StudyName "The Caro-Kann Defense🏹"]
+[ChapterName "Caro-Kann Defense: Exchange Variation"]
+[ChapterURL "https://lichess.org/study/Sw1lC13A/oYCSOl0r"]
+[Annotator "https://lichess.org/@/heyucatchthis"]
+[FEN "rnbqkbnr/pp2pppp/2p5/3p4/3PP3/8/PPP2PPP/RNBQKBNR w KQkq - 0 3"]
+[SetUp "1"]
+[UTCDate "2021.03.04"]
+[UTCTime "03:09:11"]
+[Orientation "black"]
+[ChapterMode "gamebook"]
+
+{ In the Exchange Variation of the Caro-Kann defense, our opponent takes on d5. This is the easiest to play. Also very solid! }
+3. exd5 { They take we take back. } { [%csl Rd5][%cal Re4d5] } 3... cxd5 { Nice! Now we develop knights before bishops. } { [%csl Gb8,Gg8,Bc8,Bf8,Gd5][%cal Gc6d5] } 4. Nf3 { Develop this knight. } { [%csl Rf3,Gg8][%cal Rg1f3] } 4... Nf6 { [%csl Gf6][%cal Gg8f6] } 5. Bd3 { And now where should this knight go? } { [%csl Bb8,Rd3][%cal Rf1d3] } 5... Nc6 { [%csl Gc6][%cal Gb8c6] } 6. c3 { Now before playing e6, we must get this bishop out of the pawn chain or else it will be dead for the rest of the game. Where should it go? } { [%csl Bc8,Rc3][%cal Rc2c3] } 6... Bg4 { If our opponent pins you, Bd7 is also good. } { [%csl Gg4,Ye8,Yc6,Bd7][%cal Gc8g4,Rd3b5,Yb5e8] } 7. Bf4 { Now close the chain of pawns :D
+It is good because it brightens the dark squared bishop. } { [%csl Rf4][%cal Rc1f4] } 7... e6 { [%csl Ge6][%cal Ge7e6] } 8. O-O { Get the dark squared bishop out and castle. } { [%csl Bf8,Rg1][%cal Re1g1] } 8... Bd6 { [%csl Gd6][%cal Gf8d6] } 9. Bxd6 { Don't do anything crazy lol! } { [%csl Rd6][%cal Rf4d6] } 9... Qxd6 { [%csl Gd6][%cal Gd8d6] } 10. Nbd2 { Your king is unsafe! } { [%csl Ye8,Rd2][%cal Rb1d2] } 10... O-O { Yes! You have a great position. Now, try to push on the queen side, put your rooks in the center, and maybe put a knight in the center as well! The engine marks it as equal because of how great your structure is. A common plan for white is to place his f3 knight into the center, so that is a thing to keep in mind. This will be a great game for you :D } { [%csl Gg8,Bc8,Bd8,Bb5,Ba6,Ye5][%cal Ge8g8,Ba8c8,Bf8d8,Ba7a6,Bb7b5,Yf3e5] } *
+
+[Event "The Caro-Kann Defense🏹: Caro-Kann Defense: Two Knights Variation"]
+[Date "2021.03.14"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "B11"]
+[Opening "Caro-Kann Defense: Two Knights Attack, Mindeno Variation, Exchange Line"]
+[StudyName "The Caro-Kann Defense🏹"]
+[ChapterName "Caro-Kann Defense: Two Knights Variation"]
+[ChapterURL "https://lichess.org/study/Sw1lC13A/Sitn2F0Y"]
+[Annotator "https://lichess.org/@/heyucatchthis"]
+[FEN "rnbqkbnr/pp1ppppp/2p5/8/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 1"]
+[SetUp "1"]
+[UTCDate "2021.03.14"]
+[UTCTime "00:22:44"]
+[Orientation "black"]
+[ChapterMode "gamebook"]
+
+{ In this chapter, we will be looking at the Two Knights variation of the Caro-Kann. The Two Knights variation is a bit more complicated in terms of theory, but you have to learn how to play it.
+
+White starts by playing 2. Nc3. }
+1. Nc3 { Well, complete your Caro-Kann pawn chain :D } { [%csl Rc3][%cal Rb1c3] } 1... d5 { [%csl Gd5,Gc6,Re4,Rc3][%cal Gd7d5] } 2. Nf3 { Here is the starting position of the Two Knights Variation.
+The best move for black is to move your bishop out to g4. If you play e6, it cannot develop and it will be useless so we have to develop it first. } { [%csl Rf3,Re4,Rc3,Gd5,Gc6,Bc8][%cal Rg1f3] } 2... Bg4 { [%csl Gg4,Yf3,Yd1][%cal Gc8g4,Yg4d1] } 3. h3 { Oof! We got kicked!
+Well, since all of our pawns will be on light squares, we won't need another defender of the light squared. Go ahead and trade the bishop off. } { [%csl Rh3,Yg4,Yf3][%cal Rh2h3] } 3... Bxf3 { [%csl Gf3][%cal Gg4f3] } 4. Qxf3 { Ok! This is the position where it starts to get theoretical. Now, close down and lock your pawn chain so that everything is super solid. } { [%csl Rf3,Bf7,Bd5,Bc6,Bb7,Ye6,Re7][%cal Rd1f3] } 4... e6 { Yes! Here is where things start branching out. The moves for white are 5. g3, 5. d3, 5. d4, and 5. Be2. If your opponent every plays e5 and d4, just undermine that center with pawn breaks like c4 and break it up, like in the Advanced variation. Your job is to play g6 and Bg7, fianchettoing the bishop on the long diagonal, Ne7, Nd7, and castle short. From here, you will have a good game. Your opponent is ahead in development, but that is not a threat because of your absolutely solid pawn chain.
+To learn more theory, watch this video.
+https://www.youtube.com/watch?v=S5OjT1K_s58 } { [%csl Ge6,Gf7,Gd5,Gc6,Gb7,Bg7,Bg6,Bc3,Ye7,Yd7,Gg8][%cal Ge7e6,Bg7g6,Bf8g7,Bg7c3,Yg8e7,Yb8d7,Ge8g8] } *
+
+[Event "The Caro-Kann Defense🏹: Caro-Kann Defense: Fantasy Variation"]
+[Date "2021.03.12"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "B12"]
+[Opening "Caro-Kann Defense: Maróczy Variation"]
+[StudyName "The Caro-Kann Defense🏹"]
+[ChapterName "Caro-Kann Defense: Fantasy Variation"]
+[ChapterURL "https://lichess.org/study/Sw1lC13A/CR8dLUpD"]
+[Annotator "https://lichess.org/@/heyucatchthis"]
+[FEN "rnbqkbnr/pp2pppp/2p5/3p4/3PP3/8/PPP2PPP/RNBQKBNR w KQkq - 0 1"]
+[SetUp "1"]
+[UTCDate "2021.03.12"]
+[UTCTime "00:06:50"]
+[Orientation "black"]
+[ChapterMode "gamebook"]
+
+{ There is one more tricky variation white can play on you, and you can get destroyed if you don't play it correctly. In this chapter, I will tell you how to play the Fantasy variation.
+
+This starts with f3, with the idea of exchanging pawns and remaining with two pawns in the center. } { [%csl Re4,Rd4,Gc6,Gd5] }
+1. f3 { The best move is dxe5. g6 and Bg7 is ok as well, but this is better.
+If Nf3, there is e5, f4, c6, Nf3, and there is a huge pawn wall heading your way, dominating your center and crushing your space.
+Therefore the best move is dxe4. } { [%csl Bf6,Ye5,Yf4,Rf3,Yc3,Yd4,Bd5][%cal Rf2f3,Bg8f6,Ye4e5,Yf3f4,Yg1f3,Yc1e3,Yf1d3,Yc2c3] } 1... dxe4 { [%csl Ge4][%cal Gd5e4] } 2. fxe4 { The only move here is e5. If not, white sends a wall of pawns your way. For example, Nf6, and e5 is coming, then c5, and white gets a gigantic center. } { [%csl Re4,Bf6,Bd5,Yc4,Bb6,Ye5,Yd4,Ge7][%cal Rf3e4,Bg8f6,Ye4e5,Bf6d5,Yc2c4,Bd5b6,Ye1h1,Yf1f7] } 2... e5 { If dxe5, you can play Qa4+, and then get the pawn, and you are better because white has an over-extended, isolated, e pawn. } { [%csl Ge5,Bh4,Be1,Be4][%cal Ge7e5,Yd4e5,Bd8h4,Bh4e1,Bh4e4] } 3. Nf3 { Now, white coninues with Nf3, and here, you have to pin it to the queen with the highlighted piece.
+How do you do that? } { [%csl Gf3,Bc8][%cal Gg1f3] } 3... Bg4 { [%csl Gg4,Bd1,Bf3][%cal Gc8g4,Bg4d1] } 4. Bc4 { Now in this position, the only move is Nd7.
+If you play a regular move like Nf6, Bxf7+, Kxf7, and Nxe5+, forking the king and the bishop to win back material. White will be up 2 pawns and your king is just terrible. Nd7 protects the e5 pawn. } { [%csl Rc4,Bf6,Bf7,Ye5,Yg4][%cal Rf1c4,Bg8f6,Bc4f7,Be8f7,Ye5f7,Ye5g4,Gf3e5] } 4... Nd7 { [%csl Gd7,Be5][%cal Gb8d7,Bd7e5] } 5. c3 { The point of c3 is to put the queen on b3 and create threats on f7 and b7. Now, just finish development and castle. If you play like this, you will not get crushed and you have a fighting chance. The dark square bishop goes to d6, the g knight develops classically, then you can castle. Plans maybe are pushing on the queen side with those 3 pawns. You can even use this against the Caro-Kann, here is a link on how to play it. Many people don't know what to do against this, so it will be a good game for you.
+https://www.youtube.com/watch?v=z_Q4LaR_ZVY
+Thanks for checking out my study and I hope you learned something from this. Be sure to leave a heart! Please feel free to message me if you have any questions!
+Check out ALL my studies here.
+https://lichess.org/study/by/heyucatchthis } { [%csl Rc3,Bd6,Bf6,Ba6,Bb5][%cal Rc2c3,Bf8d6,Bg8f6,Ba7a6,Bb7b5] } *
+
+[Event "Rated Classical game"]
+[Site "https://lichess.org/5wraYxQt"]
+[Date "2021.03.07"]
+[White "comalkin"]
+[Black "heyucatchthis"]
+[Result "0-1"]
+[WhiteElo "1787"]
+[BlackElo "1678"]
+[TimeControl "1800+8"]
+[Termination "Normal"]
+[Variant "Standard"]
+[ECO "B12"]
+[Opening "Caro-Kann Defense: Advance Variation, Short Variation"]
+[StudyName "The Caro-Kann Defense🏹"]
+[ChapterName "A game I played using the Caro-Kann."]
+[ChapterURL "https://lichess.org/study/Sw1lC13A/JFJY0Dmt"]
+[Annotator "https://lichess.org/@/heyucatchthis"]
+[Orientation "black"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. Nf3 e6 5. h3 c5 6. Bb5+ Nd7 7. c3 a6 8. Be2 Ne7 9. Nh4 Qa5? 10. Nxf5 Nxf5 11. Bd2 cxd4 12. cxd4 Bb4 13. a3?? Bxd2+ 14. Qxd2 Qxd2+ 15. Nxd2 Nxd4 16. Bd3 Nxe5 $19 { Look, just a couple of moves and white's center collapsed completely. } 17. Bb1 Rc8 18. O-O O-O 19. f4 Nec6 20. Bd3 Rfe8 21. Rae1 f6 22. g4 e5 23. fxe5 fxe5 24. Bf5 Nxf5 25. Rxf5 Rf8 26. Rh5 g6 27. Rg5 Kg7 28. Rf1 Rxf1+ 29. Nxf1 Kf6 30. h4 h6 { 0-1 White resigns. } { White's rook is trapped. } 0-1
+
+[Event "The Caro-Kann Defense🏹: Review and Conclusion"]
+[Date "2021.06.01"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "?"]
+[Opening "?"]
+[StudyName "The Caro-Kann Defense🏹"]
+[ChapterName "Review and Conclusion"]
+[ChapterURL "https://lichess.org/study/Sw1lC13A/bHUfvxf5"]
+[Annotator "https://lichess.org/@/heyucatchthis"]
+[FEN "rnbqkbnr/pp2pppp/2p5/3p4/3PP3/8/PPP2PPP/RNBQKBNR w KQkq - 0 1"]
+[SetUp "1"]
+[UTCDate "2021.06.01"]
+[UTCTime "23:40:19"]
+[Orientation "black"]
+[ChapterMode "gamebook"]
+
+{ Thanks for checking out my study and I hope you learned something from this. Be sure to leave a heart! Please feel free to message me if you have any questions!
+Check out ALL my studies here.
+https://lichess.org/study/search?q=owner%3Aheyucatchthis+ } { [%csl Gd4,Ge4,Rd5,Rc6] }
+ *

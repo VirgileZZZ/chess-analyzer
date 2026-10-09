@@ -1,0 +1,8 @@
+# Moteur Stockfish complet (99 Mo) : optionnel, à télécharger séparément (voir README)
+engine/stockfish-19-single.js
+engine/stockfish-19-single.wasm
+
+# Divers
+*.zip
+.DS_Store
+Thumbs.db

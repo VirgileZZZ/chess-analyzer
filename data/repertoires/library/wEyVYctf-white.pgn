@@ -1,0 +1,222 @@
+[Event "Repertoire for 1.d4 Players: Introduction"]
+[Date "2021.09.20"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "?"]
+[Opening "?"]
+[StudyName "Repertoire for 1.d4 Players"]
+[ChapterName "Introduction"]
+[ChapterURL "https://lichess.org/study/wEyVYctf/kVElwEfk"]
+[Annotator "https://lichess.org/@/LeninPerez"]
+[FEN "rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 0 1"]
+[SetUp "1"]
+[UTCDate "2021.09.20"]
+[UTCTime "16:27:06"]
+[Orientation "white"]
+[ChapterMode "gamebook"]
+
+{ Hi, welcome to my new study. Today, I have created a repertoire of openings for those players who start their games with 1.d4, which are positional, solid and calm.
+
+Before starting, I would like to give some information:
+
+IMPORTANT: From today, I will start creating 2 studies per week, probably on Mondays and weekends :)
+
+If you are a faithful follower of 1.d4, you must know this good repertoire of openings, so press the following chapters and I will do the rest :D }
+ *
+
+[Event "Repertoire for 1.d4 Players: Queen's Gambit accepted"]
+[Date "2021.09.20"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "D20"]
+[Opening "Queen's Gambit Accepted: Old Variation"]
+[StudyName "Repertoire for 1.d4 Players"]
+[ChapterName "Queen's Gambit accepted"]
+[ChapterURL "https://lichess.org/study/wEyVYctf/6xoowifG"]
+[Annotator "https://lichess.org/@/LeninPerez"]
+[UTCDate "2021.09.20"]
+[UTCTime "16:27:35"]
+[Orientation "white"]
+[ChapterMode "gamebook"]
+
+{ Well, before I start to see the opening variations with 1.d4, I ask you again to like this study, please, since I try very hard to create it, but after a good effort comes a great achievement and way, no?
+
+Well well, let's get started. Play the move we're going to focus on today, 1.d4! } { [%cal Gd2d4] }
+1. d4 { As I said, we will talk about this initial move, which is much more careful, cautious, and positional than the others, like 1.e4 for example. } 1... d5 { When you don't know what to do, simply follow the moves that I indicate with the arrows. } { [%cal Gc2c4] } 2. c4 { This is the first opening, or variation that we will see, that is, the Queen's Gambit. The newest ones will know this thanks to... well, I don't know... do you know? Be that as it may, the Queen's Gambit is a wonderful opening, and one of the most common and standard openings in chess. Some time ago I created a very complete study on this, you can see it here: https://lichess.org/study/JkPnQ5g5
+Speaking more of what is happening on the board, now you give up one of your pawns in exchange for other advantages that are not determined by the material. } 2... dxc4 { Now, by capturing that gambit, Black loses control of the center, since one of his pawns is not fighting for the center.
+Play 3.e3 } { [%cal Rd5c4] } 3. e3 Nf6 { What I think is great about the queen gambit, is that apart from gaining advantages other than material, you can also get that pawn back quickly!
+Come on, what are you waiting for, do it! :) } 4. Bxc4 e6 { Develop your knight } 5. Nf3 { Very well! This is a very common way to play the Queen's Gambit when the player with the black pieces accepts the gambit, now he may be thinking of playing c5 to damage your powerful pawn structure, and fight for the center, something that you perfectly mastered since the beginning :D } { [%cal Yc7c5] } *
+
+[Event "Repertoire for 1.d4 Players: Queen's Gambit declined"]
+[Date "2021.09.20"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "D55"]
+[Opening "Queen's Gambit Declined: Modern Variation, Normal Line"]
+[StudyName "Repertoire for 1.d4 Players"]
+[ChapterName "Queen's Gambit declined"]
+[ChapterURL "https://lichess.org/study/wEyVYctf/SCkBlrYs"]
+[Annotator "https://lichess.org/@/LeninPerez"]
+[UTCDate "2021.09.20"]
+[UTCTime "16:30:22"]
+[Orientation "white"]
+[ChapterMode "gamebook"]
+
+{ Please make your first move, 1.d4 and play as in the previous chapter. }
+1. d4 { The star move! } 1... d5 2. c4 { The Queen's Gambit ;D } 2... e6 { Now, your opponent does not capture, but instead prefers to reject the gambit.
+You play 3.Nc3 } 3. Nc3 Nf6 { What is the best square for your c1 bishop? } { [%csl Gc1] } 4. Bg5 { The black knight cannot move! For this reason, your opponent's next move will be 4.Be7 } { [%csl Rf6][%cal Rg5d8] } 4... Be7 { Develop your knight } { [%csl Gg1] } 5. Nf3 O-O { Can you find a pawn "liberating" move for your entire position and pieces? } 6. e3 { This is a great move, your bishop will soon go to d3, and kingside castling is approaching. } { [%cal Gf1d3] } *
+
+[Event "Repertoire for 1.d4 Players: London System"]
+[Date "2021.09.20"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "D00"]
+[Opening "Queen's Pawn Game: Accelerated London System"]
+[StudyName "Repertoire for 1.d4 Players"]
+[ChapterName "London System"]
+[ChapterURL "https://lichess.org/study/wEyVYctf/GYeKbCLD"]
+[Annotator "https://lichess.org/@/LeninPerez"]
+[UTCDate "2021.09.20"]
+[UTCTime "16:32:28"]
+[Orientation "white"]
+[ChapterMode "gamebook"]
+
+{ Your first move? }
+1. d4 d5 { Play 2.Bf4 :) } { [%cal Gc1f4] } 2. Bf4 { This is the London System, a system adored by many, and hated by many as well, as it is so solid that it does not allow your opponent a chance to attack.
+In this study, I explain the London System in a simple way: https://lichess.org/study/p1pdMu9b
+And in this one, I explain it in more detail: https://lichess.org/study/vIEKP8t3 } 2... Nf6 { Follow the green arrows } { [%cal Ge2e3] } 3. e3 e6 { [%cal Gb1d2] } 4. Nd2 c5 { When your opponent plays c5, you must play c3 and form the pawn pyramid! } { [%cal Gc2c3] } 5. c3 { [%csl Gb2,Gc3,Gd4,Ge3,Gf2][%cal Gb2d4,Gf2d4] } 5... Nc6 { Develop your knight } { [%csl Gg1] } 6. Ngf3 { Very well! You have developed your pieces very well, and now you must play Bd3. } { [%cal Gf1d3] } *
+
+[Event "Repertoire for 1.d4 Players: Zukertort/Colle"]
+[Date "2021.09.20"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "D00"]
+[Opening "Queen's Pawn Game: Stonewall Attack"]
+[StudyName "Repertoire for 1.d4 Players"]
+[ChapterName "Zukertort/Colle"]
+[ChapterURL "https://lichess.org/study/wEyVYctf/jw1KYlWj"]
+[Annotator "https://lichess.org/@/LeninPerez"]
+[UTCDate "2021.09.20"]
+[UTCTime "16:37:02"]
+[Orientation "white"]
+[ChapterMode "gamebook"]
+
+{ As you already know, follow the green arrows... } { [%cal Gd2d4] }
+1. d4 d5 { [%cal Ge2e3] } 2. e3 Nf6 { [%cal Gf1d3] } 3. Bd3 e6 { [%cal Gb1d2] } 4. Nd2 c5 { When your opponent plays c5, what should you do? } 5. c3 { Build the pawns pyramid! } { [%cal Gb2d4,Gf2d4] } 5... Nc6 { Develop your knight } { [%csl Gg1] } 6. Ngf3 Bd6 { [%cal Ge1g1] } 7. O-O { It is a similar scheme to the London System, but the difference is that the bishop on c1 is not developed, but is blocked. The idea is to play e4 in the future and develop that bishop.
+I don't have an in-depth study on the Colle System but if you want, I could. I want a like before! :) } { [%cal Ge3e4] } *
+
+[Event "Repertoire for 1.d4 Players: Stonewall Attack"]
+[Date "2021.09.20"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "D00"]
+[Opening "Queen's Pawn Game: Stonewall Attack"]
+[StudyName "Repertoire for 1.d4 Players"]
+[ChapterName "Stonewall Attack"]
+[ChapterURL "https://lichess.org/study/wEyVYctf/j126lVnO"]
+[Annotator "https://lichess.org/@/LeninPerez"]
+[UTCDate "2021.09.20"]
+[UTCTime "16:39:18"]
+[Orientation "white"]
+[ChapterMode "gamebook"]
+
+{ What is your first move? }
+1. d4 d5 { [%cal Ge2e3] } 2. e3 Nf6 { [%cal Gf1d3] } 3. Bd3 c5 { [%cal Gc2c3] } 4. c3 Nc6 { The London System is the older brother of the Zukertort / Colle, and the younger brother of these 2 is the Stonewall Attack! To play this powerful attack, you must play f4! } { [%cal Gf2f4] } 5. f4 { In the London System the f4 square is saved for your c1 bishop, in the Zukertort/Colle this is not developed, but e4 is played in the future to do so, and in the Stonewall Attack the f4 square is saved for your f4 pawn .
+Now, your pawns are like a stone! Light squares are weak, but that's what your mighty d3 bishop is for.
+In my openings section in my studies, I did a study for this attack and it has more than 1,000 likes. You can watch it if you want to learn this great attack!: https://lichess.org/study/9uKfnEnT } { [%csl Gd3,Yc3,Yd4,Ye3,Yf4][%cal Yc3d4,Yd4e3,Ye3f4] } *
+
+[Event "Repertoire for 1.d4 Players: Blackmar Gambit"]
+[Date "2021.09.20"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "D00"]
+[Opening "Blackmar-Diemer Gambit Accepted"]
+[StudyName "Repertoire for 1.d4 Players"]
+[ChapterName "Blackmar Gambit"]
+[ChapterURL "https://lichess.org/study/wEyVYctf/9fkd5Qbm"]
+[Annotator "https://lichess.org/@/LeninPerez"]
+[UTCDate "2021.09.20"]
+[UTCTime "16:41:24"]
+[Orientation "white"]
+[ChapterMode "gamebook"]
+
+{ You know what to do }
+1. d4 d5 { [%cal Ge2e4] } 2. e4 { Here White hands over the 'e' pawn and intends to continue with Nc3 and f2-f3, usually on the fourth move. White gets a tempo and a semi-open f-file in exchange for a pawn and White aims for rapid development to attack in the future. } 2... dxe4 { Develop your knight } { [%csl Gb1] } 3. Nc3 Nf6 { Now, 4.f3! } { [%cal Gf2f3] } 4. f3 exf3 { Capture the pawn } 5. Nxf3 { The Blackmar Gambit is (like all gambits) a way to gain other advantages outside of the material (such as the development and activity of pieces) to attack in the future, although this is still a gambit of minority use and according to the most chess theorists doubtful; that is why its use is restricted to blitz games. } *
+
+[Event "Repertoire for 1.d4 Players: Trompowsky Attack"]
+[Date "2021.09.20"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "A45"]
+[Opening "Trompowsky Attack: Classical Defense, Big Center Variation"]
+[StudyName "Repertoire for 1.d4 Players"]
+[ChapterName "Trompowsky Attack"]
+[ChapterURL "https://lichess.org/study/wEyVYctf/KOJ8HD9O"]
+[Annotator "https://lichess.org/@/LeninPerez"]
+[UTCDate "2021.09.20"]
+[UTCTime "16:42:51"]
+[Orientation "white"]
+[ChapterMode "gamebook"]
+
+{ Your first move? }
+1. d4 Nf6 { Now, play 2.Bg5! } { [%cal Gc1g5] } 2. Bg5 { This is the Trompowsky Attack, which is a solid structure that generates tactical games. The idea of 2.Bg5 is very simple, exchange it for the knight on f6, doubling the pawns to Black and reaching a favorable endgame. } 2... e6 { How can you take the center with your pawns? } 3. e4 { Well that's it! Your game must be very active. } *
+
+[Event "Repertoire for 1.d4 Players: Veresov Attack"]
+[Date "2021.09.20"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "D01"]
+[Opening "Richter-Veresov Attack"]
+[StudyName "Repertoire for 1.d4 Players"]
+[ChapterName "Veresov Attack"]
+[ChapterURL "https://lichess.org/study/wEyVYctf/bsNyjQc8"]
+[Annotator "https://lichess.org/@/LeninPerez"]
+[UTCDate "2021.09.20"]
+[UTCTime "16:45:56"]
+[Orientation "white"]
+[ChapterMode "gamebook"]
+
+1. d4 d5 { Develop your knight } { [%csl Gb1] } 2. Nc3 Nf6 { Now play 3.Bg5 } { [%cal Gc1g5] } 3. Bg5 { I would say that the Veresov Attack is like a Ruy Lopez but with 1.d4.
+Although it is a "rare" way to play 1.d4, you should know this for your repertoire. } *
+
+[Event "Repertoire for 1.d4 Players: Catalan Opening"]
+[Date "2021.09.20"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "E01"]
+[Opening "Catalan Opening: Closed"]
+[StudyName "Repertoire for 1.d4 Players"]
+[ChapterName "Catalan Opening"]
+[ChapterURL "https://lichess.org/study/wEyVYctf/6pOvfCR7"]
+[Annotator "https://lichess.org/@/LeninPerez"]
+[UTCDate "2021.09.20"]
+[UTCTime "16:46:51"]
+[Orientation "white"]
+[ChapterMode "gamebook"]
+
+{ What is your first move? }
+1. d4 { Yeaaa, 1.d4! } 1... Nf6 { Play 2.c4 } { [%cal Gc2c4] } 2. c4 e6 { Now, play 3.g3 :D } { [%cal Gg2g3] } 3. g3 { Catalan Opening. The opening idea consists of the fianchetto on the kingside. The kingside pieces develop quickly, and white has a good game. } 3... d5 { What is the best square for your bishop? } { [%csl Gf1] } 4. Bg2 { Your bishop is the most important piece in the Catalan Opening. Now you must develop your pieces and castling on the kingside as soon as possible. } { [%csl Gg2][%cal Gh1a8] } *
+
+[Event "Repertoire for 1.d4 Players: Conclusion"]
+[Date "2021.09.20"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "?"]
+[Opening "?"]
+[StudyName "Repertoire for 1.d4 Players"]
+[ChapterName "Conclusion"]
+[ChapterURL "https://lichess.org/study/wEyVYctf/swnFFFCP"]
+[Annotator "https://lichess.org/@/LeninPerez"]
+[FEN "rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq - 0 1"]
+[SetUp "1"]
+[UTCDate "2021.09.20"]
+[UTCTime "17:13:58"]
+[Orientation "white"]
+[ChapterMode "gamebook"]
+
+{ I thought this was not going to end, but yes, the study is over. My intention is that now you have a wide repertoire based on the move 1.d4, but if you want another type of repertoire you can leave me in the comments.
+
+Also tell me which opening you found interesting for a future study, and don't forget to support me with your positive comment and your like. Always keep an eye out for the two studies per week.
+
+Thank you very much for watching, I'm Lenin Perez and we'll see you in a next study! }
+ *

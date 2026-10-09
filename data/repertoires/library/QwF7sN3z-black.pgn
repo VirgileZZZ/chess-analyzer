@@ -1,0 +1,89 @@
+[Event "Opening Traps You Must Know!: 🎣🕸 Trap 2# Fishing Pole Trap (Exchange Variation) 🕸🎣"]
+[Date "2025.02.20"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "C69"]
+[Opening "Ruy Lopez: Exchange Variation, Alapin Gambit"]
+[StudyName "Opening Traps You Must Know!"]
+[ChapterName "🎣🕸 Trap 2# Fishing Pole Trap (Exchange Variation) 🕸🎣"]
+[ChapterURL "https://lichess.org/study/QwF7sN3z/7yTPiw5o"]
+[Annotator "https://lichess.org/@/Wonderous123"]
+[UTCDate "2025.02.20"]
+[UTCTime "06:32:54"]
+[Orientation "black"]
+[ChapterMode "gamebook"]
+
+{ The second trap is the Fishing Pole Trap. The Fishing Pole is a trap most common in the Ruy Lopez (especially in the Berlin Defence and Exchange Variations). }
+1. e4 { Play e5. } { [%csl Ge5][%cal Ge7e5] } 1... e5 2. Nf3 { Play Nc6. } { [%csl Gc6][%cal Gb8c6] } 2... Nc6 3. Bb5 { This is the Ruy Lopez Opening. Now, the Fishing Pole Traps works with the Ruy Lopez Exchange Variation, and the Berlin Defense. We will be looking at this trap from both variations. Play a6 and we'll look at the Exchange Variation first! } { [%cal Ga7a6] } 3... a6 { This is called the Morphy Defence. White can play Ba4, but if he plays- } 4. Bxc6 { Bxc6, then it becomes the Exchange Variation. We take it with the d pawn. } { [%csl Gc6][%cal Gd7c6] } 4... dxc6 5. O-O { White castles. Remember that the Fishing Pole Trap only works if White has castled. Play Bg4 and let's jump into the trap! } { [%csl Gg4][%cal Gc8g4] } 5... Bg4 6. h3 { White plays h3. Black would have to go back or...? } 6... h5!! { No! Black doesn't have to go back! Instead, we sacrifice, THE BISHOP!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! And now, White would be fine with something like d3, BUT if white takes- } 7. hxg4?? { This is a TERRIBLE BLUNDER! Take the pawn! } { [%csl Gg4][%cal Gh5g4] } 7... hxg4 { Now, White's best move is Re1, and then we just take the Knight and White's Kingside is demolished! BUT, if white tries to defend its Knight ANYWHERE, for example- } 8. Nxe5 { Nxe5. Then, it's a forced mate in 4!! How? } { [%csl Gd8] } 8... Qh4 { Yes! We bring the queen! } 9. f4 { White plays f4. Now we lock the White king } { [%csl Gg3][%cal Gg4g3] } 9... g3 { And there's a forced mate! } { [%csl Gh1][%cal Gh4h1] } 10. Qh5 { Just take! } { [%csl Gh5][%cal Gh8h5] } 10... Rxh5 11. a3 { And mate! } { [%csl Gh1][%cal Gh4h1] } 11... Qh1# { Checkmate! } (11... Qh2# { Also fine! }) *
+
+[Event "Opening Traps You Must Know!: 🎣🕸 Trap 2# Fishing Pole Trap (Berlin Defense) 🕸🎣"]
+[Date "2025.02.20"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "C65"]
+[Opening "Ruy Lopez: Berlin Defense, Fishing Pole Variation"]
+[StudyName "Opening Traps You Must Know!"]
+[ChapterName "🎣🕸 Trap 2# Fishing Pole Trap (Berlin Defense) 🕸🎣"]
+[ChapterURL "https://lichess.org/study/QwF7sN3z/swxwL6yx"]
+[Annotator "https://lichess.org/@/Wonderous123"]
+[UTCDate "2025.02.20"]
+[UTCTime "06:32:54"]
+[Orientation "black"]
+[ChapterMode "gamebook"]
+
+{ Now we'll look at the Fishing Pole Trap from the Berlin Defense. }
+1. e4 { Play e5! } { [%csl Ge5][%cal Ge7e5] } 1... e5 2. Nf3 { Play Nc6! } { [%csl Gc6][%cal Gb8c6] } 2... Nc6 3. Bb5 { Now, Nf6 is the Berlin Defense! } { [%csl Gf6][%cal Gg8f6] } 3... Nf6 4. O-O { White castles. Now we play Ng4! } { [%csl Gg4][%cal Gf6g4] } 4... Ng4?! { So, Ng4 is a dubious move and the Fishing Pole Trap is less effective in the Berlin Defense than the Exchange Variation, because the Knight, unlike the Bishop, is of no use on g4. But this trap is worth a try! } 5. h3 { White plays h3, as always. Play h5 } { [%csl Gh5][%cal Gh7h5] } 5... h5 { Now, the best move is c3, but if they take- } 6. hxg4?? { The same things here too! } { [%csl Gg4][%cal Gh5g4] } 6... hxg4 { And c3 is the best move, we take the Knight and it's winning. But, if white tries to save the knight again- } 7. Nh2 { Play Qh4! } { [%csl Gh4][%cal Gd8h4] } 7... Qh4 8. f4 { We just lock the King there. } { [%csl Gg3,Bf2][%cal Gg4g3,Rg1f2,Bg3f2] } 8... g3 { And we're winning! But the Fishing Pole Trap is more effective in the Exchange Variation. } *
+
+[Event "Opening Traps You Must Know!: 🐘🕸 Trap 4# Elephant Trap 🕸🐘"]
+[Date "2025.02.20"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "D51"]
+[Opening "Queen's Gambit Declined: Modern Variation, Knight Defense"]
+[StudyName "Opening Traps You Must Know!"]
+[ChapterName "🐘🕸 Trap 4# Elephant Trap 🕸🐘"]
+[ChapterURL "https://lichess.org/study/QwF7sN3z/bMluqyKd"]
+[Annotator "https://lichess.org/@/Wonderous123"]
+[UTCDate "2025.02.20"]
+[UTCTime "06:32:54"]
+[Orientation "black"]
+[ChapterMode "gamebook"]
+
+{ The next trap is the Elephant Trap, also called the Cambridge Springs Trap. This trap also occurs in the Queen's Gambit Declined Variation. }
+1. d4 { Play d5! } { [%csl Gd5][%cal Gd7d5] } 1... d5 2. c4 { This is the Queen's Gambit. Play e6! } { [%csl Ge6][%cal Ge7e6] } 2... e6 { Queen's Gambit Declined! } 3. Nc3 { Play Nf6! } { [%csl Gf6][%cal Gg8f6] } 3... Nf6 4. Bg5 { White goes for one of the most common moves, Bg5. And now this is where the trap begins. Normally, most people just play Be7 and play the normal theory. BUT, there is another move that we can play! Can you guess it? } 4... Nbd7! { Yes! We play Nbd7! } 5. cxd5 { We take the pawn. } 5... exd5 6. Nxd5?? { Oh, no! Our pawn is lost, or is it? } 6... Nxd5!! { NO! It's not! We take the Knight! SACRIFICING THE QUEEN!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! } 7. Bxd8?? { And if White takes, IT'S AN EVEN BIGGER BLUNDER! Why? } 7... Bb4+ { Yes! We give a check! Remember that the Elephant Trap doesn't work if White's Knight is on f3, because they could just block with the Knight and we're losing. BUT, right now, White has to block with the queen! } { [%csl Re1][%cal Rb4e1] } 8. Qd2 { We just take the queen! } 8... Bxd2+ 9. Kxd2 { Now the Bishop! } { [%csl Gd8][%cal Ge8d8] } 9... Kxd8 { And finally, after all the dust is settled, we can see that Black is a clear piece up! } *
+
+[Event "Opening Traps You Must Know!: 🏁🕸 Trap 6# Lasker Trap 🕸🏁"]
+[Date "2025.02.20"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "D08"]
+[Opening "Queen's Gambit Declined: Albin Countergambit, Lasker Trap"]
+[StudyName "Opening Traps You Must Know!"]
+[ChapterName "🏁🕸 Trap 6# Lasker Trap 🕸🏁"]
+[ChapterURL "https://lichess.org/study/QwF7sN3z/QgApTFsA"]
+[Annotator "https://lichess.org/@/Wonderous123"]
+[UTCDate "2025.02.20"]
+[UTCTime "06:32:54"]
+[Orientation "black"]
+[ChapterMode "gamebook"]
+
+{ The sixth trap is called the Lasker Trap or Albin Countergambit Trap, named after the second world chess champion, Emanuel Lasker. }
+1. d4 { It arises from the Queen's Gambit. Play d5. } { [%csl Gd5][%cal Gd7d5] } 1... d5 2. c4 { And now, the normal moves are e6, c6, dxc4, or Nf6. BUT, we're not going to play any of them! We will play e5! } { [%csl Ge5][%cal Ge7e5] } 2... e5 { And this is the aggressive, Albin Countergambit! If white plays cxd5, then we just recapture it and the position is fine. But, most of the time, White plays- } 3. dxe5 { dxe5! Now we push our pawn to d4! } { [%csl Gd4][%cal Gd5d4] } 3... d4 4. e3 { Most of the time, White will play e3 to try and exchange the d4 pawn. But, we don't take the e3 pawn. Instead, we play Bb4+! } { [%csl Gb4][%cal Gf8b4] } 4... Bb4+ 5. Bd2 { White defends the King. And now, we play dxe3! } { [%csl Ge3][%cal Gd4e3] } 5... dxe3 { Black sacrifices THE BISHOP!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! The best move is fxe3, followed by Qh4+ and g3. BUT, if white gets greedy and takes our Bishop- } { [%csl Rb4] } 6. Bxb4 { BOOM! White has fallen into our trap! We take the pawn! } { [%csl Gf2][%cal Ge3f2] } 6... exf2+ { White can't take because of Qxd1! So they play Ke2! } { [%csl Rf2][%cal Re1f2,Bd8d1] } 7. Ke2 { What do we do now??? } 7... fxg1=N+!! { Yes! We underpromote to a KNIGHT! This is because it also gives White a check! Now, the best move is Ke1, followed by - Qh4+ , Kd2 and Nc6. BUT, if white takes- } { [%csl Re2][%cal Rg1e2] } (7... fxg1=Q?? { Promoting to a queen is a BLUNDER because white can take our d8 queen with a check! And then take the second queen afterwards, and the position will be equalized again! } { [%cal Rd1d8,Be8d8,Rh1g1] }) 8. Rxg1?? { It's another blunder! Why? } 8... Bg4+ { A skewer! And Black wins the queen! Black wins! } { [%csl Re2][%cal Rg4d1] } *
+
+[Event "Opening Traps You Must Know!: ⛵🕸 Trap 8# Noah's Ark Trap 🕸⛵"]
+[Date "2025.02.20"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "C71"]
+[Opening "Ruy Lopez: Noah's Ark Trap"]
+[StudyName "Opening Traps You Must Know!"]
+[ChapterName "⛵🕸 Trap 8# Noah's Ark Trap 🕸⛵"]
+[ChapterURL "https://lichess.org/study/QwF7sN3z/SyjxEvwz"]
+[Annotator "https://lichess.org/@/Wonderous123"]
+[UTCDate "2025.02.20"]
+[UTCTime "06:32:54"]
+[Orientation "black"]
+[ChapterMode "gamebook"]
+
+{ The eighth and the last trap is called the Noah's Ark trap. It also arises from the Ruy Lopez! }
+1. e4 { Play e5! } { [%csl Ge5][%cal Ge7e5] } 1... e5 2. Nf3 { Play Nc6! } { [%csl Gc6][%cal Gb8c6] } 2... Nc6 3. Bb5 { Play a6! } 3... a6 4. Ba4 { And now, in the Fishing Pole, we played Nf6 and also the Exchange Variation, but now, we're gonna play d6! } { [%csl Gd6][%cal Gd7d6] } 4... d6 5. d4 { We played d6, so, White would most probably try to get the centre by d4, which is practically right! Play b5! } { [%csl Gb5][%cal Gb7b5] } 5... b5 6. Bb3 { Now we take with the Knight, setting the trap! } { [%csl Gd4][%cal Gc6d4] } 6... Nxd4 7. Nxd4 { And now we take back! } { [%csl Gd4][%cal Ge5d4] } 7... exd4 { White shouldn't take back here, but most of the time, white would just randomly recapture without thinking of anything! } 8. Qxd4?? { BOOM! White has fallen into our trap! What will you play here? } 8... c5 { Yes! c5! Attacking the Queen! } { [%csl Gd4][%cal Gc5d4] } 9. Qd5 { Now we play Be6 to defend mate and our rook! } { [%csl Ge6][%cal Gc8e6] } 9... Be6 10. Qc6+ { They give us a check! But no problem because we play Bd7! } { [%csl Gd7][%cal Ge6d7] } 10... Bd7 11. Qd5 { And now they go back! BUT THIS TIME- } 11... c4! { Yes! We don't play Be6 again! But instead, we trap White's Bishop! Black wins!! } *

@@ -1,0 +1,156 @@
+[Event "The 💥 Semi-Slav! ✔: The Semi-Slav"]
+[Date "2021.08.20"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "D43"]
+[Opening "Semi-Slav Defense"]
+[StudyName "The 💥 Semi-Slav! ✔"]
+[ChapterName "The Semi-Slav"]
+[ChapterURL "https://lichess.org/study/ZIXAwbuB/SF2BbgqI"]
+[Annotator "https://lichess.org/@/heyucatchthis"]
+[UTCDate "2021.08.20"]
+[UTCTime "22:57:34"]
+[Orientation "black"]
+[ChapterMode "gamebook"]
+
+{ Hello everyone, and welcome to my study on the Semi-Slav. The Semi-Slav is one of the best opening against d4. It is played by many many grandmasters, such as Viswanathan Anand. Today I will be giving you the ideas in the variations of the Semi-Slav. Let's start. }
+1. d4 { White opens the game with d4, a great move. Let's not go crazy for now and play classically. Respond with d5! } { [%csl Rd4][%cal Rd2d4,Bd7d5] } 1... d5 { This looks boring, but things will be exciting later. White plays the Queen's Gambit. } { [%csl Gd5,Rd4][%cal Gd7d5] } 2. c4 { Enter the Slav Defense with c6! } { [%csl Yc4,Yd4,Bd5][%cal Rc2c4,Bc7c6,Bc6d5] } 2... c6 { Nf3 is the best response for white against the Slav. } { [%csl Gd5,Gc6,Rd4,Rc4][%cal Gc7c6] } 3. Nf3 { Let's develop our g8-knight. } { [%csl Rf3,Rd4,Bg8][%cal Rg1f3] } 3... Nf6 { [%csl Gf6][%cal Gg8f6] } 4. Nc3 { White develops his b1 knight to c3. Let's enter the Semi-Slav with e6! } { [%csl Rc3,Rf3,Yd4,Yc4,Gf6,Gd5,Gc6,Gb7][%cal Rb1c3,Be7e6] } 4... e6 { This is the start of the Semi-Slav. This might look like a London System with a bad c8 bishop, but we will find a way to develop it. Our position is asleep right now, but after a few moves our position will wake up and spring to life, and white's pieces will be forced backwards. Let's see how. } { [%csl Gf7,Ge6,Gd5,Gc6,Gb7,Bf6,Yf3,Yc3,Rc4,Rd4,Rc8] } *
+
+[Event "The 💥 Semi-Slav! ✔: The Meran Semi-Slav ⚔"]
+[Date "2021.08.20"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "D45"]
+[Opening "Semi-Slav Defense: Main Line"]
+[StudyName "The 💥 Semi-Slav! ✔"]
+[ChapterName "The Meran Semi-Slav ⚔"]
+[ChapterURL "https://lichess.org/study/ZIXAwbuB/8uZv14f4"]
+[Annotator "https://lichess.org/@/heyucatchthis"]
+[UTCDate "2021.08.20"]
+[UTCTime "23:12:36"]
+[Orientation "black"]
+[ChapterMode "gamebook"]
+
+{ Play what you have learned. }
+1. d4 { [%csl Rd4][%cal Rd2d4] } 1... d5 { [%csl Gd5][%cal Gd7d5] } 2. c4 { [%csl Rc4][%cal Rc2c4] } 2... c6 { [%csl Gc6,Rd4,Rc4,Gd5][%cal Gc7c6] } 3. Nf3 { [%csl Rf3][%cal Rg1f3] } 3... Nf6 { [%csl Gf6][%cal Gg8f6] } 4. Nc3 { [%csl Rc3][%cal Rb1c3] } 4... e6 { This is the Semi-Slav. } { [%csl Ge6][%cal Ge7e6] } 5. e3 { This is the Meran Semi-Slav! White has to defend his pawn or else maybe we can take it and play b5, holding on to it. I will try to give you some ideas here, like how to develop the c8 bishop. } { [%csl Re3][%cal Re2e3,Yf1c4,Bd5c4] } *
+
+[Event "The 💥 Semi-Slav! ✔: The Meran: Taking dxc4 at the right moment."]
+[Date "2021.08.20"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "D46"]
+[Opening "Semi-Slav Defense: Chigorin Defense"]
+[StudyName "The 💥 Semi-Slav! ✔"]
+[ChapterName "The Meran: Taking dxc4 at the right moment."]
+[ChapterURL "https://lichess.org/study/ZIXAwbuB/dMvqMd6N"]
+[Annotator "https://lichess.org/@/heyucatchthis"]
+[FEN "rnbqkb1r/pp3ppp/2p1pn2/3p4/2PP4/2N1PN2/PP3PPP/R1BQKB1R b KQkq - 0 5"]
+[SetUp "1"]
+[UTCDate "2021.08.20"]
+[UTCTime "23:16:20"]
+[Orientation "black"]
+[ChapterMode "gamebook"]
+
+{ Black just played e3. Do we take on c4 now? Or is it better to develop the knight to d7? } { [%csl Re3][%cal Bb8d7,Re2e3,Bd5c4] }
+5... Nbd7 { Yes! If we played dxc4, they could take back on c4 with tempo, while developing. We don't want to help white develop. We want to make sure the f1 bishop moves first, then take it. } { [%csl Gd7][%cal Gb8d7,Rd5c4,Rf1c4] } (5... dxc4? { No! This move is bad because after Bxc4 he got to develop his bishop while we were taking a pawn, not developing like white. } { [%csl Bc4][%cal Bf1c4] }) 6. Qc2 { Our opponent just responded with a smart queen move. Do we take now, or do we play Bd6? } { [%csl Rc2][%cal Rd1c2,Bd5c4,Bf8d6] } 6... Bd6 { Yes. We don't want to take on c4 unless the bishop moves first. } { [%csl Gd6][%cal Gf8d6,Rd5c4,Rf1c4] } (6... dxc4? { We want to wait for the bishop to move. } { [%csl Bc4][%cal Bf1c4] }) 7. Bd3 { How about now? } { [%csl Rd3][%cal Rf1d3,Bd5c4,Be8g8] } 7... dxc4 { Yes! We make the bishop move again. See, if we took earlier, white would not have to play Bd3. Because he did, he wasted some time. } { [%csl Gc4][%cal Rf1d3,Rd3c4] } (7... O-O { This move is good, as long as you will on c4 later. } { [%csl Gg8,Yd3][%cal Ge8g8,Bd5c4,Yc4d3] }) 8. Bxc4 { We still have a bad c8 bishop! Let's learn how to develop it. } { [%csl Rc4,Yc8][%cal Rd3c4] } *
+
+[Event "The 💥 Semi-Slav! ✔: The Meran: Developing your c8 bishop."]
+[Date "2021.08.20"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "D46"]
+[Opening "Semi-Slav Defense: Chigorin Defense"]
+[StudyName "The 💥 Semi-Slav! ✔"]
+[ChapterName "The Meran: Developing your c8 bishop."]
+[ChapterURL "https://lichess.org/study/ZIXAwbuB/odH1xWWH"]
+[Annotator "https://lichess.org/@/heyucatchthis"]
+[FEN "r1bqk2r/pp1n1ppp/2pbpn2/8/2BP4/2N1PN2/PPQ2PPP/R1B1K2R b KQkq - 0 8"]
+[SetUp "1"]
+[UTCDate "2021.08.20"]
+[UTCTime "23:25:46"]
+[Orientation "black"]
+[ChapterMode "gamebook"]
+
+{ Black just took our c4 pawn. Play b5. } { [%csl Rc4][%cal Rd3c4,Bb7b5] }
+8... b5 { This move forces the bishop back. Since now the b7 square is empty, our bishop can go there. } { [%csl Gb5][%cal Gb7b5,Bb5c4,Bc8b7] } 9. Bd3 { Follow our plan. } { [%csl Rd3][%cal Rc4d3,Bc8b7] } 9... Bb7 { Our position is still quite dormant, but soon we will wake it up! } { [%csl Gb7][%cal Gb7h1,Bc6c5,Gc8b7] } 10. O-O { The King } { [%csl Rg1,Ye8][%cal Re1g1] } 10... O-O 11. a3 { Right now, don't focus on the exact position, focus on the b7 bishop. We need to open the diagonal with c5, but then b5 would be hanging. Defend b5. } { [%csl Ra3][%cal Ra2a3] } 11... a6 { We are now ready to play c5. } { [%csl Ga6][%cal Ga7a6,Bc6c5] } 12. Kh1 { If white just sits around and does nothing, we can now open our bishops. } { [%cal Bc6c5] } 12... c5 { After c5, look how energetic our position is! We are ready for a full kingside attack. Our sleeping position has exploded, and now we are much better. } { [%csl Gc5][%cal Gc6c5,Bb7g2,Bd6h2,Bf6g4,Bd8h4] } *
+
+[Event "The 💥 Semi-Slav! ✔: The Meran: White's e4-e5 threat 🔥"]
+[Date "2021.08.20"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "?"]
+[Opening "?"]
+[StudyName "The 💥 Semi-Slav! ✔"]
+[ChapterName "The Meran: White's e4-e5 threat 🔥"]
+[ChapterURL "https://lichess.org/study/ZIXAwbuB/XgGRVgsN"]
+[Annotator "https://lichess.org/@/heyucatchthis"]
+[FEN "r2qk2r/pb1n1ppp/2pbpn2/1p6/3P4/2NBPN2/PP3PPP/R1BQ1RK1 w Qkq - 0 1"]
+[SetUp "1"]
+[UTCDate "2021.08.20"]
+[UTCTime "23:35:23"]
+[Orientation "black"]
+[ChapterMode "gamebook"]
+
+{ Let's say you are playing the Semi-Slav and you get to this position. Since we don't have a strong d5 pawn now, our opponent might take advantage of this. }
+1. e4 { White plays e4, creating a strong center. Also, if white plays e5, they would deliver a nasty central pawn fork. We have to prevent this. If we don't want our opponent to play e5, we have to play e5 ourselves. } { [%csl Re4,Rd4][%cal Re3e4,Ye4e5,Ye5f6,Ye5d6,Be6e5] } 1... e5 { This move e5 has prevented e5 from white and also disrupts his center control. Now, we can play a6, taking on d4 at some point, and then c5 when our position wakes up. } { [%csl Ge5,Bb7,Bd6,Bf6,Bd8][%cal Ge6e5,Be5d4,Ba7a6,Bc6c5] } *
+
+[Event "The 💥 Semi-Slav! ✔: Cambridge Springs!"]
+[Date "2021.08.20"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "D52"]
+[Opening "Queen's Gambit Declined: Cambridge Springs Defense, Yugoslav Variation"]
+[StudyName "The 💥 Semi-Slav! ✔"]
+[ChapterName "Cambridge Springs!"]
+[ChapterURL "https://lichess.org/study/ZIXAwbuB/qmQ8KdKB"]
+[Annotator "https://lichess.org/@/heyucatchthis"]
+[UTCDate "2021.08.20"]
+[UTCTime "23:41:42"]
+[Orientation "black"]
+[ChapterMode "gamebook"]
+
+{ Get to the Semi-Slav position. }
+1. d4 { [%csl Rd4][%cal Rd2d4] } 1... d5 { [%csl Gd5][%cal Gd7d5] } 2. c4 { [%csl Rc4][%cal Rc2c4] } 2... c6 { [%csl Gc6][%cal Gc7c6] } 3. Nf3 { [%csl Rf3][%cal Rg1f3] } 3... Nf6 { [%csl Gf6][%cal Gg8f6] } 4. Nc3 { [%csl Rc3][%cal Rb1c3] } 4... e6 { This is the Semi-Slav. White can play 5. Bg5 to attack our knight. } { [%csl Ge6][%cal Ge7e6,Bc1g5] } 5. Bg5 { Develop the b8 knight to the center. } { [%csl Bb8][%cal Gg5d8] } 5... Nbd7 { [%csl Gd7,Gf6][%cal Gb8d7] } 6. e3 { Now we can play Qa5, activating the queen. } { [%csl Re3][%cal Re2e3,Bd8a5,Yf1c4] } 6... Qa5 { The queen is active. Notice how black is threatening Ne4, attacking the g5 bishop and putting pressure on c3. } { [%csl Ga5,Yc3,Yg5][%cal Gd8a5,Ba5e1,Ba5h5,Yf6e4,Ye4g5,Ye4c3] } 7. cxd5 { Recapture with knight } { [%csl Rd5][%cal Rc4d5,Bf6d5] } 7... Nxd5 { If our opponent plays Bd3 before taking on d5, we can take on c4 first and develop the bishop on c8 like I showed you earlier on. With a great position, we can now play b6 and Ba6 to trade of our bad c8 bishop with a very nice position. The Semi-Slav always leads to a nice position! } { [%csl Gd5,Gf1][%cal Gf6d5,Bb7b6,Bc8a6,Ga6f1] } *
+
+[Event "The 💥 Semi-Slav! ✔: ❤ Conclusion ❤"]
+[Date "2021.08.20"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "?"]
+[Opening "?"]
+[StudyName "The 💥 Semi-Slav! ✔"]
+[ChapterName "❤ Conclusion ❤"]
+[ChapterURL "https://lichess.org/study/ZIXAwbuB/xkexBBmW"]
+[Annotator "https://lichess.org/@/heyucatchthis"]
+[FEN "rnbqkb1r/pp3ppp/2p1pn2/3p4/2PP4/2N2N2/PP2PPPP/R1BQKB1R w KQkq - 0 1"]
+[SetUp "1"]
+[UTCDate "2021.08.20"]
+[UTCTime "23:50:12"]
+[Orientation "black"]
+[ChapterMode "gamebook"]
+
+{ The Semi-Slav is an aggressive opening that leads to fantastic positions for black. It starts off as a bullet-proof triangle and leads to superior piece activity with tremendous attacking chances. It is one of the best!
+Thank you for learning the Semi-Slav with me, I hope you have great success with it like many masters have found! Good luck & happy chess!
+
+Check out my other studies here: https://lichess.org/study/search?q=owner%3Aheyucatchthis }
+ *
+
+[Event "Import"]
+[Site "https://lichess.org/IHRez3l8"]
+[Date "2016.04.17"]
+[White "Aronian, Levon (2802)"]
+[Black "Anand, Viswanathan (2772)"]
+[Result "0-1"]
+[TimeControl "-"]
+[Termination "Unknown"]
+[Variant "Standard"]
+[ECO "D46"]
+[Opening "Semi-Slav Defense: Chigorin Defense"]
+[StudyName "The 💥 Semi-Slav! ✔"]
+[ChapterName "Aronian, Levon (2802) - Anand, Viswanathan (2772)"]
+[ChapterURL "https://lichess.org/study/ZIXAwbuB/4VJou5hw"]
+[Annotator "https://lichess.org/@/heyucatchthis"]
+[Orientation "black"]
+
+{ This is a Semi-Slav game played by GM Anand and GM Aronian. We will see how well the opening can be used! }
+1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. Nc3 e6 5. e3 Nbd7 6. Bd3 { [%cal Rf1d3] } 6... dxc4 { Anand takes so that the f1 bishop has to move twice. } { [%cal Rf1d3,Rd3c4,Gd5c4] } 7. Bxc4 b5 8. Bd3 Bd6 { [%cal Gd6h2] } 9. O-O O-O 10. Qc2 Bb7 { Preparing to activate it with c5. } { [%cal Gb7g2,Bc6c5] } 11. a3 Rc8 { [%cal Gc6c5] } 12. Ng5 c5! { A great pawn sacrifice } { [%csl Rh7,Yd3,Yc2,Yg5][%cal Yg5h7,Yc2h7] } 13. Nxh7 (13. Bxb5? { fails to } 13... cxd4! 14. exd4 h6 15. Nf3 (15. Nh3 Qc7 { The white king is getting destroyed. } { [%cal Gc7h2,Gb7g2,Gf6g4] }) 15... Bxf3 16. gxf3 Nd5 { and white has a lot of compensation for the pawn. } { [%csl Gd5,Gd6,Gd7,Gc8,Rf2,Rf3,Rh2] }) 13... Ng4 { Look at the amount of firepower black has. The rook on f8 does not matter if white is getting mated. } { [%csl Rf8][%cal Gd8h4,Gg4h2,Gb7g2,Gd6h2] } 14. f4 { [%csl Yf4][%cal Rd6h2] } (14. Nxf8?? { fails to } 14... Bxh2+ 15. Kh1 Qh4 { and there is no way to prevent mate. } { [%cal Gh4h1] }) 14... cxd4 15. exd4 Bc5!! { The bishop is for free. } 16. Be2? { is what Aronian played. This fails because of } (16. dxc5 Nxc5 { threatens to win the bishop. } { [%cal Gc5d3,Gd8d3] } 17. Bxb5?? { fails to } 17... Qd4+! 18. Kh1 Ne4 { and white has to sacrifice material to prevent mate. Look at how powerful black's attack is! } { [%cal Gd4g1,Gg4h2,Be4f2,Bb7g2] }) 16... Nde5!! { So much stuff is hanging! This is awesome play from Vishy. } { [%cal Gd4e5,Gd4c5] } 17. Bxg4 (17. fxe5? Qxd4+ 18. Kh1 Qg1+ { Smothered mate, 0-1 } 19. Rxg1 Nf2#) 17... Bxd4+ 18. Kh1 Nxg4 { The queen is coming and white is completely lost. } { [%cal Gd8h4] } 19. Nxf8 f5!! { [%cal Rc2h7] } (19... Qh4?? $10 { bringing the queen fails to } 20. Qh7+! { and black trades queens. }) 20. Ng6 Qf6 { Once the queen comes to the h-file, he can checkmate. } { [%cal Gf6h6] } 21. h3 Qxg6 22. Qe2 (22. hxg4 Qh6#) 22... Qh5 23. Qd3 Be3! $18 { 0-1 Black wins. } { A truly amazing game from the Semi-Slav. } 24. Bxe3 (24. Bxe3 Qxh3+ 25. Kg1 Qxg2#) 24... Qxh3+ 25. Kg1 Qxg2# 0-1

@@ -1,0 +1,234 @@
+[Event "👑 Queen's Gambit 👑: Introduction"]
+[Date "2021.01.29"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "D06"]
+[Opening "Queen's Gambit"]
+[StudyName "👑 Queen's Gambit 👑"]
+[ChapterName "Introduction"]
+[ChapterURL "https://lichess.org/study/JkPnQ5g5/EStVXllM"]
+[Annotator "https://lichess.org/@/LeninPerez"]
+[UTCDate "2021.01.29"]
+[UTCTime "00:23:41"]
+[Orientation "white"]
+[ChapterMode "gamebook"]
+
+{ Hi all! Welcome to my new studio. This time we are going to talk about the Queen's Gambit.
+
+The Queen's Gambit is one of the most studied openings, and one of the most popular in chess, so much so that it has a very famous chess "miniseries" with its name.
+This opening is VERY USED by the great chess players, and you should also use it if you want to win many games.
+But first, you must learn it, and that is why today I will teach you to play "The Queen's Gambit."
+
+Support my study: https://lichess.org/study/4JQtS6iu
+
+Start the game with 1.d4 } { [%csl Gd4][%cal Gd2d4] }
+1. d4 { The 1.d4 move leads to slower and more positional play. } 1... d5 { Play 2.c4, the move that distinguishes the Queen's Gambit from other openings. } { [%csl Gc4][%cal Gc2c4] } 2. c4 { This is the Queen's Gambit.
+Remember that in chess a gambit is the offering of material in exchange for an advantage in the development of the game. In this case, we offer a pawn, and in return, we have better control of the IMPORTANT central squares.
+As I said earlier, the Queen's Gambit is one of the MOST STUDIED chess openings, so there are MANY variants. But don't worry, in this study I will show you ALL these variants in an easy and fun way :D } *
+
+[Event "👑 Queen's Gambit 👑: Main Scheme 1"]
+[Date "2021.01.29"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "?"]
+[Opening "?"]
+[StudyName "👑 Queen's Gambit 👑"]
+[ChapterName "Main Scheme 1"]
+[ChapterURL "https://lichess.org/study/JkPnQ5g5/lKZjsWps"]
+[Annotator "https://lichess.org/@/LeninPerez"]
+[FEN "8/8/8/8/2BP4/2N1PN2/PPQB1PPP/2R2RK1 w - - 0 1"]
+[SetUp "1"]
+[UTCDate "2021.01.29"]
+[UTCTime "04:43:51"]
+[Orientation "white"]
+[ChapterMode "gamebook"]
+
+{ This is the main scheme number 1 that I will teach you. I do this so that instead of memorizing, you understand the Queen's Gambit.
+When black accepts our gambit, we usually want to get to this formation of pieces.
+
+The king will feel good about kingside castling, once the bishop captures the pawn on c4 after accepting our gambit, and the knight goes to f3, his standard square.
+The queen and rook will feel VERY GOOD on the open c-file, the knight will go to its usual c3 square, and the dark-squared bishop (although it is locked in) can go to d2. }
+ *
+
+[Event "👑 Queen's Gambit 👑: Main Scheme 2"]
+[Date "2021.01.29"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "?"]
+[Opening "?"]
+[StudyName "👑 Queen's Gambit 👑"]
+[ChapterName "Main Scheme 2"]
+[ChapterURL "https://lichess.org/study/JkPnQ5g5/JnVsD1XT"]
+[Annotator "https://lichess.org/@/LeninPerez"]
+[FEN "8/8/8/6B1/3P4/2NBPN2/PPQ2PPP/2R2RK1 w - - 0 1"]
+[SetUp "1"]
+[UTCDate "2021.01.29"]
+[UTCTime "04:52:17"]
+[Orientation "white"]
+[ChapterMode "gamebook"]
+
+{ The second scheme represents the Declined Queen's Gambit. Normally we want to have the pieces in these squares when Black does not accept our gambit.
+
+It hasn't changed much to the scheme number 1 that I showed you, only now the light-squared bishop will go to d3, and the dark-squared bishop is not locked.
+
+Keep these squares in mind for your pieces in your games with the Queen's Gambit. }
+ *
+
+[Event "👑 Queen's Gambit 👑: How black should NOT play"]
+[Date "2021.01.29"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "D20"]
+[Opening "Queen's Gambit Accepted: Old Variation"]
+[StudyName "👑 Queen's Gambit 👑"]
+[ChapterName "How black should NOT play"]
+[ChapterURL "https://lichess.org/study/JkPnQ5g5/9wzOvSVt"]
+[Annotator "https://lichess.org/@/LeninPerez"]
+[UTCDate "2021.01.29"]
+[UTCTime "00:37:15"]
+[Orientation "white"]
+[ChapterMode "gamebook"]
+
+{ In this chapter I will show you how black should NOT play, and what to do if he plays this way.
+
+Do you remember the first movements? }
+1. d4 { Very well! } 1... d5 { And now? } 2. c4 { Excellent! } 2... dxc4 { Black will NOT ALWAYS accept your gambit, but be prepared if he does. The best move we have when black accepts our gambit is 3.e3 (you can do it now) } { [%csl Ge3][%cal Ge2e3] } 3. e3 { With this move we open the way to our light squared bishop, who will normally regain the pawn that you lost. } { [%cal Rf1c4] } 3... b5 { With 3.b5 Black surely thinks he is defending the pawn, but this move is not good at all.
+Play 4.a4 } { [%csl Ga4][%cal Ga2a4] } 4. a4 { Here Black can capture or advance, in any case it will be very easy for us to capture those pawns. } 4... c6 { Now Black thinks he is defending the pawn, but again, this move is a mistake.
+Capture the pawn } 5. axb5 cxb5 { This is really the mistake.
+Now the diagonal h1-a8 that I indicated with the arrow is much clearer than before, and this hurts Black.
+Can you find the move that gains material for the white? } { [%cal Gh1a8] } 6. Qf3 { That's! } { [%cal Gf3a8] } 6... Nc6 { Interposing the knight is the best option for black. } 7. Qxc6+ { Double Attack } { [%cal Rc6e8,Rc6a8] } 7... Bd7 { Take your queen to a6 } { [%csl Ga6][%cal Gc6a6] } 8. Qa6 { Now you have advantage material.
+This is how black should NOT play, if your opponent plays this way, you can take advantage of the mistake and win the knight! } *
+
+[Event "👑 Queen's Gambit 👑: How black should play ...e6"]
+[Date "2021.01.29"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "D26"]
+[Opening "Queen's Gambit Accepted: Classical Defense, Normal Line"]
+[StudyName "👑 Queen's Gambit 👑"]
+[ChapterName "How black should play ...e6"]
+[ChapterURL "https://lichess.org/study/JkPnQ5g5/rny5PcHE"]
+[Annotator "https://lichess.org/@/LeninPerez"]
+[UTCDate "2021.01.29"]
+[UTCTime "00:56:54"]
+[Orientation "white"]
+[ChapterMode "gamebook"]
+
+{ Make the first moves }
+1. d4 d5 2. c4 dxc4 { Black accepts our gambit.
+What should you play now? } 3. e3 { Well, now the bishop can capture the extremely defenseless pawn on c4 on the next move. } { [%cal Rf1c4] } 3... Nf6 { Capture the pawn while developing the bishop } 4. Bxc4 { Very well! } 4... e6 { This is a clear example of how Black should play.
+Now you must develop your pieces. Where should the knight of g1 go? } { [%csl Gg1] } 5. Nf3 { This is the standard square for your knight on g1. } 5... c5 { When black plays with e6 he usually makes c5
+What should you do now? } 6. O-O { Alright, now we have a good game! } (6. Nc3 { Your king is in the center } { [%csl Re1] }) *
+
+[Event "👑 Queen's Gambit 👑: How black should play ...e5"]
+[Date "2021.01.29"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "D20"]
+[Opening "Queen's Gambit Accepted: Old Variation"]
+[StudyName "👑 Queen's Gambit 👑"]
+[ChapterName "How black should play ...e5"]
+[ChapterURL "https://lichess.org/study/JkPnQ5g5/qpE7uqKx"]
+[Annotator "https://lichess.org/@/LeninPerez"]
+[UTCDate "2021.01.29"]
+[UTCTime "01:09:57"]
+[Orientation "white"]
+[ChapterMode "gamebook"]
+
+{ Make the first moves :) }
+1. d4 d5 2. c4 dxc4 3. e3 e5 { This is the second correct way to play for black (if he accepts the gambit)
+How to develop your bishop while taking the pawn? } 4. Bxc4 exd4 5. exd4 Nf6 { Do you remember what the standard square of this knight is? } { [%csl Gg1] } 6. Nf3 { That's! } 6... Bd6 { The king is in the center... What should you do? } { [%csl Re1] } 7. O-O { Excellent, now we have a good game.
+This is how we should play against e5 :) } *
+
+[Event "👑 Queen's Gambit 👑: Queen's Gambit Declined"]
+[Date "2021.01.29"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "D35"]
+[Opening "Queen's Gambit Declined: Exchange Variation, Positional Variation"]
+[StudyName "👑 Queen's Gambit 👑"]
+[ChapterName "Queen's Gambit Declined"]
+[ChapterURL "https://lichess.org/study/JkPnQ5g5/J9BxhdId"]
+[Annotator "https://lichess.org/@/LeninPerez"]
+[UTCDate "2021.01.29"]
+[UTCTime "04:00:05"]
+[Orientation "white"]
+[ChapterMode "gamebook"]
+
+{ Make the first moves please :D }
+1. d4 d5 2. c4 e6 { You should know that black will not always accept your gambit, many times he will reject it by making this move, e6.
+This is called the ''Declined Gambit''
+Where should this knight go? } { [%csl Gb1] } 3. Nc3 { Very well! } 3... Nf6 { Capture the pawn } 4. cxd5 { You should ALWAYS make this change to Gambit Declined. } 4... exd5 { Now, what do you think would be the best square for the bishop? } { [%csl Gc1] } 5. Bg5 { That's! Best of all! The knight no move! } { [%csl Rf6][%cal Rg5d8] } 5... Be7 { The light squared bishop is somewhat sad.
+How would you give this bishop freedom? } { [%csl Gf1] } 6. e3 { Very well! } (6. g3 { This is not the best :( }) 6... O-O { Where should this bishop go? } { [%csl Gf1] } 7. Bd3 { Nice job! This is the standard square for this bishop.
+This is how we should play the Queen's Gambit Declined } *
+
+[Event "👑 Queen's Gambit 👑: Slav Defense"]
+[Date "2021.01.29"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "D12"]
+[Opening "Slav Defense: Quiet Variation, Schallopp Defense"]
+[StudyName "👑 Queen's Gambit 👑"]
+[ChapterName "Slav Defense"]
+[ChapterURL "https://lichess.org/study/JkPnQ5g5/3qsKUWIi"]
+[Annotator "https://lichess.org/@/LeninPerez"]
+[UTCDate "2021.01.29"]
+[UTCTime "04:55:20"]
+[Orientation "white"]
+[ChapterMode "gamebook"]
+
+{ Make the first moves ;D }
+1. d4 d5 2. c4 c6 { This is the Slav Defense.
+The Slav Defense is a defense SPECIALLY DESIGNED to play against the Queen's Gambit. It's a very solid defense.
+Play 3.Nf3 } { [%csl Gf3][%cal Gg1f3] } 3. Nf3 Nf6 { Now play 4.e3 } { [%csl Ge3][%cal Ge2e3] } 4. e3 Bf5 { Pay attention to this movement.
+The bishop is free, and comes out of the pawn chain.
+Otherwise, black would be playing a "Semi-Slav."
+What is the usual square of this knight? } { [%csl Gb1] } 5. Nc3 { That's! } 5... e6 { How can black ''lose'' the light squared bishop? } { [%csl Rf5] } 6. Nh4 { Excellent! Now this bishop is in problems } { [%csl Rf5] } 6... Be4 { Play f3 } { [%csl Gf3][%cal Gf2f3] } 7. f3 { [%cal Rf3e4] } 7... Bg6 { Now that the bishop is not on c8, the pawn on b7 is weak.
+How can we attack it? } { [%csl Rb7] } 8. Qb3 { Very well! Now black is tight, and we have a great game! } *
+
+[Event "👑 Queen's Gambit 👑: Semi-Slav"]
+[Date "2021.01.29"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "D11"]
+[Opening "Slav Defense: Quiet Variation"]
+[StudyName "👑 Queen's Gambit 👑"]
+[ChapterName "Semi-Slav"]
+[ChapterURL "https://lichess.org/study/JkPnQ5g5/xi6Cm7Ie"]
+[Annotator "https://lichess.org/@/LeninPerez"]
+[UTCDate "2021.01.29"]
+[UTCTime "05:05:43"]
+[Orientation "white"]
+[ChapterMode "gamebook"]
+
+{ Next, I will teach you how to play against the semi-slav defense.
+
+How should you play? }
+1. d4 d5 2. c4 c6 { Slav Defense } 3. Nf3 Nf6 4. e3 (4. Nc3 { Nice move, but e3 is better }) 4... e6 { This is the Semi-Slav defense.
+It is even more solid than the Slav, as it has a more solid pawn structure. The problem is that the light-squared bishop is now locked in with his own pawns. } { [%csl Rc8,Yf7,Ye6,Yd5,Yc6,Yb7][%cal Yb7c6,Yc6d5,Yf7e6,Ye6d5] } 5. Bd3 (5. Nc3 { This is good move, but not is the best now :( }) 5... Nbd7 { What would you play in this position?
+(Pssst, your king is in the center) } 6. O-O Bd6 { When your opponent plays the Semi-Slav, it is best to move this knight to d2 (you can do it now) } { [%csl Gd2][%cal Gb1d2] } 7. Nbd2 O-O { The dark-squared bishop feels sad :,(
+"A good idea to improve a piece is to try looking for pawn breaks."
+- Lenin Perez xDD } { [%csl Rc1] } 8. e4 { Nice job! } *
+
+[Event "👑 Queen's Gambit 👑: Conclusion"]
+[Date "2021.01.29"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "D06"]
+[Opening "Queen's Gambit"]
+[StudyName "👑 Queen's Gambit 👑"]
+[ChapterName "Conclusion"]
+[ChapterURL "https://lichess.org/study/JkPnQ5g5/RTNxKfhU"]
+[Annotator "https://lichess.org/@/LeninPerez"]
+[UTCDate "2021.01.29"]
+[UTCTime "05:24:08"]
+[Orientation "white"]
+[ChapterMode "gamebook"]
+
+{ This is the final part of the study, thanks again for being here.
+
+What is our first move? }
+1. d4 { Very well! This play leads to quiet (usually) strategic positions, a slow game of many maneuvers. } 1... d5 { What should your second move be? } 2. c4 { That's! You offer a gambit in exchange for control of the central squares.
+Now black can choose to accept or reject the gambit, either by playing one variation or another.
+The Queen's Gambit is one of the most studied and popular openings in chess.
+Now put what you have learned into practice! Thank you very much for viewing this study, I am Lenin Perez and see you in a next study! } *

@@ -1,0 +1,206 @@
+[Event "⭐ The London System ⭐: Introduction"]
+[Date "2021.01.26"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "D00"]
+[Opening "Queen's Pawn Game: Accelerated London System"]
+[StudyName "⭐ The London System ⭐"]
+[ChapterName "Introduction"]
+[ChapterURL "https://lichess.org/study/vIEKP8t3/ijeeKtie"]
+[Annotator "https://lichess.org/@/LeninPerez"]
+[UTCDate "2021.01.26"]
+[UTCTime "13:22:30"]
+[Orientation "white"]
+[ChapterMode "gamebook"]
+
+{ Hi all friends! In this new study we are going to talk about the London System.
+Before starting I ask you to please press the one under the dash, thank you.
+
+The London System is a really fascinating opening! It is hated by many, since for many it can be annoying to face London, but in this study I am going to show you why the London System is one of my favorite openings, and why it must also be one of your favorites.
+
+The London System starts with 1.d4 (do it now) } { [%csl Gd4][%cal Gd2d4] }
+1. d4 { Here black has a LOT of moves, some good and some bad, but that shouldn't matter to you.
+One of the reasons I really like the London System is that you don't have to worry about what black will play, but you can easily use your scheme. } 1... d5 { Let's use the move 1.e5 as an example.
+Now play 2.Bf4 } { [%csl Gf4][%cal Gc1f4] } 2. Bf4 { Yes, this is all you have to do to start playing the London System.
+The London System is current world champion Magnus Carlsen's favorite opening, and it can be yours too.
+Let's keep learning about this wonderful opening in the next chapters of the study. } *
+
+[Event "⭐ The London System ⭐: Formation of Pieces"]
+[Date "2021.01.26"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "?"]
+[Opening "?"]
+[StudyName "⭐ The London System ⭐"]
+[ChapterName "Formation of Pieces"]
+[ChapterURL "https://lichess.org/study/vIEKP8t3/zzG2CT0p"]
+[Annotator "https://lichess.org/@/LeninPerez"]
+[FEN "8/8/8/8/3P1B2/2PBPN2/PP1N1PPP/R2QK2R w KQ - 0 1"]
+[SetUp "1"]
+[UTCDate "2021.01.26"]
+[UTCTime "13:34:55"]
+[Orientation "white"]
+[ChapterMode "gamebook"]
+
+{ This is what NORMALLY we want to get to when we play the London System in the opening. This part formation can ALMOST ALWAYS be formed.
+Let's talk a bit about this scheme:
+
+The b2-c3-d4-e3-f2 pawns form a pyramid. This is probably what makes the London System SO SOLID.
+We must also consider the good development that we can achieve. The dark squared bishop is outside the pawn chain and is (obviously) not locked in. The light squared Bishop is probably White's BEST PIECE, and the 2 knights also help development. }
+ *
+
+[Event "⭐ The London System ⭐: Principal Line"]
+[Date "2021.01.26"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "D00"]
+[Opening "Queen's Pawn Game: Accelerated London System"]
+[StudyName "⭐ The London System ⭐"]
+[ChapterName "Principal Line"]
+[ChapterURL "https://lichess.org/study/vIEKP8t3/ZGbbN1aW"]
+[Annotator "https://lichess.org/@/LeninPerez"]
+[UTCDate "2021.01.26"]
+[UTCTime "13:43:12"]
+[Orientation "white"]
+[ChapterMode "gamebook"]
+
+{ In this chapter we are going to compile everything we saw in the previous 2 chapters.
+
+Make the first 2 movements of the London System }
+1. d4 d5 2. Bf4 { Very well! } 2... Nf6 { Play 3.e3 } { [%csl Ge3][%cal Ge2e3] } 3. e3 { This (3.e3) will ALMOST ALWAYS be your third move.
+Why? Because you release big diagonals, and you start to form the pyramid of pawns. } { [%cal Gf1a6,Gd1h5,Bc2c3] } 3... e6 { Do you remember where this horse went in the previous chapter? } { [%csl Gb1] } 4. Nd2 { That's right! } (4. Nc3 { This move blocks the c-pawn. }) 4... c5 { Black makes c5. This is the most common, normally the black c-pawn goes to c5. When this happens, you must not exc5, you must maintain this tension, and form your pyramid of pawns.
+How do we form the pyramid of pawns? } 5. c3 { Excellent! Look at that BEAUTIFUL chain of pawns, they all support each other! } { [%csl Bb2,Bc3,Bd4,Be3,Bf2][%cal Bb2c3,Bc3d4,Bf2e3,Be3d4] } 5... Nc6 { Time to develop your other knight.
+Where would you take it? } { [%csl Gg1] } 6. Ngf3 { That's right! We are finishing our development. } 6... Bd6 { Black tries to change bishops. Trading bishops is not in your best interest, since after Qxd6 Black has control of the e5 square.
+What you should do is bring the bishop to g3 (do it now) } { [%cal Rd6f4,Rf4d6] } 7. Bg3 { Nice :D } 7... O-O { Now you should finish your part development.
+What piece remains to be developed, and where would you take it? } 8. Bd3 { Very well! We complete development and are ready for kingside castling! } { [%csl Gd3,Gd2,Gf3,Gg3,Gg1][%cal Ge1g1] } 8... Re8 { Here black wants to play e5, we must prevent this AS POSSIBLE!
+How do we stop the e4 pawn? } { [%csl Re5][%cal Re6e5] } 9. Ne5 { Nice job! Now the pawn is blocked by your knight and cannot advance to e5. } { [%csl Re6] } 9... Qc7 { The black insists! How do we support our knight on e5? } { [%cal Rd6e5,Rc6e5,Rc7e5] } 10. f4 { Excellent! Now we don't have a pyramid of pawns, but we do have a Stone Wall :) } { [%csl Bf4,Be3,Bd4,Bc3] } *
+
+[Event "⭐ The London System ⭐: Other Line with 6.Be7"]
+[Date "2021.01.26"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "A45"]
+[Opening "Indian Defense: Accelerated London System"]
+[StudyName "⭐ The London System ⭐"]
+[ChapterName "Other Line with 6.Be7"]
+[ChapterURL "https://lichess.org/study/vIEKP8t3/e2snLEST"]
+[Annotator "https://lichess.org/@/LeninPerez"]
+[UTCDate "2021.01.26"]
+[UTCTime "14:07:02"]
+[Orientation "white"]
+[ChapterMode "gamebook"]
+
+{ Do all the moves you already know :D }
+1. d4 Nf6 { Don't worry about 1.Nf6, you still have 2.Bf4 } { [%csl Gf4][%cal Gc1f4] } 2. Bf4 d5 3. e3 e6 4. Nd2 c5 5. c3 { [%csl Bb2,Bc3,Bd4,Be3,Bf2] } 5... Nc6 6. Ngf3 Be7 { With 6.Be7 Black threatens to win over our London bishop, something we DO NOT want.
+How do we free up a space for this bishop to be safe? } { [%csl Rh5,Rf4][%cal Rf6h5,Rh5f4] } 7. h3 { Nice job! Now the bishop has the retreat position h2. } { [%csl Gh2][%cal Gf4h2] } 7... Nh5 { Then where we take the bishop? } { [%csl Rf4][%cal Rh5f4] } 8. Bh2 { Very well! } { [%csl Gh2] } 8... O-O { Complete your development :D } 9. Bd3 { Very well! } { [%csl Gd3,Gd2,Gf3,Gh2] } 9... Nf6 { Your king is in the center... What should you do? } 10. O-O *
+
+[Event "⭐ The London System ⭐: The Free Bishop ...2.Bf5"]
+[Date "2021.01.26"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "D00"]
+[Opening "Queen's Pawn Game: Accelerated London System"]
+[StudyName "⭐ The London System ⭐"]
+[ChapterName "The Free Bishop ...2.Bf5"]
+[ChapterURL "https://lichess.org/study/vIEKP8t3/cR0xNiPc"]
+[Annotator "https://lichess.org/@/LeninPerez"]
+[UTCDate "2021.01.26"]
+[UTCTime "14:30:54"]
+[Orientation "white"]
+[ChapterMode "gamebook"]
+
+{ Make the first movements of the London System :D }
+1. d4 d5 2. Bf4 Bf5 { Previously, Black played e6 and the light-squared bishop was blocked. Now this bishop is FREE and comes out of the pawn chain.
+What should your third move be (almost always)? } 3. e3 { That's right! } 3... e6 { Play 4.Cf3 } { [%csl Gf3][%cal Gg1f3] } 4. Nf3 Nf6 { Surely you remember that I said: '' We almost always build the pyramid of pawns '', now you will understand why I said it.
+There are occasions when we should not build the pyramid, either because you get a bad game or a passive game, this is one of the cases.
+Play 5.c4 } 5. c4 c6 { Now it is Black who builds the pyramid of pawns.
+Play Qb3 } { [%csl Bf7,Be6,Bd5,Bc6,Bb7,Gb3][%cal Gd1b3] } 6. Qb3 Qb6 { The black proposes the exchange of queen's. When this happens the one who changes the ladies is the loser.
+How do we invite the black man to be the one to change the queen's? } { [%cal Bb3b6,Bb6b3] } 7. c5 { Nice job! } 7... Qxb3 8. axb3 { The tower enjoys the open column. } { [%cal Ga1a7] } *
+
+[Event "⭐ The London System ⭐: Slav Defense"]
+[Date "2021.01.26"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "D00"]
+[Opening "Queen's Pawn Game: Accelerated London System"]
+[StudyName "⭐ The London System ⭐"]
+[ChapterName "Slav Defense"]
+[ChapterURL "https://lichess.org/study/vIEKP8t3/RtxbwLd8"]
+[Annotator "https://lichess.org/@/LeninPerez"]
+[UTCDate "2021.01.26"]
+[UTCTime "14:46:22"]
+[Orientation "white"]
+[ChapterMode "gamebook"]
+
+{ You can also take on the Slav defense when playing the London System.
+
+I will teach you how to beat this.
+(Make the main movements) }
+1. d4 d5 2. Bf4 c6 { This is the Slav defense in the London System
+third move? } 3. e3 Bf5 { In the Slav defense the bishop goes to f5.
+Play c4 } { [%csl Bf5][%cal Gc2c4] } 4. c4 e6 { Develop your knight } { [%csl Gb1] } 5. Nc3 { Very good!
+Now the bishop is outside the pawn chain, you need to remember this to move on to the next chapter, since in the other it may be different. } { [%csl Gf5,Rf7,Re6,Rd5,Rc6,Rb7] } *
+
+[Event "⭐ The London System ⭐: Semi-Slav"]
+[Date "2021.01.26"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "D00"]
+[Opening "Queen's Pawn Game: Accelerated London System"]
+[StudyName "⭐ The London System ⭐"]
+[ChapterName "Semi-Slav"]
+[ChapterURL "https://lichess.org/study/vIEKP8t3/ifmjobXg"]
+[Annotator "https://lichess.org/@/LeninPerez"]
+[UTCDate "2021.01.26"]
+[UTCTime "20:01:32"]
+[Orientation "white"]
+[ChapterMode "gamebook"]
+
+{ Make the first movements of the London System }
+1. d4 d5 2. Bf4 c6 { As you already know, this is the Slav defense. } 3. e3 e6 { When Black does not make c5 we have no need to make c3, so we also have no need to develop our knight from b1 to d2 when we can take it to c3 after making c5.
+Play Nf3 } { [%csl Rc8,Gf3,Rd2,Yf7,Ye6,Yd5][%cal Gg1f3,Rb1d2] } 4. Nf3 Bd6 { Play Bg3 } { [%cal Bd6f4,Bf4d6] } 5. Bg3 Nf6 { Now you can continue with the plan of building the pyramid of pawns with c3 and then Nbd2 (green plan), or play c4 and then Nc3 (Blue plan). } { [%cal Bc2c4,Bb1c3,Gb1d2,Gc2c3] } *
+
+[Event "⭐ The London System ⭐: King's Indian Defense"]
+[Date "2021.01.26"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "A45"]
+[Opening "Indian Defense: Accelerated London System"]
+[StudyName "⭐ The London System ⭐"]
+[ChapterName "King's Indian Defense"]
+[ChapterURL "https://lichess.org/study/vIEKP8t3/f92DNcz4"]
+[Annotator "https://lichess.org/@/LeninPerez"]
+[UTCDate "2021.01.26"]
+[UTCTime "20:25:33"]
+[Orientation "white"]
+[ChapterMode "gamebook"]
+
+{ The first move? }
+1. d4 Nf6 { The second? } 2. Bf4 g6 { Black could play d5 and transpose to the main line, but chooses g6, the King's Indian Defense.
+Play Nc3 } { [%csl Rd5,Gg6,Gc3][%cal Gg7g6,Rd7d5,Gb1c3] } 3. Nc3 { There is an error that I ALWAYS see in the London System players, and that is having the standard plan against the King's Indian defense.
+Faced with this defense, we must change the plan, and play with Nc3, then e4, queenside castling and attack on the kingside with the g and h pawns. } { [%csl Gc1,Gh6,Gd2][%cal Ge2e4,Gd1d2,Ge1c1,Gf2f3,Gg2g4,Gh2h4,Gh4h5,Gf4h6,Gg4g5] } 3... Bg7 { Play e4 } { [%csl Ge4][%cal Ge2e4] } 4. e4 d6 { Now Qd2 } { [%csl Gd2][%cal Gd1d2] } 5. Qd2 O-O { And now, play queenside castling (O-O) } { [%csl Gc1][%cal Ge1c1] } 6. O-O-O { Thus we must play against the Indian defense of the king, so as not to have a passive game, but an active one.
+Now we must attack with our pawns and bring our pieces to the kingside. } { [%cal Gf2f3,Gg2g4,Gh2h4,Gh4h5,Gg4g5] } *
+
+[Event "⭐ The London System ⭐: Conclusion"]
+[Date "2021.01.26"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "?"]
+[Opening "?"]
+[StudyName "⭐ The London System ⭐"]
+[ChapterName "Conclusion"]
+[ChapterURL "https://lichess.org/study/vIEKP8t3/Vu45iDU8"]
+[Annotator "https://lichess.org/@/LeninPerez"]
+[FEN "rnbqkbnr/pppppppp/8/8/3P1B2/8/PPP1PPPP/RN1QKBNR w KQkq - 0 1"]
+[SetUp "1"]
+[UTCDate "2021.01.26"]
+[UTCTime "20:35:54"]
+[Orientation "white"]
+[ChapterMode "gamebook"]
+
+{ The London System is a fascinating and wonderful opening, it can also be used on any response from Black, and it is easy to understand and play.
+
+I hope you liked this study. If so, PRESS THE HEART BELOW THE STUDIO to support me and motivate me to do many more! You can also do the same with all of these: https://lichess.org/study/search?q=owner%3ALeninPerez
+
+I'm your friend LeninPerez and we'll see you in a next study! }
+ *

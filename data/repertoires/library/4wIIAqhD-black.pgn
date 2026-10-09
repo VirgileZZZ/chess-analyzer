@@ -1,0 +1,162 @@
+[Event "Sicilian Defense🔥⚔️: The Sicilian Defense 🛡️"]
+[Date "2021.05.05"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "B20"]
+[Opening "Sicilian Defense"]
+[StudyName "Sicilian Defense🔥⚔️"]
+[ChapterName "The Sicilian Defense 🛡️"]
+[ChapterURL "https://lichess.org/study/4wIIAqhD/EbqGNvhT"]
+[Annotator "https://lichess.org/@/heyucatchthis"]
+[UTCDate "2021.05.05"]
+[UTCTime "19:11:08"]
+[Orientation "black"]
+[ChapterMode "gamebook"]
+
+{ Hello Everyone! This study is about the Sicilian Defense, the best response to the move 1. e4. This opening is very sharp and tactical, so get ready for some super crazy positions. You have to be very careful!
+Anyways, the Sicilian is good for intermediate to advanced players and has many lines to memorize. I will be going over the main lines, and the ideas. Let's start! }
+1. e4 { White starts with e4. You reply with c5, controling the critical square d4. } { [%csl Re4,Bc5][%cal Re2e4] } 1... c5 { This is the start of the Sicilian Defense. There are several variations. The first place where the opening branches out. White can decide to play the Open or Closed Sicilian. From the Open Sicilian, you can play 3 main variations, the Najdorf, Dragon, or Classical Sicilian. These are only the basics! } { [%csl Gc5,Bd4][%cal Gc7c5,Bc5d4] } *
+
+[Event "Sicilian Defense🔥⚔️: Sicilian Defense: Open"]
+[Date "2021.05.05"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "B54"]
+[Opening "Sicilian Defense: Modern Variations, Main Line"]
+[StudyName "Sicilian Defense🔥⚔️"]
+[ChapterName "Sicilian Defense: Open"]
+[ChapterURL "https://lichess.org/study/4wIIAqhD/P19i58y1"]
+[Annotator "https://lichess.org/@/heyucatchthis"]
+[UTCDate "2021.05.05"]
+[UTCTime "19:28:40"]
+[Orientation "black"]
+[ChapterMode "gamebook"]
+
+{ Play what you have learned in the Introduction. }
+1. e4 { [%csl Re4][%cal Re2e4] } 1... c5 { Yes! } { [%csl Gc5,Bd4][%cal Gc7c5,Bc5d4] } 2. Nf3 { Here, white is trying to push for d4.
+Play 2. ...d6. } { [%csl Rf3,Yd4][%cal Rg1f3,Yf3d4,Yd2d4] } 2... d6 { [%csl Gd6,Bc5,Be7][%cal Gd7d6] } 3. d4 { Capture! } { [%csl Ye4,Rd4][%cal Rd2d4,Yf3d4] } 3... cxd4 { [%csl Gd4][%cal Gc5d4] } 4. Nxd4 { How do we put pressure on the e4 pawn? } { [%csl Rd4,Ye4][%cal Rf3d4] } 4... Nf6 { [%csl Gf6,Be4][%cal Gg8f6,Bf6e4] } 5. Nc3 { This is the starting position of the Open Sicilian, the most popular choice. Here, you have 3 main choices: The Dragon (highlighted in blue), the Najdorf (highlighted in green), and the Classical (highlighted in yellow/orange). Let's learn the Najdorf first. } { [%csl Rc3,Bg6,Bg7,Ga6,Gb5,Yc6,Yd4][%cal Rb1c3,Bg7g6,Bf8g7,Ga7a6,Ga6b5,Yb8c6,Yc6d4] } *
+
+[Event "Sicilian Defense🔥⚔️: Sicilian Najdorf💡"]
+[Date "2021.05.05"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "B90"]
+[Opening "Sicilian Defense: Najdorf Variation, English Attack"]
+[StudyName "Sicilian Defense🔥⚔️"]
+[ChapterName "Sicilian Najdorf💡"]
+[ChapterURL "https://lichess.org/study/4wIIAqhD/xryhrBbn"]
+[Annotator "https://lichess.org/@/heyucatchthis"]
+[FEN "rnbqkb1r/pp2pppp/3p1n2/8/3NP3/2N5/PPP2PPP/R1BQKB1R b KQkq - 0 1"]
+[SetUp "1"]
+[UTCDate "2021.05.05"]
+[UTCTime "19:35:12"]
+[Orientation "black"]
+[ChapterMode "gamebook"]
+
+{ In the Najdorf, black plays 5. ...a6. Play it! }
+1... a6 { This move prevents any white pieces from coming to the well-protected b5 square. None of that is possible now :) } { [%csl Ga6,Gb5,Bf1,Bd4,Bc3][%cal Ga7a6,Ga6b5] } 2. Be3 { This is what white plays most of the time. Now, you will push for e5, grabbing space, and kicking out the knight. } { [%cal Be7e5] } 2... e5 { [%csl Ge5,Rd4][%cal Ge7e5] } 3. Nb3 { Good! Now you will continue with Be6, Be7, and the knight on b8 goes to d7, so you can put your rook on c8.
+One advantage you have is the open c file, you should put your pieces there, and also push for b5, gaining more space and attacking on the queenside. This gives black a solid fighting chance: Najdorf games are usually very sharp and tactical! Bobby Fischer used it. Plans are highlighted. } { [%cal Gc8e6,Gf8e7,Bb8d7,Ge8g8,Yb7b5] } *
+
+[Event "Sicilian Defense🔥⚔️: Sicilian Dragon🐉"]
+[Date "2021.05.05"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "B76"]
+[Opening "Sicilian Defense: Dragon Variation, Yugoslav Attack"]
+[StudyName "Sicilian Defense🔥⚔️"]
+[ChapterName "Sicilian Dragon🐉"]
+[ChapterURL "https://lichess.org/study/4wIIAqhD/S1AXJ7G9"]
+[Annotator "https://lichess.org/@/heyucatchthis"]
+[FEN "rnbqkb1r/pp2pppp/3p1n2/8/3NP3/2N5/PPP2PPP/R1BQKB1R b KQkq - 0 1"]
+[SetUp "1"]
+[UTCDate "2021.05.05"]
+[UTCTime "19:43:37"]
+[Orientation "black"]
+[ChapterMode "gamebook"]
+
+{ The Dragon variation is the sharpest of these lines. Get ready for a big fight!
+The dragon variation starts after 5. ...g6. } { [%cal Bg7g6] }
+1... g6 { You want to make a kingside fianchetto with a strong bishop. } { [%csl Gg6][%cal Gg7g6] } 2. Be3 { This is the most common line. Other lines are f4 and g3. Continue with your plan :) } { [%csl Re3,Yf4,Yg3][%cal Rc1e3,Yf2f4,Yg2g3,Bf8g7] } 2... Bg7 { [%csl Gg7,Ga1][%cal Gf8g7,Gg7a1] } 3. f3 { This move is going to prevent you from playing Ng4.
+Now, castle your king out of the center. } { [%csl Rf3][%cal Rf2f3,Be8g8] } 3... O-O { Yes! Most dragon games reach this position. Please don't push your central pawns, they stay behind. Fight with your mighty bishop on g7 instead! Don't block it with pawns.
+Now, you will finish development with Nc6, Bd7, Rc1, and Qc2. Attack on the queenside with a6-b5. White has plans to Qd2, castles long, and h4-h5. Soon there will be fireworks over the board. Plans for both sides are highlighted. } { [%csl Gg8,Yc1,Yg4,Yh4,Yc4,Ba6,Bb5,Bc6,Bd7,Bc8,Bb4,Ba5,Ga1][%cal Ge8g8,Yd1d2,Ye1c1,Yg2g4,Yh2h4,Yf1c4,Ba7a6,Bb7b5,Bb8c6,Bc8d7,Ba8c8,Bb5b4,Ba6a5,Gh8a1] } *
+
+[Event "Sicilian Defense🔥⚔️: Classical Sicilian"]
+[Date "2021.05.05"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "B63"]
+[Opening "Sicilian Defense: Richter-Rauzer Variation, Traditional Variation"]
+[StudyName "Sicilian Defense🔥⚔️"]
+[ChapterName "Classical Sicilian"]
+[ChapterURL "https://lichess.org/study/4wIIAqhD/F1PIDiGW"]
+[Annotator "https://lichess.org/@/heyucatchthis"]
+[UTCDate "2021.05.05"]
+[UTCTime "19:52:48"]
+[Orientation "black"]
+[ChapterMode "gamebook"]
+
+{ Repeat what you have learned. }
+1. e4 { [%csl Re4][%cal Re2e4] } 1... c5 { [%csl Gc5][%cal Gc7c5] } 2. Nf3 { [%csl Rf3][%cal Rg1f3] } 2... d6 { [%csl Gd6][%cal Gd7d6] } 3. d4 { [%csl Rd4][%cal Rd2d4] } 3... cxd4 { [%csl Gd4][%cal Gc5d4] } 4. Nxd4 { [%csl Rd4][%cal Rf3d4] } 4... Nf6 { [%csl Gf6][%cal Gg8f6] } 5. Nc3 { You got to this position! In the Classical Sicilian, you start with 5. ...Nc6. } { [%csl Rc3,Bc6][%cal Rb1c3,Bb8c6] } 5... Nc6 { [%csl Gc6][%cal Gb8c6] } 6. Bg5 { This is the most common move. Here, the best move is e6. } { [%csl Rg5][%cal Rc1g5] } 6... e6 { [%csl Ge6,Bf6][%cal Ge7e6,Bd8f6] } 7. Qd2 { Yes! Now, you will create a hedgehog structure with Be7 Bd7, use the open c-file, castle short, and push your queenside pawns! White will try to castle long. Equal position. } { [%csl Rd2,Be7,Bd7,Bc8,Ba6,Bb5,Bg8][%cal Rd1d2,Bf8e7,Bc8d7,Ba8c8,Ba7a6,Bb7b5,Be8g8] } *
+
+[Event "Sicilian Defense🔥⚔️: Sveshnikov Sicilian 💣"]
+[Date "2021.08.28"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "B33"]
+[Opening "Sicilian Defense: Lasker-Pelikan Variation, Sveshnikov Variation"]
+[StudyName "Sicilian Defense🔥⚔️"]
+[ChapterName "Sveshnikov Sicilian 💣"]
+[ChapterURL "https://lichess.org/study/4wIIAqhD/s4UOv0JN"]
+[Annotator "https://lichess.org/@/heyucatchthis"]
+[UTCDate "2021.08.28"]
+[UTCTime "19:32:42"]
+[Orientation "black"]
+[ChapterMode "gamebook"]
+
+{ Play the Sicilian Defense. }
+1. e4 { [%csl Re4][%cal Re2e4] } 1... c5 { [%csl Gc5,Ge4][%cal Gc7c5] } 2. Nf3 { Now, play Nc6. } { [%csl Rf3][%cal Rg1f3,Bb8c6] } 2... Nc6 { This move increases the pressure on d4. } { [%csl Gc6][%cal Gb8c6] } 3. d4 { Capture or not? } { [%csl Rd4,Re4,Gc5][%cal Rd2d4] } 3... cxd4 { Always capture when white plays d4. } { [%csl Gd4][%cal Gc5d4] } 4. Nxd4 { Attack the e4 pawn. } { [%csl Ye4][%cal Rf3d4] } 4... Nf6 { [%csl Gf6][%cal Gg8f6] } 5. Nc3 { Now, play the very aggressive e5. } { [%csl Rc3][%cal Rb1c3,Be7e5] } 5... e5 { This move kicks the knight out, but weakens the light squares. We will get a lot of compensation, though. } { [%csl Ge5,Yd5,Yf5][%cal Ge7e5,Be5d4] } 6. Ndb5 { Play d6 } { [%csl Rb5][%cal Rd4b5,Yb5d6] } 6... d6 { Black must not allow white to enter d6 with the knight. } { [%csl Gd6,Bd8][%cal Gd7d6,Bf8d6] } 7. Bg5 { White wants to enter d5. a6 here is the best move. } { [%cal Rc1g5,Yg5d8,Yc3d5,Ba7a6] } 7... a6 { [%csl Ga6][%cal Ga7a6,Ba6b5] } 8. Na3 { Expand on the queenside! } { [%csl Ra3][%cal Rb5a3] } 8... b5 { This is the Sveshnikov Sicilian. It is very sharp. You have weak central squares that can be exploited, but black also has a lot of piece activity. Magnus Carlsen used it to defend his world champion title in 2018! Plans are highlighted. If you like piece activity and don't care about positional play, this opening might be for you. Go ahead and do more research! } { [%csl Gb5,Ga6,Ra3,Rc3,Gf6,Gc6][%cal Gb7b5,Bc8e6,Bf8e7,Be8g8,Gg7f6] } *
+
+[Event "Sicilian Defense🔥⚔️: Closed Sicilian⚔️"]
+[Date "2021.05.05"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "B23"]
+[Opening "Sicilian Defense: Closed, Traditional"]
+[StudyName "Sicilian Defense🔥⚔️"]
+[ChapterName "Closed Sicilian⚔️"]
+[ChapterURL "https://lichess.org/study/4wIIAqhD/bx1u8GcM"]
+[Annotator "https://lichess.org/@/heyucatchthis"]
+[FEN "rnbqkbnr/pp1ppppp/8/2p5/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 1"]
+[SetUp "1"]
+[UTCDate "2021.05.05"]
+[UTCTime "19:59:19"]
+[Orientation "black"]
+[ChapterMode "gamebook"]
+
+{ In this position, white also can play Nc6, the Closed Sicilian. }
+1. Nc3 { Copy him! } { [%csl Rc3,Bc6][%cal Rb1c3] } 1... Nc6 { Yes! This is how you play the Closed Sicilian. White will never get the move d4 in!
+Here, white will play g3 Bg2, or an f4, short-castles, and try to gain space on the kingside. Here, you will try to go for a6-b5 Bb7, g6-Bg7, complete developent, castle, and you have a very dynamic game. Plans are highlighted. } { [%csl Gc6,Yg3,Yg2,Yf4,Yg1,Bg7,Bg6,Ba6,Bb5,Bb7,Bf6,Bg8][%cal Gb8c6,Yg2g3,Yf1g2,Yf2f4,Ye1g1,Bf8g7,Bg7g6,Ba7a6,Bb7b5,Bc8b7,Bg8f6,Be8g8] } *
+
+[Event "Sicilian Defense🔥⚔️: Review and Conclusion"]
+[Date "2021.05.05"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "?"]
+[Opening "?"]
+[StudyName "Sicilian Defense🔥⚔️"]
+[ChapterName "Review and Conclusion"]
+[ChapterURL "https://lichess.org/study/4wIIAqhD/y6tjBkMf"]
+[Annotator "https://lichess.org/@/heyucatchthis"]
+[FEN "rnbqkbnr/pp1ppppp/8/2p5/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 1"]
+[SetUp "1"]
+[UTCDate "2021.05.05"]
+[UTCTime "20:04:58"]
+[Orientation "black"]
+[ChapterMode "gamebook"]
+
+{ Now, time to review. The Sicilian Defense is a very tactical game, and there is a big chance there is going to be a crazy game. White can respond with either the Closed Sicilian or the Open Sicilian. The Sicilian Defense is prefered by masters, and sooner or later you are going to have to check it out.
+
+Thank you for visiting my study, I hope you will have a fun time using the Sicilian! Please leave a ❤️ if you enjoyed, and be sure to check out my other studies for more openings and tips.
+https://lichess.org/study/search?q=owner%3Aheyucatchthis+
+Happy chess! }
+ *

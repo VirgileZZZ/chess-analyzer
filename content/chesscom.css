@@ -1,0 +1,22 @@
+.cax-float {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  z-index: 2147483000;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 18px 10px 12px;
+  border: 0;
+  border-radius: 8px;
+  background: #81b64c;
+  box-shadow: 0 4px 0 0 #45753c, 0 6px 14px rgba(0, 0, 0, .35);
+  color: #fff;
+  font: 700 16px/1 "Segoe UI", system-ui, sans-serif;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, .25);
+  cursor: pointer;
+  transition: background .12s, transform .08s;
+}
+.cax-float:hover { background: #a3d160; }
+.cax-float:active { transform: translateY(3px); box-shadow: 0 1px 0 0 #45753c; }
+.cax-float img { width: 24px; height: 24px; }

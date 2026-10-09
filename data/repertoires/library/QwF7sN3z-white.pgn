@@ -1,0 +1,144 @@
+[Event "Opening Traps You Must Know!: 🚀♟Welcome!♟🚀"]
+[Date "2025.02.20"]
+[White "OPENING TRAPS YOU MUST KNOW!"]
+[Black "WELCOME TO THIS STUDY ABOUT"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "?"]
+[Opening "?"]
+[StudyName "Opening Traps You Must Know!"]
+[ChapterName "🚀♟Welcome!♟🚀"]
+[ChapterURL "https://lichess.org/study/QwF7sN3z/HhIfEZ7R"]
+[Annotator "https://lichess.org/@/Wonderous123"]
+[UTCDate "2025.02.20"]
+[UTCTime "06:32:54"]
+[Orientation "white"]
+[ChapterMode "gamebook"]
+
+{ Hello guys! Welcome to this study about - "Opening Traps You Must Know!" As you all know, in my last study about Middlegame Plans (Link - https://lichess.org/study/ym69vFNz), I said that - I will make another study if this reaches 1100 likes! AND IT DID! Thank you so much! And so, I am back with another study!!
+
+Let's begin without further ado!🚀
+
+Also, join my team https://lichess.org/team/wonderous123s-chess-club ! Thanks! }
+ *
+
+[Event "Opening Traps You Must Know!: 🤔What are Openings?🤔"]
+[Date "2025.02.20"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "?"]
+[Opening "?"]
+[StudyName "Opening Traps You Must Know!"]
+[ChapterName "🤔What are Openings?🤔"]
+[ChapterURL "https://lichess.org/study/QwF7sN3z/oLXdpZoR"]
+[Annotator "https://lichess.org/@/Wonderous123"]
+[UTCDate "2025.02.20"]
+[UTCTime "06:32:54"]
+[Orientation "white"]
+[ChapterMode "gamebook"]
+
+{ An opening is the first phase of the game, where both players focus on developing their pieces, having control of the centre, having king safety, and other basic rules. All openings have different names; for example - Queen's Gambit, King's Gambit, Petroff Defense etc.
+
+An opening trap in chess is a move that lures an opponent into playing a bad move. Traps are common throughout the game, but some opening traps are so well-known that they have names; for example - Fishing Pole Trap, Lasker Trap, Elephant Trap etc.
+In this study, we're going to look at some interesting and common opening traps that can occur in your games!
+
+Note: We're only looking at traps that don't make your own position worse if your opponent plays the correct move. }
+ *
+
+[Event "Opening Traps You Must Know!: ♟⚖ Trap 1# Legal's Mate Trap ⚖♟"]
+[Date "2025.02.20"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "C50"]
+[Opening "Italian Game: Paris Defense"]
+[StudyName "Opening Traps You Must Know!"]
+[ChapterName "♟⚖ Trap 1# Legal's Mate Trap ⚖♟"]
+[ChapterURL "https://lichess.org/study/QwF7sN3z/SVqFnmfL"]
+[Annotator "https://lichess.org/@/Wonderous123"]
+[UTCDate "2025.02.20"]
+[UTCTime "06:32:54"]
+[Orientation "white"]
+[ChapterMode "gamebook"]
+
+{ The first trap is The Legal's Mate Trap! Legal's Mate Trap is a trap that is used to checkmate your opponent in fewer than 10 moves. This mating pattern is named after the French player Sire de Legall, one of the best players of the 1700s. Play e4! } { [%csl Ge4][%cal Ge2e4] }
+1. e4 e5 { Play Nf3! } { [%csl Gf3][%cal Gg1f3] } 2. Nf3 Nc6 { Play Bc4, The Italian Game. } { [%csl Gc4][%cal Gf1c4] } 3. Bc4 d6 { Black plays d6. The most popular moves are Bc5 and Nf6. Play Nc3! } { [%csl Gc3][%cal Gb1c3] } 4. Nc3 Bg4?! { Black plays Bg4, and that's where the trap begins! Play h3! } { [%csl Gh3][%cal Gh2h3] } 5. h3 (5. Nxe5?? { White can't go for the Legal's Mate yet, as black can just take the Knight and be a piece up! } { [%csl Re5][%cal Rc6e5,Be5g4] }) 5... Bh5?? { Now, the best move would have been to take or move the Bishop away! BUT, black blunders with Bh5! What can you play here? } 6. Nxe5!! { Yes! White sacrifices THE QUEEN!!!!!!!!!!!!!!!!!!!!!!!! The best continuation for Black is Nxe5 , Qxh5 , Nxc4 and Qb5+ and white gets the piece back with a better position. BUT, if Black gets greedy by playing- } { [%cal Bc6e5,Bd1h5,Be5c4,Bh5b5,Bc7c6,Bb5c4] } 6... Bxd1?? { Bxd1?? This is where the fun begins! What can white play here? } 7. Bxf7+ { A check! } { [%csl Re8][%cal Rf7e8] } 7... Ke7 { Black is forced to move! And now??????? } 8. Nd5# { And that's a beautiful Legal's Mate! } { [%csl Gf6,Gd7,Ge6,Ge8,Re7][%cal Gd5f6,Ge5d7,Gf7e6,Gf7e8] } *
+
+[Event "Opening Traps You Must Know!: 💎♟ Trap 3# Rubinstein Trap♟💎"]
+[Date "2025.02.20"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "D63"]
+[Opening "Queen's Gambit Declined: Orthodox Defense, Main Line"]
+[StudyName "Opening Traps You Must Know!"]
+[ChapterName "💎♟ Trap 3# Rubinstein Trap♟💎"]
+[ChapterURL "https://lichess.org/study/QwF7sN3z/BsHOVqkt"]
+[Annotator "https://lichess.org/@/Wonderous123"]
+[UTCDate "2025.02.20"]
+[UTCTime "06:32:54"]
+[Orientation "white"]
+[ChapterMode "gamebook"]
+
+{ The third trap is the Rubinstein Trap. It arises from the Queen's Gambit Declined Variation and was played in a real game of Akiba Rubinstein, so, this trap was later named after him. Play d4! } { [%csl Gd4][%cal Gd2d4] }
+1. d4 d5 { Play Nf3! } { [%csl Gf3][%cal Gg1f3] } 2. Nf3 Nf6 { Play c4! } { [%csl Gc4][%cal Gc2c4] } 3. c4 e6 { Now, this is transposed into the Queen's Gambit Declined. Play Bg5! } { [%csl Gg5][%cal Gc1g5] } 4. Bg5 Nbd7 { Play e3! } { [%csl Ge3][%cal Ge2e3] } 5. e3 Be7 { Play Nc3! } { [%csl Gc3][%cal Gb1c3] } 6. Nc3 O-O { Play Rc1! } { [%csl Gc1][%cal Ga1c1] } 7. Rc1 Re8 { Play Qc2! } { [%csl Gc2][%cal Gd1c2] } 8. Qc2 a6 { We just take the pawn! } { [%csl Gd5][%cal Gc4d5] } 9. cxd5 exd5 { Black recaptures. Now we play Bd3! } { [%csl Gd3][%cal Gf1d3] } 10. Bd3 c6 { Now we get our King to safety! } { [%cal Ge1g1] } 11. O-O Ne4 { And now, we play a 'tricky' move! Bf4! } 12. Bf4 { We play Bf4 and you'll know why! Setting up a nasty trap! Black has to be careful! } { [%csl Rd8,Gc7,Gc8][%cal Gf4c7,Gc1c8] } 12... f5?? { But Black blunders carelessly! What do we play now? } 13. Nxd5! { Yes! We sacrifice THE KNIGHT!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! Now, we're a full pawn up. BUT, if black takes our Knight- } 13... cxd5?? { This is another BIG blunder! Why? } 14. Bc7! { Yes! Bc7! Trapping the Queen! Now you know why we played Bf4! } { [%csl Rd8][%cal Rc7d8] } *
+
+[Event "Opening Traps You Must Know!: 🦜🕸 Trap 5# Danish Bird Trap 🕸🦜"]
+[Date "2025.02.20"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "C21"]
+[Opening "Danish Gambit Accepted"]
+[StudyName "Opening Traps You Must Know!"]
+[ChapterName "🦜🕸 Trap 5# Danish Bird Trap 🕸🦜"]
+[ChapterURL "https://lichess.org/study/QwF7sN3z/TakY4nU9"]
+[Annotator "https://lichess.org/@/Wonderous123"]
+[UTCDate "2025.02.20"]
+[UTCTime "06:32:54"]
+[Orientation "white"]
+[ChapterMode "gamebook"]
+
+{ The fifth trap is called the Danish Bird Trap. It arises from the Danish Gambit. Play e4! } { [%csl Ge4][%cal Ge2e4] }
+1. e4 e5 { Play d4! } { [%csl Gd4][%cal Gd2d4] } 2. d4 exd4 { Play c3 to start the Danish Gambit! } { [%csl Gc3][%cal Gc2c3] } 3. c3 dxc3 { Play Bc4! } { [%csl Gc4][%cal Gf1c4] } 4. Bc4 cxb2 { Take the pawn! } { [%csl Gb2][%cal Gc1b2] } 5. Bxb2 { This is the Danish Gambit. } { [%csl Gh8,Gg8][%cal Gb2h8,Gc4g8] } 5... Qg5 { This is one of the lines in the Danish Gambit. Black tries to get another pawn, but has created weaknesses in his own kingside in return. Play Nf3 to set up the trap! } { [%csl Gf3][%cal Gg1f3] } 6. Nf3 Qxg2?? { Black takes the 'free' pawn, falling into our trap! Play Rg1! } { [%csl Gg1][%cal Gh1g1] } 7. Rg1 Qh3 { Qh3 is forced. What now?? } 8. Bxf7+ { Yes! We sacrifice THE BISHOP!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! Now, if black plays Kd8, we play Rg3 , Nc3, and White has a crushing attack! If Black plays Ke7, we play Ba3+! and force them to take the Bishop! And if they take the bishop- } 8... Kxf7 { What now?? } 9. Ng5+ { And that's a Knight fork! White wins! } { [%csl Rf7,Rh3][%cal Rg5f7,Rg5h3] } *
+
+[Event "Opening Traps You Must Know!: 🧨🕸 Trap 7# Reti Trap 🕸🧨"]
+[Date "2025.02.20"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "A15"]
+[Opening "English Opening: Anglo-Indian Defense, Scandinavian Defense"]
+[StudyName "Opening Traps You Must Know!"]
+[ChapterName "🧨🕸 Trap 7# Reti Trap 🕸🧨"]
+[ChapterURL "https://lichess.org/study/QwF7sN3z/f4sOKe90"]
+[Annotator "https://lichess.org/@/Wonderous123"]
+[UTCDate "2025.02.20"]
+[UTCTime "06:32:54"]
+[Orientation "white"]
+[ChapterMode "gamebook"]
+
+{ The seventh trap is called the Reti Trap, because it arises from the Reti Opening. Play Nf3! } { [%csl Gf3][%cal Gg1f3] }
+1. Nf3 { This is the Reti Opening. } 1... d5 { This is one of the most common moves by black. Play c4! } { [%csl Gc4][%cal Gc2c4] } 2. c4 Nf6 { Play g3! } { [%csl Gg3][%cal Gg2g3] } 3. g3 Bf5 { And now! It's time to set up the trap! Take the pawn! } { [%csl Gd5][%cal Gc4d5] } 4. cxd5 { Now, black has two main options; Qxd5 and Nxd5. Most people don't prefer taking with the Queen, but it is actually the best move! BUT, if your opponent plays- } 4... Nxd5?? { Nxd5?? Then it is a big blunder! How? } 5. e4! { Yes! We fork the Knight and Bishop! } { [%csl Gf5,Gd5][%cal Ge4f5,Ge4d5] } 5... Bxe4 { The pawn is lost! But it isn't over yet! Find the best move for white! } 6. Qa4+ { Forking the King and Bishop!! } { [%csl Re8,Re4][%cal Ra4e8,Ra4e4] } 6... c6 { Just take. } { [%csl Ge4][%cal Ga4e4] } 7. Qxe4 { And White wins! } *
+
+[Event "Opening Traps You Must Know!: 👋Bye! :)"]
+[Date "2025.02.20"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "?"]
+[Opening "?"]
+[StudyName "Opening Traps You Must Know!"]
+[ChapterName "👋Bye! :)"]
+[ChapterURL "https://lichess.org/study/QwF7sN3z/a4MHxMMe"]
+[Annotator "https://lichess.org/@/Wonderous123"]
+[UTCDate "2025.02.20"]
+[UTCTime "06:32:54"]
+[Orientation "white"]
+[ChapterMode "gamebook"]
+
+{ And that's it! Hope you guys enjoyed the study. If you did, please scroll down and click the heart button below!
+
+And please join my team : https://lichess.org/team/wonderous123s-chess-club .
+
+I hope this was useful and thank you for the time to read this study!
+
+Note: I am taking a break from studies for some time. So, my next study will be out in late March or early April. So stay tuned!
+
+Until then!👋✌ }
+ *

@@ -1,0 +1,365 @@
+[Event "English Opening!: Introduction"]
+[Date "2021.10.30"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "A10"]
+[Opening "English Opening"]
+[StudyName "English Opening!"]
+[ChapterName "Introduction"]
+[ChapterURL "https://lichess.org/study/qkiEGvJu/3R49XxAD"]
+[Annotator "https://lichess.org/@/ChessBeginner210"]
+[UTCDate "2021.10.30"]
+[UTCTime "17:54:32"]
+[Orientation "white"]
+[ChapterMode "gamebook"]
+
+{ Welcome to my study on the English Opening! The English Opening is the fourth-most popular move in the lichess opening tablebase. (If you don't believe me, look it up; it's after only e4, d4, and Nf3.) The English Opening was named after English chess player Howard Staunton, who was a great player in the nineteenth century. Anyway, let's dive right into the action! [EDIT: This just became the most popular English Opening study on all of Lichess. I can't even fathom this. If you read this, I am so very grateful you came to learn a little. Thank you!) }
+1. c4 { Yes! This is the English Opening. It is a flank opening, which means you control the center with your flank (side) pawns and pieces. The purpose of the English Opening is to control the central light squares e4 and d5. It is a great opening for positional players. So let's dive in and look at all the variations. } (1. d4 { If you mouseslipped and picked up the d-pawn, I feel your pain. But make sure to pick up the c-pawn next time. }) *
+
+[Event "English Opening!: English Opening: Symmetrical Variation"]
+[Date "2021.10.30"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "A36"]
+[Opening "English Opening: Symmetrical Variation, Two Knights, Fianchetto Variation"]
+[StudyName "English Opening!"]
+[ChapterName "English Opening: Symmetrical Variation"]
+[ChapterURL "https://lichess.org/study/qkiEGvJu/nB01AMgN"]
+[Annotator "https://lichess.org/@/ChessBeginner210"]
+[UTCDate "2021.10.30"]
+[UTCTime "18:11:43"]
+[Orientation "white"]
+[ChapterMode "gamebook"]
+
+{ To start our English journey, we must be familiar with the Symmetrical Variation, the most basic kind of English Opening. This is an attempt to avoid theory by copying White's moves. Start with the English Opening. }
+1. c4 { Correct! } 1... c5 { This is the Symmetrical Variation. Black a) avoids theory, and b) stakes a claim to the d4 square.
+Here you should play Nc3. } 2. Nc3 { Usually, Black will play Nc6. } 2... Nc6 { Now how do we prepare to fianchetto our light-squared bishop? } { [%csl Gf1] } 3. g3 { Excellent! } (3. g4 { Right pawn, but you moved it too far. }) (3. Nf3 Nf6 4. d3) 3... Nf6 { Fianchetto your bishop! } 4. Bg2 { Perfect! Notice how all your active pieces are controlling d5 and e4. } { [%csl Gd5,Ge4] } 4... d6 { What pawn move do you make to increase your control over e4? } { [%csl Ge4] } 5. d3 { Great! } (5. f3 { Don't block your light-squared bishop! }) 5... g6 { What's the best square for this knight? } { [%csl Gg1] } 6. Nf3 { Outstanding! } 6... Bg7 { Protect your king! } 7. O-O { That's how you play the Symmetrical Variation. Let's see the second variation. } *
+
+[Event "English Opening!: English Opening: Reversed Sicilian Variation"]
+[Date "2021.10.31"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "A29"]
+[Opening "English Opening: King's English Variation, Four Knights Variation, Fianchetto Line, with .. d6"]
+[StudyName "English Opening!"]
+[ChapterName "English Opening: Reversed Sicilian Variation"]
+[ChapterURL "https://lichess.org/study/qkiEGvJu/TVFm1qyX"]
+[Annotator "https://lichess.org/@/ChessBeginner210"]
+[UTCDate "2021.10.31"]
+[UTCTime "19:07:40"]
+[Orientation "white"]
+[ChapterMode "gamebook"]
+
+{ The second variation is the Reversed Sicilian Variation. It's an aggressive way to combat the English. Play your English move. }
+1. c4 e5 { The Reversed Sicilian. Against this, play Nc3. } 2. Nc3 { Well done! } 2... Nf6 { No matter what Black's second move is here (except d5, blundering a pawn) play the fianchetto move we described in the last chapter. } 3. g3 { That's it! } 3... Nc6 { Fianchetto your bishop. } 4. Bg2 { Perfect! } 4... Bc5 { Similar to the last chapter. Control e4 with a pawn! } { [%csl Ge4] } 5. d3 { Excellent! } 5... O-O { Put the g1 knight on its best square. } { [%csl Gg1] } 6. Nf3 { Good! } (6. Nh3 { That is not its best square. Knights are better centralized. }) 6... d6 { Castle. } 7. O-O Be6 { Find the best square for the bishop. } { [%csl Gc1] } 8. Bd2 { Excellent! This is how to fight the Reversed Sicilian. In the future, you need to think about moves like e4 to further your light-squared grip. } (8. Bg5 { Tempting, but after h6 you have to retreat it again. }) *
+
+[Event "English Opening!: English Opening: Anglo-Indian Variation"]
+[Date "2021.10.31"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "A15"]
+[Opening "English Opening: Anglo-Indian Defense"]
+[StudyName "English Opening!"]
+[ChapterName "English Opening: Anglo-Indian Variation"]
+[ChapterURL "https://lichess.org/study/qkiEGvJu/e5GvR09k"]
+[Annotator "https://lichess.org/@/ChessBeginner210"]
+[UTCDate "2021.10.31"]
+[UTCTime "19:20:21"]
+[Orientation "white"]
+[ChapterMode "gamebook"]
+
+{ In the Lichess database, the most common response to the English Opening is the Anglo-Indian variation. Often, Black is hoping to transpose into an Indian Game that they know how to play. Start with the English Opening. }
+1. c4 Nf6 { The Anglo-Indian. Here, I recommend playing g3 right away. } 2. g3 { Good! } 2... Nc6 { Fianchetto your bishop. } 3. Bg2 g6 { Play Nc3. } 4. Nc3 { Great! } 4... Bg7 { Remember how to strengthen this square? } { [%csl Ge4] } 5. d3 { Perfect! } (5. Qc2 { Passable, but not great. Find another move. }) 5... O-O { Develop your other knight. } 6. Nf3 { Correct! } 6... d6 { Black is adopting an Indian Game setup. Castle. } 7. O-O { Awesome! Notice how this setup rarely changes. That's one of the beautiful things about the English Opening. } { [%csl Gc3,Gc4,Gd3,Ge2,Gf3,Gg2] } 7... Bd7 { You remember where to place the c1 bishop, don't you? } { [%csl Gc1] } 8. Bd2 { White's position is better. On to the next variation! } *
+
+[Event "English Opening!: English Opening: Anglo-Dutch Defense"]
+[Date "2021.10.31"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "A10"]
+[Opening "English Opening: Anglo-Dutch Defense"]
+[StudyName "English Opening!"]
+[ChapterName "English Opening: Anglo-Dutch Defense"]
+[ChapterURL "https://lichess.org/study/qkiEGvJu/aV1npw1z"]
+[Annotator "https://lichess.org/@/ChessBeginner210"]
+[UTCDate "2021.10.31"]
+[UTCTime "19:36:30"]
+[Orientation "white"]
+[ChapterMode "gamebook"]
+
+{ The Anglo-Dutch Defense, like many, is an aggressive one. It attempts to take over the (temporarily) weak e4 square. Play c4. }
+1. c4 f5 { Now put your knight on c3. } 2. Nc3 { Excellent! } 2... Nf6 { How do you fianchetto the bishop? } 3. g3 { Perfect! } 3... Nc6 { Fianchetto. } (3... f4 { [%cal Gd2d4] }) 4. Bg2 b6 { How to take control over this square? } { [%csl Ge4] } 5. d3 { Great! } 5... Bb7 { Black will often try to contest the long diagonal. What's the best square for this knight? } { [%csl Gg1] } 6. Nf3 { Good. Notice the piece placement again. If Black does something crazy, it's usually good to stick to this system: c4, Nc3, g3, Bg2, d3, Nf3. (Try to stay in that order, too, unless you want to be "that person" who starts off games with d3.) } { [%csl Gc4,Gd3,Ge2,Gg2,Gf3,Gc3] } 6... e6 { Black is almost mirroring your setup. Castle. } 7. O-O { Great work! } 7... Be7 { The best square for the bishop? } { [%csl Gc1] } 8. Bd2 { Fantastic work! Stockfish says +0.9. } *
+
+[Event "English Opening!: English Opening: Agincourt Defense"]
+[Date "2021.11.17"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "A13"]
+[Opening "English Opening: Agincourt Defense"]
+[StudyName "English Opening!"]
+[ChapterName "English Opening: Agincourt Defense"]
+[ChapterURL "https://lichess.org/study/qkiEGvJu/h1Ei8z56"]
+[Annotator "https://lichess.org/@/ChessBeginner210"]
+[UTCDate "2021.11.17"]
+[UTCTime "22:29:19"]
+[Orientation "white"]
+[ChapterMode "gamebook"]
+
+{ Our next variation is the Agincourt Defense. Like many openings where black plays e6, it is used as a transpositional line. Play the English! }
+1. c4 e6 { The Agincourt Defense. This is actually my least favorite line to play against versus the English, but that's an opinion. Stockfish says that it's just best to play d4 and transpose into a QGD, but there are a host of good studies on the Queen's Gambit Declined and I highly recommend looking at them. A good move here is to play Nf3. } 2. Nf3 d5 { Capture the pawn. } 3. cxd5 { Excellent! } 3... exd5 { How to fianchetto the bishop? } { [%csl Gf1] } 4. g3 { Perfect! } (4. g4 { Too far. Now after Bxg4, Black is better. }) 4... Nf6 { Fianchetto the bishop. } 5. Bg2 { Well done! } 5... Bd6 { Where's the best square for the knight? } { [%csl Gb1] } 6. Nc3 { Great! } 6... O-O { Castle. } 7. O-O { Excellent! } 7... b6 { If their bishop is developed along the c8-h3 diagonal, White plays Qb3, developing with tempo. Freeze this pawn- but with which piece? } { [%csl Rd5,Gf3,Gd2] } 8. d4 { Great! } (8. Nd4 { Right idea, but not the right piece... }) 8... Bb7 { Now, where to put the bishop? } { [%csl Gc1] } 9. Bd2 { Great! Let's look at the next variation. } *
+
+[Event "English Opening!: English Opening: Great Snake Variation"]
+[Date "2021.11.17"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "A10"]
+[Opening "English Opening: Great Snake Variation"]
+[StudyName "English Opening!"]
+[ChapterName "English Opening: Great Snake Variation"]
+[ChapterURL "https://lichess.org/study/qkiEGvJu/XNTFLn14"]
+[Annotator "https://lichess.org/@/ChessBeginner210"]
+[UTCDate "2021.11.17"]
+[UTCTime "22:43:48"]
+[Orientation "white"]
+[ChapterMode "gamebook"]
+
+{ We are now looking at the Great Snake variation. While this sounds like the kind of thing you're more likely to find in a reptile house than a chessboard, this is an OK, if not fantastic, variation of the English that takes some ideas from the Hypermodern school of chess. Play the English Opening. }
+1. c4 g6 { The Great Snake. Develop this knight. } { [%csl Gg1] } 2. Nf3 { Perfect! } 2... Bg7 { I may have mentioned earlier that the English can be used as a transpositional tool. Here you can play d4 and take the center. But since I need more original content, play Nc3 for a good ol' fashioned English setup. } 3. Nc3 { Good! } 3... Nc6 { Prepare to fianchetto the bishop. } { [%csl Gf1] } 4. g3 { Great! } 4... Nf6 { Fianchetto time! } 5. Bg2 { Nice! } 5... O-O { Castle. } 6. O-O { Outstanding! } 6... d6 { Control e4 with a pawn. There's only one move to do that... } { [%csl Gd2,Ge4] } 7. d3 { Well done! } 7... Bd7 { Where do we put the bishop? } { [%csl Gc1] } 8. Bd2 { Perfect! Notice the "double hypermodern" setup that's happening on the board. Neither White nor Black has put any pawns in the center! However, White is slightly better. Let's get to the next variation. } *
+
+[Event "English Opening!: English Opening: Caro-Kann Defensive System"]
+[Date "2021.11.17"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "D13"]
+[Opening "Slav Defense: Exchange Variation"]
+[StudyName "English Opening!"]
+[ChapterName "English Opening: Caro-Kann Defensive System"]
+[ChapterURL "https://lichess.org/study/qkiEGvJu/70wjoyiC"]
+[Annotator "https://lichess.org/@/ChessBeginner210"]
+[UTCDate "2021.11.17"]
+[UTCTime "22:55:04"]
+[Orientation "white"]
+[ChapterMode "gamebook"]
+
+{ This next Black "defensive system" is another transpositional device, as many sixth-rank pawn defenses are. Play c4. }
+1. c4 { This pops up after c6. } 1... c6 { Notice how this is (almost) a Caro-Kann Defense, which arises after 1. e4 c6. However, we pushed the c-pawn, not the e-pawn. Play Nf3. } { [%cal Rc7c6,Re2e4] } 2. Nf3 { d5 is the obvious move. } 2... d5 { Take the pawn. } 3. cxd5 { Good! } 3... cxd5 { Blockade the pawn with another pawn. } { [%csl Gd5] } 4. d4 { Great! } 4... Nf6 { Prepare to fianchetto. } { [%csl Gf1] } 5. g3 { Excellent! } 5... Nc6 { Fianchetto! } { [%csl Gf1] } 6. Bg2 { Nice! } 6... Bf5 { Castle. } 7. O-O e6 { Where do you put this knight? } { [%csl Gb1] } 8. Nc3 { Super! } (8. Na3 { This does nothing for the center. What knight move attacks the center? }) (8. Nbd2 { A less-than optimal square for the knight. What's the very best square? }) 8... Be7 { Where should you put the bishop? } { [%csl Gc1] } 9. Bd2 { Great! This is how to play this. } *
+
+[Event "English Opening!: English Opening: English Defence"]
+[Date "2021.11.20"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "A10"]
+[Opening "English Opening"]
+[StudyName "English Opening!"]
+[ChapterName "English Opening: English Defence"]
+[ChapterURL "https://lichess.org/study/qkiEGvJu/cj8PNoaR"]
+[Annotator "https://lichess.org/@/ChessBeginner210"]
+[UTCDate "2021.11.20"]
+[UTCTime "02:33:41"]
+[Orientation "white"]
+[ChapterMode "gamebook"]
+
+{ This next chapter is on the English Defence. The English Defense is similar to the Great Snake defense, except perhaps slightly better. But the basic premises are the same: fight for the center hypermodern-style. Play your (now well-learned) English Opening. }
+1. c4 b6 { This is the English Defense. Along with having a very English name, it is one of the most sound hypermodern openings there is. What's the best square for the knight? } { [%csl Gb1] } 2. Nc3 { Excellent! } 2... Bb7 { What's the best square for the knight? } { [%csl Gg1] } 3. Nf3 { Great! } 3... Nf6 { Here, the best move is not your customary d3, but e3. } { [%cal Rd2d3,Ge2e3] } 4. e3 e6 { Control the center! } 5. d4 { Perfect! } 5... Be7 { What's the best square for the bishop? } { [%csl Gf1] } 6. Bd3 { Well done! } 6... O-O { The bishop's not very happy behind its own pawn... can you find a move that prepares to fianchetto it? } { [%csl Gc1,Re3] } 7. b3 { Excellent! } 7... d5 { Fianchetto. } { [%csl Gc1] } 8. Bb2 { Great! } 8... Nbd7 { Castle. } 9. O-O { Great job! This is how you play against the English Defense. } *
+
+[Event "English Opening!: English Opening: Anglo-Scandinavian Defense"]
+[Date "2021.11.23"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "A10"]
+[Opening "English Opening: Anglo-Scandinavian Defense, Malvinas Variation"]
+[StudyName "English Opening!"]
+[ChapterName "English Opening: Anglo-Scandinavian Defense"]
+[ChapterURL "https://lichess.org/study/qkiEGvJu/NIBalxi8"]
+[Annotator "https://lichess.org/@/ChessBeginner210"]
+[UTCDate "2021.11.23"]
+[UTCTime "23:16:14"]
+[Orientation "white"]
+[ChapterMode "gamebook"]
+
+{ The next variation is the Anglo-Scandinavian Defense. This is not a very good opening, and you can wind up in a better position. Play c4! }
+1. c4 d5 { The Anglo-Scandinavian. A poor choice, and highly inaccurate. This is much worse than the already suspect Scandinavian Defense. Take the pawn. } 2. cxd5 { Great! } 2... Qxd5 { Which square can this knight go on to attack the queen? } { [%csl Gb1] } 3. Nc3 { Nice! } 3... Qa5 { Bring out your other knight to a good square. } { [%csl Gg1] } 4. Nf3 { Excellent! } (4. Nh3 { A knight on the rim is dim. What's a better square for the knight? }) 4... Nf6 { Strike in the center with your d-pawn! } { [%csl Gd2] } 5. d4 { Perfect! } 5... c6 { How can we develop this bishop AND x-ray the queen? } { [%csl Gc1] } 6. Bd2 { Well done! } 6... Bg4 { Attack the bishop with the horse! (or you can call it a knight, but horse is more fun) } { [%csl Gg4] } 7. Ne5 { Perfect! } 7... Bh5 { This will be one of the toughest moves to find in the study, so pay attention: We want to strike in the center with e4, but doing so now would pretty much make the bar hydraulic-press from +1.7 to -7. (It's up to the reader to figure out why.) So how do we cut out the scope of the light-squared bishop from pinning the e-pawn? } { [%csl Gh5] } 8. f3 { Fantastic! } (8. e4 { Notice that the bar turned from +1.7 to -7. Take a guess why, then check it with Stockfish. }) 8... Nbd7 { Attack a pawn with your queen. } { [%csl Gd1] } 9. Qb3 { Perfect! That's how to play the Anglo-Scandinavian Defense. } *
+
+[Event "English Opening!: English Opening: Myers Defence"]
+[Date "2021.11.23"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "A10"]
+[Opening "English Opening: Myers Gambit"]
+[StudyName "English Opening!"]
+[ChapterName "English Opening: Myers Defence"]
+[ChapterURL "https://lichess.org/study/qkiEGvJu/D2JkUAJG"]
+[Annotator "https://lichess.org/@/ChessBeginner210"]
+[UTCDate "2021.11.23"]
+[UTCTime "23:38:36"]
+[Orientation "white"]
+[ChapterMode "gamebook"]
+
+{ The Myers Defense is a (somewhat bizarre) way to counter the English Opening. It can almost be considered a novelty. Play your English Opening. }
+1. c4 g5 { The Myers Defense. Just play d4 and attack the pawn. } 2. d4 { Nice! } 2... Bg7 { Stockfish already says +1.5. But not if you take the pawn. Play Nc3. } { [%cal Gb1c3,Rc1g5] } 3. Nc3 (3. Bxg5 { White is still winning, but after c5, Black still has some chances. }) 3... c5 { c5 is an important strike in the Myers Defense. You should probably know that in many of these strikes, it is an attempt to open up the dark-squared bishop, so most of the time, you shouldn't take.
+But not this time! Take the pawn! } 4. dxc5 { Great! } 4... Na6 { An attempt to win back the pawn. Don't try to hold on to the pawn; it won't work forever. Instead, develop this knight to the best square. } { [%csl Gg1] } 5. Nf3 { Nice! } 5... Bxc3+ { The best move, but a very pathetic-looking one indeed. Play the only rational move. } 6. bxc3 { Good! This looks stupid, but it's actually really good for White. } { [%csl Gc5,Gc4,Gc3] } (6. Bd2 { It's just went to -7 because you don't know that pawns capture diagonally! }) (6. Nd2 { -7.5! Pawns capture diagonally! }) (6. Qd2 { If you played this move, you are either Magnus Carlsen and the other player will lose anyway, or you are trolling, or you learned that queens are the most powerful piece and you decided to "bring your queen out". Can you think of a better move? }) 6... Qa5 { Nxc5 was impossible due to Qd4!, forking the knight and the rook. Now you can take that pawn on g5. But which capture is better? } { [%cal Gf3g5,Gc1g5] } 7. Bxg5 { Yes! That's the correct capture. } (7. Nxg5 { Not terrible, but inaccurate. Which is the better capture? }) 7... Nxc5 { Now Qd4 isn't a move because of f6!, attacking the bishop. How do you get ready to fianchetto the bishop? } { [%csl Gf1] } 8. g3 { Well done! } (8. Qd4 { Fails to f6! }) 8... Qxc3+ { "What are you doing?? You just gave away a pawn!" Except everything is under control. The computer gives some crazy line where you sacrifice the last c-pawn, but it's much easier, as mere mortals, to play Nd2. } { [%cal Gf3d2,Rg5d2] } 9. Nd2 { Perfect! Later, you'll fianchetto the bishop and use your open lines on the queenside. } { [%csl Gf1] } *
+
+[Event "English Opening!: English Opening: Jaenisch Gambit"]
+[Date "2021.11.24"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "A10"]
+[Opening "English Opening: Jaenisch Gambit"]
+[StudyName "English Opening!"]
+[ChapterName "English Opening: Jaenisch Gambit"]
+[ChapterURL "https://lichess.org/study/qkiEGvJu/tOFCxr7m"]
+[Annotator "https://lichess.org/@/ChessBeginner210"]
+[UTCDate "2021.11.24"]
+[UTCTime "00:00:54"]
+[Orientation "white"]
+[ChapterMode "gamebook"]
+
+{ This opening variation is the Jaenisch Gambit. It is a sacrifice in order to exert some queenside and kingside pressure. Play the English! }
+1. c4 b5 { This is the Jaenisch Gambit. Take the pawn. } 2. cxb5 e5 { This is a common strike in the center. Strike in the center yourself! } 3. e4 { Perfect! } 3... Bb7 { A common theme in the Jaenisch Gambit is to fianchetto the bishop. Which knight move defends the pawn? } { [%csl Gb1] } 4. Nc3 { Good! } 4... Nf6 { Still going after the pawn! Counter-attack their pawn with your knight! } { [%csl Ge5,Gg1] } 5. Nf3 { Great! } 5... Nxe4 { Take the knight. } 6. Nxe4 Bxe4 { Take their pawn. } 7. Nxe5 { Well done! } 7... Qe7 { This looks scary, but coolly and calmly play d4. } 8. d4 d6 { "But aren't they attacking the knight and when the knight moves they'll play Bf3+ and win all my stuff and ahhhhhhh!" Your only move, then, is to counterattack their bishop with your queen! } { [%csl Gd1] } 9. Qe2 { Great! } 9... Bb7 { Now move the knight out of the way back to its former home on f3. } { [%cal Ge5f3] } 10. Nf3 { Excellent! } 10... Qxe2+ { And take (with the bishop, of course). } 11. Bxe2 { And you're winning by quite a bit. The first part of the study is complete. Now we'll look at the tranpositional value of the English. } *
+
+[Event "English Opening!: PS: English Opening: Anglo-Lithuanian Variation (Part 1)"]
+[Date "2025.01.18"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "A25"]
+[Opening "English Opening: King's English Variation, Reversed Closed Sicilian"]
+[StudyName "English Opening!"]
+[ChapterName "PS: English Opening: Anglo-Lithuanian Variation (Part 1)"]
+[ChapterURL "https://lichess.org/study/qkiEGvJu/EBsoSoy5"]
+[Annotator "https://lichess.org/@/ChessBeginner210"]
+[UTCDate "2025.01.18"]
+[UTCTime "04:18:35"]
+[Orientation "white"]
+[ChapterMode "gamebook"]
+
+{ The Anglo-Lithuanian was recently recommended by @ByronJimenez as a good variation to add, so I will, and I hope you enjoy this latecomer to this study (2 years in the future). My writing will be more mature than it was then (being two teenage years older). }
+1. c4 Nc6 { The point of 1...Nc6 (the defining move of the Anglo-Lithuanian Variation) is to lock up the center after 2. d4 e5 3. d5 Nce7, followed by ...Ng6 and ...d6, with possible kingside attacking chances. If you want to avoid all this, you can follow the common narrative of this study and play 2. Nc3. } 2. Nc3 e5 { Which will quickly transpose into the Reversed Sicilian variation. } *
+
+[Event "English Opening!: PS: English Opening: Anglo-Lithuanian Variation (Part 2)"]
+[Date "2025.01.18"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "A40"]
+[Opening "Mikenas Defense: Lithuanian Variation"]
+[StudyName "English Opening!"]
+[ChapterName "PS: English Opening: Anglo-Lithuanian Variation (Part 2)"]
+[ChapterURL "https://lichess.org/study/qkiEGvJu/CtyAJTn5"]
+[Annotator "https://lichess.org/@/ChessBeginner210"]
+[UTCDate "2025.01.18"]
+[UTCTime "04:26:38"]
+[Orientation "white"]
+[ChapterMode "gamebook"]
+
+{ [%cal Gc2c4] }
+1. c4 Nc6 { We begin where we left off from in Chapter 13. If you want to challenge Black's idea, the main move is 2. d4. } 2. d4 e5 { Attack Black's knight in the center. } 3. d5 Nce7 { From this position, White has two main options: 4. Nc3 and 4. e4. They are not much different in terms of objective value, but 4. Nc3 is more flexible, because the e-pawn may be best on e3 or e4, so let's play Nc3. } 4. Nc3 { Black may in this position play 4...Ng6 or 4...d6, but both of these moves can be met in a similar way. } { [%cal Rd7d6,Re7g6] } (4. e4 { Not wrong, but less flexible. Play Nc3 to continue. }) 4... Ng6 { Now, we may follow the moves that have been laid out in previous chapters: fianchetto your light-squared bishop. } 5. g3 Bc5 { It doesn't really matter what Black plays here, but 5...Bc5 is most common.
+Continue your fianchetto. } 6. Bg2 d6 { White's space advantage is somewhat balanced by Black's attacking chances. } *
+
+[Event "English Opening!: PS: English Opening: Anglo-Lithuanian Variation (Part 3)"]
+[Date "2025.01.18"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "A40"]
+[Opening "Mikenas Defense: Lithuanian Variation"]
+[StudyName "English Opening!"]
+[ChapterName "PS: English Opening: Anglo-Lithuanian Variation (Part 3)"]
+[ChapterURL "https://lichess.org/study/qkiEGvJu/KtLpWJke"]
+[Annotator "https://lichess.org/@/ChessBeginner210"]
+[UTCDate "2025.01.18"]
+[UTCTime "15:09:06"]
+[Orientation "white"]
+[ChapterMode "gamebook"]
+
+{ [%cal Gc2c4] }
+1. c4 Nc6 { [%cal Gd2d4] } 2. d4 e5 3. d5 Nce7 { [%cal Gb1c3] } 4. Nc3 Ng6 { I was examining this position with Stockfish when I found a neat computer idea: 5. Qa4! } 5. Qa4! { This chapter may be more advanced, so you can click off if it ever gets confusing.
+The point of 5. Qa4 is that it pins the d-pawn, making it difficult for Black to develop. The light-squared grip White has already built up makes it very difficult to break the pin, so the best way to do that would be to castle. But White has another idea to make this work. } 5... Nf6 { White's very interesting idea in this position to keep Black off-balance is to gain some tempi on the knights: can you see how? } 6. h4! { 5...Be7 6. g3 would lead to the same idea, supported by the g3 pawn. } 6... h5 { To prevent h5. 6...Be7?! is inaccurate due to 7. h5 Nf8 (7...Nf4? loses elegantly to 8. e3! N4xh5 9. g4!, winning the knight due to the trap and overload).
+But Black's last move left a positional weakness: can you exploit it? } 7. Bg5 { And White has a solid and enduring positional advantage. } *
+
+[Event "English Opening!: Transpositional Values"]
+[Date "2021.11.24"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "?"]
+[Opening "?"]
+[StudyName "English Opening!"]
+[ChapterName "Transpositional Values"]
+[ChapterURL "https://lichess.org/study/qkiEGvJu/2pWlITEc"]
+[Annotator "https://lichess.org/@/ChessBeginner210"]
+[UTCDate "2021.11.24"]
+[UTCTime "17:53:56"]
+[Orientation "white"]
+[ChapterMode "gamebook"]
+
+{ If you've decided that all of my opening ideas are crazy and you want your own thing, you're in luck: the English Opening has transpositional value. That means that it can turn into other openings. I'll show you the different ways that you can make a new opening. }
+ *
+
+[Event "English Opening!: What if I want a Queen's Gambit Declined?"]
+[Date "2021.11.24"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "D30"]
+[Opening "Queen's Gambit Declined"]
+[StudyName "English Opening!"]
+[ChapterName "What if I want a Queen's Gambit Declined?"]
+[ChapterURL "https://lichess.org/study/qkiEGvJu/4QxCx5Rt"]
+[Annotator "https://lichess.org/@/ChessBeginner210"]
+[UTCDate "2021.11.24"]
+[UTCTime "17:56:38"]
+[Orientation "white"]
+[ChapterMode "gamebook"]
+
+{ Start with the English. }
+1. c4 e6 { This is the Agincourt Defense. If you want to know how to tackle this, a previous chapter describes how. But say that you feel like playing a Queen's Gambit Declined. Then strike in the center with d4! } 2. d4 { Nice! } 2... d5 { And this is a transposition into the Queen's Gambit Declined. I might make a study on this later, but for now, you'll have to find one yourself. } *
+
+[Event "English Opening!: What if I want a Queen's Gambit instead of an Anglo-Scandinavian?"]
+[Date "2021.11.24"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "D06"]
+[Opening "Queen's Gambit"]
+[StudyName "English Opening!"]
+[ChapterName "What if I want a Queen's Gambit instead of an Anglo-Scandinavian?"]
+[ChapterURL "https://lichess.org/study/qkiEGvJu/RAYR32qp"]
+[Annotator "https://lichess.org/@/ChessBeginner210"]
+[UTCDate "2021.11.24"]
+[UTCTime "22:32:43"]
+[Orientation "white"]
+[ChapterMode "gamebook"]
+
+{ This chapter is for people who hate playing against those people who bring their queen out super early. Play your English. }
+1. c4 d5 { This is the Anglo-Scandinavian. If you don't want nothin' to do with it, play d4. } 2. d4 { Perfect! This is now a Queen's Gambit. 99% of Anglo-Scandinavian players expect you to take the pawn, but now, they're out of their territory. } *
+
+[Event "English Opening!: How about avoiding the Grunfeld?"]
+[Date "2021.11.24"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "A16"]
+[Opening "English Opening: Anglo-Indian Defense, Queen's Knight Variation"]
+[StudyName "English Opening!"]
+[ChapterName "How about avoiding the Grunfeld?"]
+[ChapterURL "https://lichess.org/study/qkiEGvJu/7ymQdS7n"]
+[Annotator "https://lichess.org/@/ChessBeginner210"]
+[UTCDate "2021.11.24"]
+[UTCTime "22:38:40"]
+[Orientation "white"]
+[ChapterMode "gamebook"]
+
+{ The Grunfeld Defense is a common problem for d4 players. (Well, not at my level, where nobody knows how to play hypermodern openings, but at ~2000 elo.) So I'm going to show you how to play c4 to beat the Grunfeld. You remember our starting move, right? }
+1. c4 Nf6 { Grunfeld players look to use this setup highlighted in red. Play Nc3. } { [%cal Rg8f6,Rg7g6,Rd7d5,Gb1c3] } 2. Nc3 g6 { Here, if you like playing against the Grunfeld (like me), then you play d4 and transpose into it. But if you want to avoid it entirely, then you play e4. } { [%cal Rd2d4,Ge2e4] } 3. e4 { This will soon transpose into a King's Indian Defense, a much different opening than the Grunfeld. } *
+
+[Event "English Opening!: Thank you for watching!"]
+[Date "2021.11.24"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "?"]
+[Opening "?"]
+[StudyName "English Opening!"]
+[ChapterName "Thank you for watching!"]
+[ChapterURL "https://lichess.org/study/qkiEGvJu/rRkX4Gqd"]
+[Annotator "https://lichess.org/@/ChessBeginner210"]
+[UTCDate "2021.11.24"]
+[UTCTime "22:45:59"]
+[Orientation "white"]
+[ChapterMode "gamebook"]
+
+{ Thank you for visiting my study!
+A lot of you have been begging me for a study, so (while it's not an opening's manual) I've been working for a while on this part-complete study here that's worth checking out: https://lichess.org/study/8iibUl3z/dhfAn7ft }
+ *

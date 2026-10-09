@@ -1,0 +1,25 @@
+CHESS ANALYZER — installation (Chrome, Opera, Opera GX, Edge, Brave)
+=====================================================================
+
+1. Décompresser le fichier Chess-Analyzer.zip (clic droit > Extraire tout).
+   Garder le dossier "chess-analyzer" quelque part où il ne sera pas supprimé.
+
+2. Ouvrir la page des extensions du navigateur :
+     - Chrome  : chrome://extensions
+     - Opera   : opera://extensions
+     - Edge    : edge://extensions
+
+3. Activer le "Mode développeur" (en haut à droite).
+
+4. Cliquer sur "Charger l'extension non empaquetée" et choisir le dossier "chess-analyzer".
+
+5. (Conseillé) Épingler l'icône de l'extension, puis dans Paramètres, mettre son pseudo chess.com.
+
+Ce qui est inclus, sans rien installer d'autre :
+  - Stockfish 19 (version Lite, tourne dans le navigateur)
+  - Bilan de partie façon chess.com en cliquant sur "Bilan de la partie" sur chess.com
+  - Puzzles créés à partir de vos erreurs
+  - Bibliothèque de 27 répertoires d'ouvertures (Blancs et Noirs) à travailler
+    dans la page "Ouvertures" (études Lichess populaires, commentaires en anglais)
+
+Astuce : Alt + clic sur "Bilan de la partie" ouvre l'analyse normale de chess.com.

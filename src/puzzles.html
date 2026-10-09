@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Puzzles — Chess Analyzer</title>
+  <link rel="icon" href="../icons/icon32.png">
+  <link rel="stylesheet" href="common.css">
+  <link rel="stylesheet" href="app.css">
+  <link rel="stylesheet" href="puzzles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="app.html"><img src="../icons/icon48.png" alt=""><span>Chess <b>Analyzer</b></span></a>
+    <nav class="topnav">
+      <a href="app.html" data-icon="search">Analyse</a>
+      <a href="puzzles.html" class="active" data-icon="puzzle">Puzzles</a>
+      <a href="openings.html" data-icon="book">Ouvertures</a>
+      <button id="btn-settings-top" data-icon="gear">Paramètres</button>
+    </nav>
+    <div class="spacer"></div>
+    <div class="engine-status" id="engine-status"><span class="dot"></span><span class="label">Stockfish 19</span></div>
+  </header>
+
+  <main class="layout">
+    <section class="board-col">
+      <div class="player-bar pz-bar" id="pz-top"></div>
+      <div class="board-row">
+        <div class="evalbar off"></div>
+        <div class="board-holder"><div id="board"></div></div>
+      </div>
+      <div class="player-bar pz-bar" id="pz-bottom"></div>
+    </section>
+
+    <aside class="panel">
+      <div class="panel-head">
+        <span class="panel-head-icon" data-icon="puzzle" data-icon-size="15"></span>
+        <span>Puzzles</span>
+        <div class="spacer"></div>
+        <span class="pz-rating" id="pz-rating" title="Votre classement puzzles">1200</span>
+      </div>
+
+      <div class="view scroll" id="pz-main">
+        <div class="pz-stats">
+          <div><b id="st-streak">0</b><span>Série</span></div>
+          <div><b id="st-best">0</b><span>Record</span></div>
+          <div><b id="st-solved">0</b><span>Réussis</span></div>
+          <div><b id="st-failed">0</b><span>Ratés</span></div>
+        </div>
+
+        <div class="pz-status" id="pz-status">
+          <div class="pz-turn" id="pz-turn"></div>
+          <div class="pz-msg" id="pz-msg">Chargement…</div>
+          <div class="pz-meta" id="pz-meta"></div>
+        </div>
+
+        <div class="pz-actions">
+          <button class="btn" id="btn-hint" data-icon="bulb">Indice</button>
+          <button class="btn" id="btn-solution" data-icon="eye">Solution</button>
+          <button class="btn" id="btn-retry" data-icon="refresh">Recommencer</button>
+          <button class="btn btn-primary" id="btn-next">Suivant</button>
+        </div>
+
+        <div class="card">
+          <h4>Banque de puzzles</h4>
+          <div class="row gap">
+            <select id="pz-filter">
+              <option value="all">Tous les puzzles</option>
+              <option value="unsolved">Jamais réussis</option>
+              <option value="failed">Ratés au moins une fois</option>
+              <option value="mate">Mats uniquement</option>
+            </select>
+            <select id="pz-order">
+              <option value="random">Ordre aléatoire</option>
+              <option value="recent">Plus récents</option>
+              <option value="rating">Par difficulté</option>
+            </select>
+          </div>
+          <div class="pz-count" id="pz-count"></div>
+          <div class="pz-grid scroll" id="pz-grid"></div>
+        </div>
+
+        <div class="card">
+          <h4>Générer des puzzles depuis mes parties chess.com</h4>
+          <div class="row gap">
+            <input type="text" id="gen-user" placeholder="Pseudo chess.com">
+            <select id="gen-count" style="width:130px">
+              <option value="5">5 parties</option>
+              <option value="10" selected>10 parties</option>
+              <option value="25">25 parties</option>
+              <option value="50">50 parties</option>
+            </select>
+          </div>
+          <button class="btn btn-primary" id="btn-gen" data-icon="bolt">Analyser et créer les puzzles</button>
+          <div class="gen-progress" id="gen-progress" hidden>
+            <div class="progress-bar"><div id="gen-fill"></div></div>
+            <div class="progress-sub" id="gen-sub"></div>
+            <button class="btn btn-sm btn-ghost" id="btn-gen-stop">Arrêter</button>
+          </div>
+          <small class="muted">Chaque partie est analysée par Stockfish (profondeur 14) ; vos erreurs, gaffes et occasions manquées deviennent des puzzles.</small>
+        </div>
+      </div>
+    </aside>
+  </main>
+
+  <div class="modal" id="settings-modal" hidden>
+    <div class="modal-card">
+      <div class="modal-head">Paramètres<div class="spacer"></div><button class="x-btn" id="settings-close" data-icon="x" data-icon-size="20"></button></div>
+      <div class="modal-body scroll" id="settings-body"></div>
+    </div>
+  </div>
+
+  <script type="module" src="puzzles.js"></script>
+</body>
+</html>

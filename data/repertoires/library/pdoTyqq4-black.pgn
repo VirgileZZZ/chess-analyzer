@@ -1,0 +1,161 @@
+[Event "🛡️The Slav Defense🛡️: The Slav Defense"]
+[Date "2021.06.01"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "D15"]
+[Opening "Slav Defense: Three Knights Variation"]
+[StudyName "🛡️The Slav Defense🛡️"]
+[ChapterName "The Slav Defense"]
+[ChapterURL "https://lichess.org/study/pdoTyqq4/7qHdu4yL"]
+[Annotator "https://lichess.org/@/heyucatchthis"]
+[UTCDate "2021.06.01"]
+[UTCTime "22:13:15"]
+[Orientation "black"]
+[ChapterMode "gamebook"]
+
+{ Hello everyone! This study is about the Slav Defense. The Slav is a classical response to 1. d4 and gives black solid fighting chances. If you don't like wild crazy games, but like a solid structure and position, this is the opening for you. Let's get started!
+
+Our opponent starts with one of the best moves, d4. }
+1. d4 { In the Slav, we respond classically with d5. We are not trying to provoke a fight with the King's Indian or playing with fire with the Grunfeld. We are following classical chess opening principles. } { [%csl Rd4][%cal Rd2d4,Bd7d5] } 1... d5 { [%csl Gd5][%cal Gd7d5] } 2. c4 { This is by far the best (and most popular) move in this position by white, the Queen's Gambit. We don't want to take the pawn right now giving up central control. Let's play c6 defending our pawn.
+Right here, 2. ...e6! is also a great option, but normally that leads to a passive light-squared bishop, or the French-bishop, stuck behind the pawns of its own color. We want it to roam free! } { [%csl Rc4,Ye6,Yh3,Yg4,Yf5,Yd7][%cal Rc2c4,Bc7c6,Ye7e6,Yc8h3] } 2... c6 { [%csl Gc6,Bd5,Rd4,Rc4][%cal Gc7c6,Bc6d5] } 3. Nf3 { This is the most common move by an overwhelming 30K games. How do we develop our knight on g8? } { [%csl Rf3,Bg8][%cal Rg1f3] } 3... Nf6 { [%csl Gf6][%cal Gg8f6] } 4. Nc3 { This is the starting position of the Slav Defense. In this study I will be going over the most common moves from this point for black to play. This includes the Semi-Slav, the Open Slav, the Chameleon Variation, and the the Schlechter Slav. Continue to the next chapter to learn more! } { [%csl Rc3][%cal Rb1c3] } *
+
+[Event "🛡️The Slav Defense🛡️: Semi-Slav"]
+[Date "2021.06.01"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "D43"]
+[Opening "Semi-Slav Defense: Anti-Moscow Gambit"]
+[StudyName "🛡️The Slav Defense🛡️"]
+[ChapterName "Semi-Slav"]
+[ChapterURL "https://lichess.org/study/pdoTyqq4/6iloGHtx"]
+[Annotator "https://lichess.org/@/heyucatchthis"]
+[FEN "rnbqkb1r/pp2pppp/2p2n2/3p4/2PP4/2N2N2/PP2PPPP/R1BQKB1R b KQkq - 0 1"]
+[SetUp "1"]
+[UTCDate "2021.06.01"]
+[UTCTime "22:23:40"]
+[Orientation "black"]
+[ChapterMode "gamebook"]
+
+{ In the Semi-Slav, we continue with e6, creating a huge pawn chain. } { [%cal Be7e6,Bf7d5,Bd5b7] }
+1... e6 { [%csl Ge6,Bf7,Bd5,Bc6,Bb7][%cal Ge7e6,Bb7f7,Bf7d5,Bd5b7] } 2. Bg5 { Oh no, we got pinned. What is that bishop doing on g5?! Find a way to get rid of it. } { [%csl Yd8,Yf6,Rg5,Bh7][%cal Rc1g5,Yg5d8] } 2... h6 { [%csl Gh6,Bg5][%cal Gh7h6,Bh6g5] } 3. Bh4 { Capture the c4 pawn now! We have caught white off-guard. } { [%csl Rh4][%cal Bd5c4,Rg5h4] } 3... dxc4 { This is the Semi-Slav, you should go search up some games of the Semi-Slav and see what the ideas are. I'll help you a bit. Now the plans are to develop your b-knight to d7 and try to break with e5. Castle short, complete development, and you have gotten off to a good start. Let's explore more! } { [%csl Gc4,Bd7,Be5][%cal Gd5c4,Bb8d7,Be6e5] } *
+
+[Event "🛡️The Slav Defense🛡️: Open Slav 🎊"]
+[Date "2021.06.01"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "D17"]
+[Opening "Slav Defense: Czech Variation"]
+[StudyName "🛡️The Slav Defense🛡️"]
+[ChapterName "Open Slav 🎊"]
+[ChapterURL "https://lichess.org/study/pdoTyqq4/NJfJZmzf"]
+[Annotator "https://lichess.org/@/heyucatchthis"]
+[UTCDate "2021.06.01"]
+[UTCTime "22:31:50"]
+[Orientation "black"]
+[ChapterMode "gamebook"]
+
+{ Repeat all of the moves. }
+1. d4 { [%csl Rd4][%cal Rd2d4] } 1... d5 { [%csl Gd5][%cal Gd7d5] } 2. c4 { [%csl Rc4][%cal Rc2c4] } 2... c6 { [%csl Gc6][%cal Gc7c6] } 3. Nf3 { [%csl Rf3][%cal Rg1f3] } 3... Nf6 { [%csl Gf6][%cal Gg8f6] } 4. Nc3 { In the Open Slav we capture the c4-pawn. } { [%csl Rc3][%cal Rb1c3] } 4... dxc4 { [%csl Gc4][%cal Gd5c4] } 5. a4 { This move prevents us from keeping our pawn with b5. Develop the c8-bishop to f5. } { [%csl Ra4,Yb5][%cal Ra2a4,Yb7b5] } 5... Bf5 { We got our bishop free! This is a good sign in the Slav. Your plans are to play e6 making a Caro-Kann structure, Nbd2, and bring your other bishop out to d6 where it is very active. Then you can castle short. The main pawn breaks in the position are e5 and c5, make sure to keep those in mind and see when you can play them to break down white's center control. This will be a good game for you!
+Once again you can search up master games and see what they did when they used this opening. } { [%csl Gf5,Bb1,Bc2,Bd3,Be4,Be6,Bd7,Bd6][%cal Gc8f5,Bf5b1,Be7e6,Bb8d7,Bf8d6] } *
+
+[Event "🛡️The Slav Defense🛡️: Schlechter Slav"]
+[Date "2021.06.01"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "D15"]
+[Opening "Slav Defense: Schlechter Variation"]
+[StudyName "🛡️The Slav Defense🛡️"]
+[ChapterName "Schlechter Slav"]
+[ChapterURL "https://lichess.org/study/pdoTyqq4/Dqq9eF1p"]
+[Annotator "https://lichess.org/@/heyucatchthis"]
+[FEN "rnbqkb1r/pp2pppp/2p2n2/3p4/2PP4/2N2N2/PP2PPPP/R1BQKB1R b KQkq - 0 1"]
+[SetUp "1"]
+[UTCDate "2021.06.01"]
+[UTCTime "22:39:14"]
+[Orientation "black"]
+[ChapterMode "gamebook"]
+
+{ In the Schlechter Slav we play g6 and Bg7. } { [%cal Bg7g6] }
+1... g6 { [%csl Gg6][%cal Gg7g6] } 2. cxd5 { Recapture! } { [%csl Rd5][%cal Rc4d5] } 2... cxd5 { [%csl Gd5][%cal Gc6d5] } 3. Bf4 { Ok! Now, of course, we play Bb7, Nc6, e6, and get on with life. You can develop your c8-bishop at will. Then, castle, and this will be a good game for you. Super Solid! } { [%csl Rf4,Bg7,Bc6,Yh3,Yg4,Yf5,Ye6,Yd7][%cal Rc1f4,Bf8g7,Bb8c6,Yc8h3] } *
+
+[Event "🛡️The Slav Defense🛡️: Chameleon Slav🦎"]
+[Date "2021.06.01"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "D15"]
+[Opening "Slav Defense: Chebanenko Variation, Advance System"]
+[StudyName "🛡️The Slav Defense🛡️"]
+[ChapterName "Chameleon Slav🦎"]
+[ChapterURL "https://lichess.org/study/pdoTyqq4/MuHGIr63"]
+[Annotator "https://lichess.org/@/heyucatchthis"]
+[UTCDate "2021.06.01"]
+[UTCTime "22:45:33"]
+[Orientation "black"]
+[ChapterMode "gamebook"]
+
+{ Repeat what you have learned. }
+1. d4 { [%csl Rd4][%cal Rd2d4] } 1... d5 { [%csl Gd5][%cal Gd7d5] } 2. c4 { [%csl Rc4][%cal Rc2c4] } 2... c6 { [%csl Gc6][%cal Gc7c6] } 3. Nf3 { [%csl Rf3][%cal Rg1f3] } 3... Nf6 { [%csl Gf6][%cal Gg8f6] } 4. Nc3 { Ok, now we play a6. } { [%csl Rc3][%cal Rb1c3] } 4... a6 { [%csl Ga6][%cal Ga7a6] } 5. c5 { Develop your c8 bishop to f5.
+5. e3 could also be played here. If you enter that variation, make pawn breaks with b5 and e5. } { [%csl Rc5,Bc8][%cal Rc4c5] } 5... Bf5 { [%csl Gf5][%cal Gc8f5] } 6. Bf4 { This is the Chameleon Variation of the Slav. Now, you can set up a London System as black and you have good fighting chances. These are four ways to play the Slav. There's one sideline I have to show you. } { [%csl Rf4][%cal Rc1f4] } *
+
+[Event "🛡️The Slav Defense🛡️: Exchange Slav⚔️"]
+[Date "2021.06.01"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "D10"]
+[Opening "Slav Defense: Exchange Variation"]
+[StudyName "🛡️The Slav Defense🛡️"]
+[ChapterName "Exchange Slav⚔️"]
+[ChapterURL "https://lichess.org/study/pdoTyqq4/GG9xpGbr"]
+[Annotator "https://lichess.org/@/heyucatchthis"]
+[FEN "rnbqkbnr/ppp1pppp/8/3p4/2PP4/8/PP2PPPP/RNBQKBNR b KQkq - 0 1"]
+[SetUp "1"]
+[UTCDate "2021.06.01"]
+[UTCTime "22:51:02"]
+[Orientation "black"]
+[ChapterMode "gamebook"]
+
+{ Play c6. } { [%csl Rc4][%cal Rc2c4] }
+1... c6 { [%csl Gc6][%cal Gc7c6] } 2. cxd5 { [%csl Rd5][%cal Rc4d5] } 2... cxd5 { [%csl Gd5][%cal Gc6d5] } 3. Nc3 { This is called the Exchange Slav, basically the c-pawns are exchanged off. Here the move is Nf6. } { [%csl Rc3][%cal Rb1c3] } 3... Nf6 { [%csl Rf6][%cal Rg8f6] } 4. Nf3 { Play a6, preventing any Nb5 hops. } { [%csl Gf3][%cal Gg1f3] } 4... a6 { [%csl Bb5][%cal Ba6b5] } 5. Bf4 { Develop your knight. } { [%csl Gf4,Bb8][%cal Gc1f4] } 5... Nc6 { Ok! In this variation, you will play Bg5, e6, and castles short. The c-file is open, you might want to put your rooks on it. You will have a nice game. } { [%csl Gc6][%cal Gb8c6] } *
+
+[Event "🛡️The Slav Defense🛡️: Modern Slav⚡"]
+[Date "2021.06.06"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "?"]
+[Opening "?"]
+[StudyName "🛡️The Slav Defense🛡️"]
+[ChapterName "Modern Slav⚡"]
+[ChapterURL "https://lichess.org/study/pdoTyqq4/2W3UpR6L"]
+[Annotator "https://lichess.org/@/heyucatchthis"]
+[FEN "rnbqkb1r/pp2pppp/2p2n2/3p4/2PP4/5N2/PP2PPPP/RNBQKB1R w KQkq - 0 1"]
+[SetUp "1"]
+[UTCDate "2021.06.06"]
+[UTCTime "00:14:02"]
+[Orientation "black"]
+[ChapterMode "gamebook"]
+
+{ The Modern Slav is a tricky way for white to play against the Slav Defense. It is rarely played, so many people play into it mindlessly, and white will have great chances if their opponent doensn't know what he is doing. }
+1. Qb3 { Qb3! Only move is dxc4. } { [%csl Rb3][%cal Rd1b3] } 1... dxc4 { [%csl Gc4][%cal Gd5c4] } 2. Qxc4 { The queen has moved twice wasting a lot of time. Develop your light-squared bishop before e6. } { [%csl Rc4][%cal Rb3c4,Yd1b3,Bc8f5] } 2... Bf5 { [%csl Gf5][%cal Gc8f5,Bh7b1] } 3. g3 { White likes to go for this kingside fianchetto. Close down the structure with e6. } { [%csl Rg3][%cal Rg2g3] } 3... e6 { White cannot make any forward progress. } { [%csl Ge6,Bf7,Bc6,Bb7][%cal Ge7e6,Bc6d5,Be6d5] } 4. Bg2 { This is the Modern Slav, very tricky. It is not great, but if you play against an opponent who is not ready you have better chances of winning. Your plans are Nbd2, Be7 followed by 0-0, and Qc7 finnishing development and connecting the rooks and bringing them into the center. In the middlgame, try going for the break e5. You have a nice Caro-Kann structure, very solid :D } { [%csl Rg2,Bd7,Be7,Bg8,Ye5,Bc7][%cal Rf1g2,Bb8d7,Bf8e7,Be8g8,Ye6e5,Bd8c7] } *
+
+[Event "🛡️The Slav Defense🛡️: Review :D"]
+[Date "2021.06.01"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "?"]
+[Opening "?"]
+[StudyName "🛡️The Slav Defense🛡️"]
+[ChapterName "Review :D"]
+[ChapterURL "https://lichess.org/study/pdoTyqq4/wsylQSg1"]
+[Annotator "https://lichess.org/@/heyucatchthis"]
+[FEN "rnbqkbnr/pp2pppp/2p5/3p4/2PP4/8/PP2PPPP/RNBQKBNR w KQkq - 0 1"]
+[SetUp "1"]
+[UTCDate "2021.06.01"]
+[UTCTime "22:54:40"]
+[Orientation "black"]
+[ChapterMode "gamebook"]
+
+{ The Slav is one of the best ways to face the Queen's Gambit. I have tried my best to explain the Slav as good as I could. I hope you have settled with a variation to play. If you are a classical player who loves solid openings and doesn't like messing with fire, this is a great opening for you. Thank you for checking out my Study, and please leave a ❤️ if you enjoyed. Happy Chess!
+
+Check out ALL my studies here:
+https://lichess.org/study/search?q=owner%3Aheyucatchthis+ } { [%csl Rd4,Rc4,Gd5,Gc6] }
+ *

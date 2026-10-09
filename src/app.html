@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bilan de la partie — Chess Analyzer</title>
+  <link rel="icon" href="../icons/icon32.png">
+  <link rel="stylesheet" href="common.css">
+  <link rel="stylesheet" href="app.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="app.html"><img src="../icons/icon48.png" alt=""><span>Chess <b>Analyzer</b></span></a>
+    <nav class="topnav">
+      <a href="app.html" class="active" data-icon="search">Analyse</a>
+      <a href="puzzles.html" data-icon="puzzle">Puzzles</a>
+      <a href="openings.html" data-icon="book">Ouvertures</a>
+      <button id="btn-settings-top" data-icon="gear">Paramètres</button>
+    </nav>
+    <div class="spacer"></div>
+    <div class="engine-status" id="engine-status"><span class="dot"></span><span class="label">Stockfish 19</span></div>
+  </header>
+
+  <main class="layout">
+    <section class="board-col">
+      <div class="player-bar" id="player-top"></div>
+      <div class="board-row">
+        <div class="evalbar" id="evalbar">
+          <div class="evalbar-white" id="evalbar-white"></div>
+          <span class="evalbar-text" id="evalbar-text">0.0</span>
+        </div>
+        <div class="board-holder"><div id="board"></div></div>
+      </div>
+      <div class="player-bar" id="player-bottom"></div>
+    </section>
+
+    <aside class="panel">
+      <div class="panel-head">
+        <span class="panel-head-icon" data-icon="star" data-icon-size="15"></span>
+        <span id="panel-title">Bilan de la partie</span>
+        <div class="spacer"></div>
+        <button class="head-btn" id="btn-new" title="Charger une autre partie" data-icon="plus" data-icon-size="20"></button>
+      </div>
+
+      <!-- Chargement / import -->
+      <div class="view scroll" id="view-load" hidden>
+        <div class="coach">
+          <div class="coach-avatar coach-piece"></div>
+          <div class="bubble"><b>Bienvenue !</b> Collez un PGN, un lien chess.com, ou choisissez une de vos parties récentes pour obtenir un bilan complet par Stockfish.</div>
+        </div>
+        <div class="card">
+          <h4>PGN, FEN ou lien chess.com</h4>
+          <textarea id="pgn-input" placeholder="[Event &quot;...&quot;]&#10;1. e4 e5 2. Nf3 ...&#10;ou https://www.chess.com/game/live/123456789"></textarea>
+          <div class="row gap">
+            <button class="btn btn-primary" id="btn-load-pgn">Analyser</button>
+            <button class="btn" id="btn-explore">Plateau libre</button>
+          </div>
+        </div>
+        <div class="card">
+          <h4>Mes parties chess.com</h4>
+          <div class="row gap">
+            <input type="text" id="username-input" placeholder="Pseudo chess.com">
+            <button class="btn" id="btn-load-user">Charger</button>
+          </div>
+          <div class="game-list" id="game-list"></div>
+        </div>
+        <div class="card">
+          <h4>Analyses récentes</h4>
+          <div class="game-list" id="recent-list"></div>
+        </div>
+      </div>
+
+      <!-- Progression -->
+      <div class="view" id="view-progress" hidden>
+        <div class="progress-box">
+          <div class="spinner"></div>
+          <div class="progress-title" id="progress-title">Analyse en cours…</div>
+          <div class="progress-bar"><div id="progress-fill"></div></div>
+          <div class="progress-sub" id="progress-sub"></div>
+          <div class="mini-graph" id="progress-graph"></div>
+          <button class="btn btn-ghost" id="btn-cancel">Annuler</button>
+        </div>
+      </div>
+
+      <!-- Résumé -->
+      <div class="view scroll" id="view-summary" hidden>
+        <div class="coach">
+          <div class="coach-avatar coach-piece"></div>
+          <div class="bubble" id="summary-coach"></div>
+        </div>
+        <div class="graph" id="summary-graph"></div>
+        <div class="sum-players" id="sum-players"></div>
+        <div class="sum-table" id="sum-table"></div>
+        <div class="sum-extra" id="sum-extra"></div>
+        <button class="story-cta" id="btn-story" hidden>
+          <span class="story-cta-ico" data-icon="scroll" data-icon-size="22"></span>
+          <span class="story-cta-txt"><b>Récit de la partie</b><small id="story-cta-sub"></small></span>
+          <span class="story-cta-go" data-icon="next" data-icon-size="18"></span>
+        </button>
+        <div class="sum-actions">
+          <button class="btn btn-primary btn-big" id="btn-start-review">Commencer le bilan</button>
+          <div class="row gap">
+            <button class="btn btn-sm" id="btn-reanalyze" title="Relancer l'analyse avec les paramètres actuels" data-icon="refresh">Réanalyser</button>
+            <button class="btn btn-sm" id="btn-copy-pgn" data-icon="copy">Copier le PGN</button>
+            <a class="btn btn-sm" id="btn-open-cc" target="_blank" hidden data-icon="external">chess.com</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bilan coup par coup -->
+      <div class="view" id="view-review" hidden>
+        <div class="coach coach-review">
+          <div class="coach-avatar coach-piece"></div>
+          <div class="bubble" id="review-coach">
+            <div class="coach-title" id="coach-title"></div>
+            <div class="coach-text" id="coach-text"></div>
+            <div class="coach-actions" id="coach-actions"></div>
+          </div>
+        </div>
+        <div class="engine-box">
+          <div class="engine-head">
+            <input type="checkbox" class="toggle" id="live-toggle">
+            <span class="engine-eval" id="engine-eval">—</span>
+            <span class="engine-meta" id="engine-meta">Stockfish 19</span>
+          </div>
+          <div class="engine-lines" id="engine-lines"></div>
+        </div>
+        <div class="graph graph-sm" id="review-graph"></div>
+        <div class="opening-name" id="opening-name"></div>
+        <div class="moves scroll" id="moves"></div>
+        <div class="variation" id="variation" hidden></div>
+      </div>
+
+      <div class="panel-foot" id="panel-foot">
+        <div class="nav-btns">
+          <button class="btn btn-icon" id="nav-first" title="Début (↑)" data-icon="first" data-icon-size="22"></button>
+          <button class="btn btn-icon" id="nav-prev" title="Précédent (←)" data-icon="prev" data-icon-size="24"></button>
+          <button class="btn btn-icon nav-main" id="nav-next" title="Suivant (→)" data-icon="next" data-icon-size="26"></button>
+          <button class="btn btn-icon" id="nav-last" title="Fin (↓)" data-icon="last" data-icon-size="22"></button>
+        </div>
+        <div class="tool-btns">
+          <button class="btn btn-sm" id="btn-summary">Résumé</button>
+          <button class="btn btn-sm" id="btn-flip" title="Retourner le plateau (F)" data-icon="flip">Retourner</button>
+          <button class="btn btn-sm" id="btn-story-foot" title="Récit de la partie (R)" data-icon="scroll"></button>
+          <button class="btn btn-sm" id="btn-settings" title="Paramètres" data-icon="gear"></button>
+        </div>
+      </div>
+    </aside>
+  </main>
+
+  <div class="modal story-modal" id="story-modal" hidden>
+    <div class="story-card">
+      <header class="story-hero">
+        <button class="x-btn story-close" id="story-close" data-icon="x" data-icon-size="20" title="Fermer (Échap)"></button>
+        <div class="story-kicker" data-icon="scroll" data-icon-size="14">Récit de la partie</div>
+        <h2 class="story-title" id="story-title"></h2>
+        <div class="story-match" id="story-match"></div>
+        <nav class="story-tabs" id="story-tabs">
+          <button data-tab="moments" class="on">Moments clés</button>
+          <button data-tab="story">Le récit</button>
+          <button data-tab="tips">Conseils</button>
+        </nav>
+      </header>
+      <div class="story-body scroll" id="story-body"></div>
+    </div>
+  </div>
+
+  <div class="modal" id="settings-modal" hidden>
+    <div class="modal-card">
+      <div class="modal-head">Paramètres<div class="spacer"></div><button class="x-btn" id="settings-close" data-icon="x" data-icon-size="20"></button></div>
+      <div class="modal-body scroll" id="settings-body"></div>
+    </div>
+  </div>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>

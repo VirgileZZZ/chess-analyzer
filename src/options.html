@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Paramètres — Chess Analyzer</title>
+  <link rel="icon" href="../icons/icon32.png">
+  <link rel="stylesheet" href="common.css">
+  <style>
+    .wrap { max-width: 720px; margin: 20px auto; padding: 0 16px 40px; }
+    .card { background: var(--panel); border-radius: 10px; padding: 6px 20px 20px; }
+    .saved { position: fixed; right: 20px; bottom: 20px; background: var(--green); color: #fff; font-weight: 700; padding: 8px 14px; border-radius: 6px; opacity: 0; transition: opacity .2s; }
+    .saved.on { opacity: 1; }
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="app.html"><img src="../icons/icon48.png" alt=""><span>Chess <b>Analyzer</b></span></a>
+    <nav class="topnav">
+      <a href="app.html" data-icon="search">Analyse</a>
+      <a href="puzzles.html" data-icon="puzzle">Puzzles</a>
+      <a href="openings.html" data-icon="book">Ouvertures</a>
+      <a href="options.html" class="active" data-icon="gear">Paramètres</a>
+    </nav>
+  </header>
+  <div class="wrap"><div class="card" id="form"></div></div>
+  <div class="saved" id="saved">Enregistré</div>
+  <script type="module" src="options.js"></script>
+</body>
+</html>

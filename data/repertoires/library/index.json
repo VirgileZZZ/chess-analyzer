@@ -1,0 +1,272 @@
+[
+ {
+  "file": "vIEKP8t3-white.pgn",
+  "name": "Système de Londres",
+  "color": "w",
+  "description": "Un système solide et facile à jouer avec 1.d4, Bf4 et e3.",
+  "author": "LeninPerez",
+  "url": "https://lichess.org/study/vIEKP8t3",
+  "moves": 87,
+  "chapters": 9
+ },
+ {
+  "file": "vJsZScnC-white.pgn",
+  "name": "Partie italienne",
+  "color": "w",
+  "description": "1.e4 e5 2.Nf3 Nc6 3.Bc4 : développement rapide et pression sur f7.",
+  "author": "LeninPerez",
+  "url": "https://lichess.org/study/vJsZScnC",
+  "moves": 193,
+  "chapters": 13
+ },
+ {
+  "file": "ZkCxh0nB-white.pgn",
+  "name": "Partie espagnole (Ruy Lopez)",
+  "color": "w",
+  "description": "La grande classique : 3.Bb5 et une pression durable sur e5.",
+  "author": "LeninPerez",
+  "url": "https://lichess.org/study/ZkCxh0nB",
+  "moves": 276,
+  "chapters": 13
+ },
+ {
+  "file": "JkPnQ5g5-white.pgn",
+  "name": "Gambit Dame",
+  "color": "w",
+  "description": "1.d4 d5 2.c4 : la lutte pour le centre la plus jouée au haut niveau.",
+  "author": "LeninPerez",
+  "url": "https://lichess.org/study/JkPnQ5g5",
+  "moves": 92,
+  "chapters": 10
+ },
+ {
+  "file": "Wr4mGemS-white.pgn",
+  "name": "Partie écossaise",
+  "color": "w",
+  "description": "3.d4 : ouvrir le centre tout de suite.",
+  "author": "Yonushke",
+  "url": "https://lichess.org/study/Wr4mGemS",
+  "moves": 339,
+  "chapters": 10
+ },
+ {
+  "file": "ePMOV5k4-white.pgn",
+  "name": "Partie viennoise (complet)",
+  "color": "w",
+  "description": "Répertoire très complet autour de 2.Nc3 et du gambit viennois.",
+  "author": "anomality",
+  "url": "https://lichess.org/study/ePMOV5k4",
+  "moves": 4807,
+  "chapters": 35
+ },
+ {
+  "file": "qkiEGvJu-white.pgn",
+  "name": "Ouverture anglaise",
+  "color": "w",
+  "description": "1.c4 : un jeu positionnel souple.",
+  "author": "ChessBeginner210",
+  "url": "https://lichess.org/study/qkiEGvJu",
+  "moves": 244,
+  "chapters": 20
+ },
+ {
+  "file": "JRFGuWZi-white.pgn",
+  "name": "Partie des quatre cavaliers",
+  "color": "w",
+  "description": "Développement simple et sain des cavaliers.",
+  "author": "LeninPerez",
+  "url": "https://lichess.org/study/JRFGuWZi",
+  "moves": 74,
+  "chapters": 6
+ },
+ {
+  "file": "v0lhOcWH-white.pgn",
+  "name": "Gambit danois",
+  "color": "w",
+  "description": "Sacrifier des pions pour une attaque foudroyante.",
+  "author": "Green_Frog96",
+  "url": "https://lichess.org/study/v0lhOcWH",
+  "moves": 381,
+  "chapters": 20
+ },
+ {
+  "file": "9uKfnEnT-white.pgn",
+  "name": "Attaque Stonewall",
+  "color": "w",
+  "description": "Structure d4-e3-f4 et attaque sur le roque.",
+  "author": "LeninPerez",
+  "url": "https://lichess.org/study/9uKfnEnT",
+  "moves": 166,
+  "chapters": 10
+ },
+ {
+  "file": "xbNM05RB-white.pgn",
+  "name": "Attaque Grand Prix (anti-sicilienne)",
+  "color": "w",
+  "description": "2.Nc3 et f4 contre la Sicilienne.",
+  "author": "siddharth_08",
+  "url": "https://lichess.org/study/xbNM05RB",
+  "moves": 121,
+  "chapters": 8
+ },
+ {
+  "file": "v9TezkMy-white.pgn",
+  "name": "Attaque Fried Liver",
+  "color": "w",
+  "description": "La variante la plus tranchante de la défense des deux cavaliers.",
+  "author": "thereal_stockfish",
+  "url": "https://lichess.org/study/v9TezkMy",
+  "moves": 89,
+  "chapters": 17
+ },
+ {
+  "file": "wEyVYctf-white.pgn",
+  "name": "Répertoire 1.d4 (Blancs)",
+  "color": "w",
+  "description": "Un répertoire complet pour les joueurs de 1.d4.",
+  "author": "LeninPerez",
+  "url": "https://lichess.org/study/wEyVYctf",
+  "moves": 79,
+  "chapters": 11
+ },
+ {
+  "file": "QwF7sN3z-white.pgn",
+  "name": "Pièges d'ouverture (Blancs)",
+  "color": "w",
+  "description": "Les pièges à connaître avec les Blancs.",
+  "author": "Wonderous123",
+  "url": "https://lichess.org/study/QwF7sN3z",
+  "moves": 73,
+  "chapters": 7
+ },
+ {
+  "file": "Sw1lC13A-black.pgn",
+  "name": "Défense Caro-Kann",
+  "color": "b",
+  "description": "1.e4 c6 : solide et fiable, avec les variantes principales.",
+  "author": "heyucatchthis",
+  "url": "https://lichess.org/study/Sw1lC13A",
+  "moves": 132,
+  "chapters": 8
+ },
+ {
+  "file": "i5EqteMO-black.pgn",
+  "name": "Caro-Kann : jouer pour gagner",
+  "color": "b",
+  "description": "Une Caro-Kann plus ambitieuse, en 23 chapitres.",
+  "author": "DuoCalc31123",
+  "url": "https://lichess.org/study/i5EqteMO",
+  "moves": 399,
+  "chapters": 23
+ },
+ {
+  "file": "iFA7tZcn-black.pgn",
+  "name": "Répertoire complet …c6 (Caro-Kann + Slave)",
+  "color": "b",
+  "description": "Un répertoire noir complet basé sur …c6 contre 1.e4 et 1.d4.",
+  "author": "wub1234",
+  "url": "https://lichess.org/study/iFA7tZcn",
+  "moves": 2396,
+  "chapters": 32
+ },
+ {
+  "file": "4wIIAqhD-black.pgn",
+  "name": "Défense sicilienne",
+  "color": "b",
+  "description": "1.e4 c5 : la défense la plus combative.",
+  "author": "heyucatchthis",
+  "url": "https://lichess.org/study/4wIIAqhD",
+  "moves": 51,
+  "chapters": 8
+ },
+ {
+  "file": "JJQAfrrl-black.pgn",
+  "name": "Sicilienne Dragon",
+  "color": "b",
+  "description": "Le Dragon, du niveau 1 au niveau 10.",
+  "author": "Poubelle",
+  "url": "https://lichess.org/study/JJQAfrrl",
+  "moves": 740,
+  "chapters": 24
+ },
+ {
+  "file": "pdoTyqq4-black.pgn",
+  "name": "Défense slave",
+  "color": "b",
+  "description": "1.d4 d5 2.c4 c6 : solide contre le Gambit Dame.",
+  "author": "heyucatchthis",
+  "url": "https://lichess.org/study/pdoTyqq4",
+  "moves": 53,
+  "chapters": 8
+ },
+ {
+  "file": "ZIXAwbuB-black.pgn",
+  "name": "Semi-Slave",
+  "color": "b",
+  "description": "La Semi-Slave, riche et dynamique.",
+  "author": "heyucatchthis",
+  "url": "https://lichess.org/study/ZIXAwbuB",
+  "moves": 131,
+  "chapters": 8
+ },
+ {
+  "file": "QU8o2AIu-black.pgn",
+  "name": "Défense française",
+  "color": "b",
+  "description": "1.e4 e6 : une structure solide et un contre-jeu sur d4.",
+  "author": "caelT8",
+  "url": "https://lichess.org/study/QU8o2AIu",
+  "moves": 103,
+  "chapters": 9
+ },
+ {
+  "file": "hEPV1nVh-black.pgn",
+  "name": "Défense est-indienne",
+  "color": "b",
+  "description": "Laisser le centre aux Blancs pour mieux attaquer le roque.",
+  "author": "Chessmate_0204",
+  "url": "https://lichess.org/study/hEPV1nVh",
+  "moves": 233,
+  "chapters": 24
+ },
+ {
+  "file": "6bIsRyMD-black.pgn",
+  "name": "Hollandaise Stonewall",
+  "color": "b",
+  "description": "1.d4 f5 avec la structure Stonewall.",
+  "author": "caelT8",
+  "url": "https://lichess.org/study/6bIsRyMD",
+  "moves": 139,
+  "chapters": 7
+ },
+ {
+  "file": "wEyVYctf-black.pgn",
+  "name": "Répertoire contre 1.d4 (Noirs)",
+  "color": "b",
+  "description": "Les réponses noires du répertoire 1.d4.",
+  "author": "LeninPerez",
+  "url": "https://lichess.org/study/wEyVYctf",
+  "moves": 103,
+  "chapters": 11
+ },
+ {
+  "file": "QwF7sN3z-black.pgn",
+  "name": "Pièges d'ouverture (Noirs)",
+  "color": "b",
+  "description": "Les pièges à connaître avec les Noirs.",
+  "author": "Wonderous123",
+  "url": "https://lichess.org/study/QwF7sN3z",
+  "moves": 96,
+  "chapters": 5
+ },
+ {
+  "file": "g29gizvW-black.pgn",
+  "name": "Scandinave : 40 pièges",
+  "color": "b",
+  "description": "1.e4 d5 et ses nombreux pièges.",
+  "author": "Bosburp",
+  "url": "https://lichess.org/study/g29gizvW",
+  "moves": 757,
+  "chapters": 26
+ }
+]

@@ -1,0 +1,50 @@
+{
+  "manifest_version": 3,
+  "name": "Chess Analyzer — Stockfish",
+  "short_name": "Chess Analyzer",
+  "version": "1.0.0",
+  "description": "Bilan de partie façon chess.com, propulsé par Stockfish 19 en local : brillants, très bons coups, théorie, gaffes, occasions manquées, puzzles…",
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "action": {
+    "default_title": "Chess Analyzer",
+    "default_popup": "src/popup.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "32": "icons/icon32.png"
+    }
+  },
+  "options_page": "src/options.html",
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["storage", "unlimitedStorage", "contextMenus"],
+  "host_permissions": [
+    "https://www.chess.com/*",
+    "https://api.chess.com/*",
+    "https://images.chesscomfiles.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://www.chess.com/*"],
+      "js": ["content/chesscom.js"],
+      "css": ["content/chesscom.css"],
+      "run_at": "document_start"
+    }
+  ],
+  "content_security_policy": {
+    "extension_pages": "script-src 'self' 'wasm-unsafe-eval'; object-src 'self'"
+  },
+  "cross_origin_embedder_policy": { "value": "require-corp" },
+  "cross_origin_opener_policy": { "value": "same-origin" },
+  "web_accessible_resources": [
+    {
+      "resources": ["icons/*", "img/*"],
+      "matches": ["https://www.chess.com/*"]
+    }
+  ]
+}

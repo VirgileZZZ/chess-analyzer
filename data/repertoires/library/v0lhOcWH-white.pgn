@@ -1,0 +1,374 @@
+[Event "Ultimate Guide - Danish Gambit: Introduction"]
+[Date "2023.08.31"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "?"]
+[Opening "?"]
+[StudyName "Ultimate Guide - Danish Gambit"]
+[ChapterName "Introduction"]
+[ChapterURL "https://lichess.org/study/v0lhOcWH/JGjeTljh"]
+[Annotator "https://lichess.org/@/Green_Frog96"]
+[UTCDate "2023.08.31"]
+[UTCTime "05:30:42"]
+[Orientation "white"]
+[ChapterMode "gamebook"]
+
+{ Welcome! I decided to start a series called "Ultimate Guide" where I will explain openings that are good for intermediate players (1400-2000) and I decided to start it with my favourite opening of all times, Danish Gambit.
+
+Now, why is it so good for intermediate players? It's because it's about attacking, quick development, overwhelming your opponent and just trying to crush them down. It's incredible fun and I guarantee you that you are going to win a 60-80% of your games.
+
+All you need is a little time to study it a little bit, it's traps and main ideas that is. You don't need much time really, you need to pick up 15 minutes out of your free time to go review it and then 30 minutes of playing and 15-20 minutes to analyse it. I recommend playing rapid games, play a few of them, like 3-4 (which is around 30 minutes) and then analyse those games to see what were your mistakes.
+
+Of course, if you put more time into it, you will have easier time understanding it.
+
+With that beeing said, leave a ❤️ under the h1 square and tell me which opening would you like to see next. I'll try to make 1 Ultimate Guide per month, but that goes all from how much you like them. }
+ *
+
+[Event "Ultimate Guide - Danish Gambit: Main Opening Ideas"]
+[Date "2023.08.31"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "C21"]
+[Opening "Danish Gambit Accepted"]
+[StudyName "Ultimate Guide - Danish Gambit"]
+[ChapterName "Main Opening Ideas"]
+[ChapterURL "https://lichess.org/study/v0lhOcWH/uWnBrIuV"]
+[Annotator "https://lichess.org/@/Green_Frog96"]
+[UTCDate "2023.08.31"]
+[UTCTime "05:30:42"]
+[Orientation "white"]
+[ChapterMode "gamebook"]
+
+{ So, we will start by playing e4. }
+1. e4 { Now you will need a repertoar for tons of different openings. Sicilian Defense, French Defense, Scandinavian Defense and Caro-Kann Defense are all extremly popular and without a good weapon, you will have a bad time against them. } { [%cal Gc7c5,Ge7e6,Gd7d5,Gc7c6] } 1... e5 { Now, we will respond with d4. } 2. d4 { This is the Center Game but it leads to our Danish Gambit. As we are covering Danish Gambit, you will need to look at stuff like Nc6 and d6 yourself, Nc6 beeing a Nimzowitsch Defense and d6 beeing Maroczy Defense. } { [%cal Gb8c6,Gd7d6] } 2... exd4 { Our opponent took our pawn and now we play c3. } 3. c3 { This is the entering position to Danish Gambit. I could bother you with history but I'mma let the history lovers search it themselves, we are here for opening, not history. You are gambiting a second pawn and usually the third pawn to get massive development over your opponent and make strong threats against them. } { [%cal Gd4c3,Gc3b2] } 3... dxc3 { Now do not take the pawn. Play Bc4. } 4. Bc4 { Trust me, just keep developing. } 4... cxb2 { Ok, now we have to take the pawn. } 5. Bxb2 { Can you see how monstrous those bishops are? Also your queen would love to help them, especially your light squared bishop as it is targeting the weak f7 pawn that's only protected by the king. You will also be finishing your development very quickly. Depending on the situation, knight's might develope little bit differently than usual sometimes, but usally it's just simple Nc3 and Nf3. You will castle aswell and just go and attack your opponent.
+This opening is extremly trappy and let's start with it's extreme traps that are very easy to walk into. } { [%cal Gc4f7,Gb2g7,Bd1b3,Bd1d5,Bd1f3,Bd1h5,Yg1f3,Yb1c3,Ye1g1,Yb1d2] } *
+
+[Event "Ultimate Guide - Danish Gambit: Goodbye my dear"]
+[Date "2023.08.31"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "C21"]
+[Opening "Danish Gambit Accepted"]
+[StudyName "Ultimate Guide - Danish Gambit"]
+[ChapterName "Goodbye my dear"]
+[ChapterURL "https://lichess.org/study/v0lhOcWH/87CNRra9"]
+[Annotator "https://lichess.org/@/Green_Frog96"]
+[UTCDate "2023.08.31"]
+[UTCTime "05:30:42"]
+[Orientation "white"]
+[ChapterMode "gamebook"]
+
+{ Let's start with the first trap that is very easy to happen. I'mma ask you to enter the Danish Gambit. }
+1. e4 e5 2. d4 exd4 3. c3 { Thank you, this one walks fully into the gambit so please just continue. } 3... dxc3 4. Bc4 cxb2 5. Bxb2 d6 { This is a bad move. And while here the best move by far is Nf3, if you are in a tournament against a lower rated opponent (800-1200) you can set up this trap with e5. } 6. e5 { Now, higher level opponent will play Nc6, but somebody who never saw this, especially in blitz and bullet, will probably take the pawn instantly. If they do not however, taking the pawn with Nd2 and Nf3 is good enough and you will be fine, yes your position is worse for you now but it's a strong trap to have in your back pocket against beginners and bad players. } 6... dxe5?? { This is of course a big mistake as now you have Bxf7+! } 7. Bxf7+! { Point is obviously to lure the king out and win the queen. So if Kxf7, you just play Qxd8 and you are up a queen, your opponent can instantly resign. But of course, opponent can try to ignore this threat with Ke7. } { [%csl Rd8][%cal Rd1d8,Re8f7] } 7... Ke7 { But that simply doesn't work at all because of Ba3+! } 8. Ba3+! { King has to take the bishop and this is the point where black completly losses the game. } { [%csl Ge7,Ge8,Ge6,Gd8,Gd7,Gd6][%cal Ga3e7,Gf7e8,Gf7e6,Gd1d8] } 8... Kxf7 9. Qxd8 { In case you were wondering, your bishop is protected by the knight so you have a queen for a bishop and 2 pawns. Your opponent is completly lost. c7 is hanging and Nf3-Ng5+ is also an option. And let's not forget that after Nf3, e5 is completly hanging aswell and they cannot do a thing about it. } { [%csl Rc7,Ba3,Re5][%cal Rd8c7,Gg1f3,Gf3g5,Bb1a3,Rf3e5] } *
+
+[Event "Ultimate Guide - Danish Gambit: Poisoned Pawn"]
+[Date "2023.08.31"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "C21"]
+[Opening "Danish Gambit Accepted"]
+[StudyName "Ultimate Guide - Danish Gambit"]
+[ChapterName "Poisoned Pawn"]
+[ChapterURL "https://lichess.org/study/v0lhOcWH/YgwHLxhA"]
+[Annotator "https://lichess.org/@/Green_Frog96"]
+[UTCDate "2023.08.31"]
+[UTCTime "05:30:42"]
+[Orientation "white"]
+[ChapterMode "gamebook"]
+
+{ I love poisoned pawn traps so I'mma ask you to again enter our lovely position with 2 powerfull bishops staring at black's king side. Thank you in advance. }
+1. e4 e5 2. d4 exd4 3. c3 dxc3 4. Bc4 cxb2 5. Bxb2 Qg5? { Here black will usually think that they can just win the pawn on g2. However, that's not the case. We can just simply ignore this with Nf3. } 6. Nf3 { So what's the point? Let's show you the point. } 6... Qxg2?? { This is a horrible blunder and the way to punish it is with Rg1. } 7. Rg1 { Now what's the point, black just retreats. Right? } 7... Qh3 { Yeah, black retreats, except that we are up to play Bxf7+!! } 8. Bxf7+!! { Incredible move. If black takes, black immediatly losses after Ng5+ because it picks up the queen as it's a family fork. } { [%csl Rf7,Rh3][%cal Ge8f7,Rf3g5,Rg5f7,Rg5h3] } 8... Kd8 { So black usually plays Kd8 thinking how white is foolish and now his queen is completly safe. But of course there is much more than that. Now we play Rg3. } 9. Rg3 { Notice how we are trying to take away all the squares from the queen. } { [%csl Rh4,Rh5,Rg4,Rf5,Re6] } 9... Qh6 { But is the queen safe here? Yes it is for now, but that doesn't mean it's safe forever after Ng5. } 10. Ng5 { We are offering another pawn, but we are just looking for an attack. In the best world, black will play Qd6 and trade the queens, but then comes Bg6 threatening Nf7+ fork of the king and queen which black cannot stop as rook is anyways trapped by black's undeveloped pieces and f7 will be protected by the bishop. If black takes the bishop fork is still there, it didn't magicly dissapear and after that your knight escapes by taking the g6 pawn which came after black took your bishop which will also be attacked by the rook so it will be safe to take. } { [%csl Rf7,Rh8,Rd8,Yg8,Yf8,Bg6][%cal Gh6d6,Gd1d6,Gc7d6,Gf7g6,Rg5f7,Rf7h8,Rf7d8,Rg6f7,Bh7g6,Bh8g6,Bg3g6] } 10... Qxh2?? { But what if black takes the "free" pawn? That's a massive mistake because of Ne6+! } 11. Ne6+! { Pawn is pinned to the king so black cannot take our knight. } { [%csl Rd8][%cal Rd1d8] } 11... Ke7 { And then Qf3! } 12. Qf3! { Look at how pieces defend each other. Also, now Qh1+ is prevented. } { [%csl Ge6,Gf7,Rh1][%cal Gf7e6,Gf3f7,Rf3h1] } 12... dxe6 { And when black takes the knight, black losses the game after Ba3+ } 13. Ba3+! { Only move in the position. Kd7 leads to an 8 move mate so black will usually go for Kd8. } 13... Kd8 { And now just pick up the bishop. } { [%csl Rf8][%cal Ra3f8] } 14. Bxf8 { You will also pick up the pawn and the rook aswell and let's not forget how wide open black's king is. This is completly lost for black and there is no way black can defend themselves. Yes, they picked up a few pawns, but them beeing greedy put them down. They defeated themselves. } { [%csl Rg7,Rh8][%cal Rf8g7,Rg7h8] } *
+
+[Event "Ultimate Guide - Danish Gambit: Beginner mistake"]
+[Date "2023.08.31"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "C21"]
+[Opening "Danish Gambit Accepted"]
+[StudyName "Ultimate Guide - Danish Gambit"]
+[ChapterName "Beginner mistake"]
+[ChapterURL "https://lichess.org/study/v0lhOcWH/ZKCVMVLV"]
+[Annotator "https://lichess.org/@/Green_Frog96"]
+[UTCDate "2023.08.31"]
+[UTCTime "05:30:42"]
+[Orientation "white"]
+[ChapterMode "gamebook"]
+
+{ I'm going to politely ask you to enter our loved position. }
+1. e4 e5 2. d4 exd4 3. c3 dxc3 4. Bc4 cxb2 5. Bxb2 Bc5 { This is usual beginner mistake which leads to Bxg7 winning a rook. } 6. Bxg7 { I'm showing you this because tons of people actually miss this wanting to just sacrifice the bishop on f7 as much games as possible. } { [%csl Rh8][%cal Rg7h8] } *
+
+[Event "Ultimate Guide - Danish Gambit: Classical Defense/ Bb4+"]
+[Date "2023.08.31"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "C21"]
+[Opening "Danish Gambit Accepted: Classical Defense"]
+[StudyName "Ultimate Guide - Danish Gambit"]
+[ChapterName "Classical Defense/ Bb4+"]
+[ChapterURL "https://lichess.org/study/v0lhOcWH/9S0aPlrE"]
+[Annotator "https://lichess.org/@/Green_Frog96"]
+[UTCDate "2023.08.31"]
+[UTCTime "05:30:42"]
+[Orientation "white"]
+[ChapterMode "gamebook"]
+
+{ Now, let's go to serious stuff. We will enter our loved position. }
+1. e4 e5 2. d4 exd4 3. c3 dxc3 4. Bc4 cxb2 5. Bxb2 Nf6 { This is known as Classical Defense. It's incredibly often and you have to know how to play against it. You start with e5. } 6. e5 { There are 4 different variations that we will explore that you need to be prepared for. Those are Bb4+, d5, Qe7 and Ne4. } { [%cal Gf6e4,Gf8b4,Gd8e7,Gd7d5] } 6... Bb4+ { We will first explore this one. Here the best move by computers is Bc3. } 7. Bc3 Bxc3+ { [%cal Gb1c3] } 8. Nxc3 { And now they have a choice of d5 where you would take the knight, they would take the bishop and you would take on g7 and then try to play Qf3 and Nge2 and play a game of chess. They can try Ng8 which dies immediatly to Qg4 forcing Kf8 meet with Qf4 and black is just completly lost because even if Qe7 happens, there is Nd5 and after g5 there is Qe3 and black is completly lost. } { [%cal Gd7d5,Gd5c4,Ge5f6,Gf6g7,Gh8g8,Gd1f3,Gg8g7,Gg1e2,Rf6g8,Rd1g4,Re8f8,Rg4f4,Rd8e7,Rc3d5,Rg7g5,Rf4f3] } 8... Qe7 { There is also this option. It's the only left "good" option for black, but really the only option that leaves with equal position for black where white needs to be careful is with d5, here white is just better but not winning. Why? Because of Qe2. } { [%cal Re7e1] } 9. Qe2 { Now you are no longer pinned. } { [%csl Re5][%cal Re2e5,Re7e5] } 9... Ng8 { Doesn't this look ugly? And that is best black has, now you can play Nf3. } 10. Nf3 { You are completly developed while black's pieces are on the back rank. Rc1 and Nd5 is what you want and then just continue attacking black. Again, Danish is about attacking black so do it when you have a chance. } { [%csl Gf3,Ge2,Gc3,Gc4,Rb8,Rc8,Rg8][%cal Ra8h8,Rh8a8,Ga1c1,Gc3d5] } *
+
+[Event "Ultimate Guide - Danish Gambit: Classical Defense/d5"]
+[Date "2023.08.31"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "C21"]
+[Opening "Danish Gambit Accepted: Classical Defense"]
+[StudyName "Ultimate Guide - Danish Gambit"]
+[ChapterName "Classical Defense/d5"]
+[ChapterURL "https://lichess.org/study/v0lhOcWH/hcy6R19y"]
+[Annotator "https://lichess.org/@/Green_Frog96"]
+[UTCDate "2023.08.31"]
+[UTCTime "05:30:42"]
+[Orientation "white"]
+[ChapterMode "gamebook"]
+
+{ Enter our position please. }
+1. e4 e5 2. d4 exd4 3. c3 dxc3 4. Bc4 cxb2 5. Bxb2 Nf6 { And e5. } 6. e5 d5 { d5 is a great way black can deal with this and the only move that makes you stay in the game is exf6. } 7. exf6 { Now, black can take the bishop, but then you take the queen and the pawn on g7. Position is equal but you will be the one dictating the game. } { [%csl Gd8,Gg7][%cal Gd5c4,Gd1d8,Ge8d8,Gf6g7] } 7... Bb4+ { This of course is another story. This is how black should react and now again, Bc3 is the best move. } 8. Bc3 Bxc3+ { [%cal Gb1c3] } 9. Nxc3 dxc4 { [%cal Gf6g7] } 10. fxg7 Rg8 { [%cal Gd1f3] } 11. Qf3 { You don't want to trade the queen's. You are a little bit worse, but you will develope, play Rd1 and Nd5 and castle. Position is not going to be easy to navigate for either side but it's open so be ready to see some pieces flying around. } { [%cal Gg1e2,Ga1d1,Gc3d5,Ge1g1] } *
+
+[Event "Ultimate Guide - Danish Gambit: Classical Defense/Qe7"]
+[Date "2023.08.31"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "C21"]
+[Opening "Danish Gambit Accepted: Classical Defense"]
+[StudyName "Ultimate Guide - Danish Gambit"]
+[ChapterName "Classical Defense/Qe7"]
+[ChapterURL "https://lichess.org/study/v0lhOcWH/vuLCpDdT"]
+[Annotator "https://lichess.org/@/Green_Frog96"]
+[UTCDate "2023.08.31"]
+[UTCTime "05:30:42"]
+[Orientation "white"]
+[ChapterMode "gamebook"]
+
+{ We will enter the Classical Defense again please. }
+1. e4 e5 2. d4 exd4 3. c3 dxc3 4. Bc4 cxb2 5. Bxb2 Nf6 6. e5 Qe7 { Here we go. This is an option, but not a very good one of course. We now play Qe2 again. } 7. Qe2 { And here black has only 1 hope of surviving with Nh5!! beeing a brilliant defensive resource and everything else is just lost. d5 now doesn't work as after exf6 and Qxe2+ there is Bxe2 and we are just up a knight for 2 pawns. Black will be completly lost there. And of course, Ng8 you just develope and they are completly lacking development so you can attack black and win the game again. } { [%cal Rd7d5,Re5f6,Re7e2,Rc4e2,Rg7f6,Rb2f6] } 7... Nh5!! { But now let's look at this brilliant defense from black that's played only 1% of the time as you need to know how to keep the better position for white. Take the knight first. } 8. Qxh5 Qb4+ { Now play Nd2. You want to keep the bishop on c4 as it's stronger then the bishop on b2. Why? Because bishop on c4 has a target and is combined with the queen in an attack on black's king, while b2 bishop doesn't do much right now and is even blocked by it's own pawn which cannot move forward and also doesn't help the queen at all in the attack. } { [%csl Gf7,Re5][%cal Gc4f7,Gh5f7,Rb2e5,Re5e6,Rd7e6,Rf7e6] } 9. Nd2 Qxb2 { Now this is a very sharp position. Play Bxf7+! } 10. Bxf7+ Kd8 { And now Rb1. } 11. Rb1 { Your rook is protected by the knight. Only move for black is Qc2, everything else is completly lost. Also, pawn on a2 is protected by your bishop. Don't forget that. } { [%csl Gb1,Ga2][%cal Gd2b1,Gf7a2] } 11... Qc2 { Now Qg5+! } 12. Qg5+! Be7 { And Qxg7. } 13. Qxg7 Rf8 { And Ngf3. } 14. Ngf3 { Again, black is not completly lost by some miracle, but is in big danger and has almost no development. You need to castle and cook the continuation to this attack. } { [%cal Ge1g1] } *
+
+[Event "Ultimate Guide - Danish Gambit: Classical Defense/Ne4"]
+[Date "2023.08.31"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "C21"]
+[Opening "Danish Gambit Accepted: Classical Defense"]
+[StudyName "Ultimate Guide - Danish Gambit"]
+[ChapterName "Classical Defense/Ne4"]
+[ChapterURL "https://lichess.org/study/v0lhOcWH/Ne0H8f7S"]
+[Annotator "https://lichess.org/@/Green_Frog96"]
+[UTCDate "2023.08.31"]
+[UTCTime "05:30:42"]
+[Orientation "white"]
+[ChapterMode "gamebook"]
+
+{ Enter the Classical Defense please. }
+1. e4 e5 2. d4 exd4 3. c3 dxc3 4. Bc4 cxb2 5. Bxb2 Nf6 6. e5 Ne4 { Now this is the last move we will talk about. Now you here sacrifice the bishop with Bxf7+. } 7. Bxf7+ Kxf7 { And now Qd5+. } 8. Qd5+ { [%csl Re4][%cal Rd5e4,Rd5f7] } 8... Ke8 { And take the knight. } 9. Qxe4 { Now this is complete equality...if black trades queens with Qg5 and Qg6. Otherwise, black is completly lost. } { [%cal Gd8g5,Gg5g6] } 9... Nc6?? { Let's say black developes. This is completly lossing after Nf3. } 10. Nf3 Bb4+ { Nc3. } 11. Nc3 Qe7 { You castle. } 12. O-O Bxc3 { [%cal Gb2c3] } 13. Bxc3 d6 { And now this might look like black has a solid position...wrong. Rad1. Also for those wondering, the correct idea for black to try to stay alive is d5 and Be6 so that you can play Rd8 and fight on a very important d-file. } 14. Rad1 { And you might not even know what the point of this move is. It's incredible what it is actually. Point is Qb1 with exd6 and Rfe1. That's the point of this move. But, if black takes the pawn... } 14... dxe5 { Now you play Rfe1 anyways. } 15. Rfe1 { Threats are the sa-ame, hihihi. } { [%cal Ge1e8,Ge4b1] } 15... Rf8 { Nxe5! } 16. Nxe5 Nxe5 { Bxe5! } 17. Bxe5 { And if the so natural Bf5 happens... } 17... Bf5 { There is Qa4+! } 18. Qa4+ Kf7 { Bb2... } 19. Bb2 Be6 { And Rxe6!!! } 20. Rxe6!! { Sacrificing the ROOK! } 20... Qxe6 { For Rd7+!! } 21. Rd7+! Ke8 { And Rd6+! } 22. Rd6+ Kf7 { And winning the queen! } 23. Rxe6 { Yes, this variation is 23 moves long. Is this likely to happen? It can happen which is important. You might look at the database and never see this because people do not know the right continuation. Try to remember this because one day it will come up. } *
+
+[Event "Ultimate Guide - Danish Gambit: Copenhagen Defense Trap"]
+[Date "2023.08.31"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "C21"]
+[Opening "Danish Gambit Accepted: Copenhagen Defense"]
+[StudyName "Ultimate Guide - Danish Gambit"]
+[ChapterName "Copenhagen Defense Trap"]
+[ChapterURL "https://lichess.org/study/v0lhOcWH/VJpsQNC1"]
+[Annotator "https://lichess.org/@/Green_Frog96"]
+[UTCDate "2023.08.31"]
+[UTCTime "05:30:42"]
+[Orientation "white"]
+[ChapterMode "gamebook"]
+
+{ Now please enter our loved position. }
+1. e4 e5 2. d4 exd4 3. c3 dxc3 4. Bc4 cxb2 5. Bxb2 Bb4+ { This is the Copenhagen Defense. This is the most popular way of answering the Danish Gambit Accepted (which is taking both of our pawns and getting into our loved position.) but that doesn't mean black has easy time. Nc3. } 6. Nc3 Nf6 { And now, instead of e5 which now is not really that good, we play Qb3. } 7. Qb3 { We hit the bishop so that we can get the bishop pair. } { [%csl Rb4][%cal Rb3b4] } 7... Bxc3+ { [%cal Gb3c3] } 8. Qxc3 { And now here black pretty much must castle, but black might be greedy wanting a free pawn on e4... } 8... Nxe4?? { This is of course a trap for Bxf7+!! } 9. Bxf7+! { And point isn't to win the knight, nonono. } 9... Kxf7 { Try to find the only move that wins for white. } 10. Qxg7+! { Only move is Qxg7+! } 10... Ke6 { Now Qe5+. } 11. Qe5+ Kf7 { Now Qd5+! } 12. Qd5+ Ke8 { Qh5+! } 13. Qh5+ { Just continue harrassing the king. } 13... Kf8 { And now you can safely take the rook in the corner. } 14. Bxh8 { You are completly winning, but do not trade the queens after Qg5. } 14... Qg5 { Qf3+! } { [%cal Gh5f3] } 15. Qf3+ Kg8 { And take the knight. } 16. Qxe4 { Your pawn on g2 is protected and black has no counterplay currently. Don't give them any and win the game. } { [%csl Rg2][%cal Re4g2] } *
+
+[Event "Ultimate Guide - Danish Gambit: Copenhagen Defense"]
+[Date "2023.08.31"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "C21"]
+[Opening "Danish Gambit Accepted: Copenhagen Defense"]
+[StudyName "Ultimate Guide - Danish Gambit"]
+[ChapterName "Copenhagen Defense"]
+[ChapterURL "https://lichess.org/study/v0lhOcWH/aTIQiomb"]
+[Annotator "https://lichess.org/@/Green_Frog96"]
+[UTCDate "2023.08.31"]
+[UTCTime "05:30:42"]
+[Orientation "white"]
+[ChapterMode "gamebook"]
+
+{ Now enter the Copenhagen Defense again. }
+1. e4 e5 2. d4 exd4 3. c3 dxc3 4. Bc4 cxb2 5. Bxb2 Bb4+ { Remember the best moves we talked about. } 6. Nc3 Nf6 7. Qb3 Bxc3+ { Now we take with the queen. Taking with the bishop is actually completly losing. } 8. Qxc3 { Now e4 again isn't free, we saw why in last chapter. } 8... O-O { Nf3. } 9. Nf3 { e4 still isn't free, otherwise that would be mate in 1 blunder by black. } { [%csl Re4,Rg7][%cal Rf6e4,Rc3g7] } 9... d6 { Castle. } 10. O-O Be6 { Take the bishop. } 11. Bxe6 fxe6 { And Qb3. } 12. Qb3 { Even though position is equal, white is the asking questions. Don't underrestimate white's position, even though black has slight advantage beeing up 2 pawns, white is still the one that's the aggressor. } { [%csl Re6,Rb7][%cal Rb3e6,Rb3b7] } *
+
+[Event "Ultimate Guide - Danish Gambit: Chigorin Defense Exotic Line"]
+[Date "2023.08.31"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "C21"]
+[Opening "Danish Gambit Accepted: Chigorin Defense"]
+[StudyName "Ultimate Guide - Danish Gambit"]
+[ChapterName "Chigorin Defense Exotic Line"]
+[ChapterURL "https://lichess.org/study/v0lhOcWH/9Y0hAnqz"]
+[Annotator "https://lichess.org/@/Green_Frog96"]
+[UTCDate "2023.08.31"]
+[UTCTime "05:30:42"]
+[Orientation "white"]
+[ChapterMode "gamebook"]
+
+{ Now enter our loved position. }
+1. e4 e5 2. d4 exd4 3. c3 dxc3 4. Bc4 cxb2 5. Bxb2 Qe7 { Now this is something called Chigorin Defense and it's actually quite dubious. It isn't really good. Allthough it has seen play but because 1 person decided to try it out beeing Mikhail Chigorin himself. You continue with Nc3. } 6. Nc3 { Now, question is if black even knows the point of this opening beeing to play c6, d6 and then develope. } 6... c6 { Nf3 } 7. Nf3 { But black tons of times doesn't know that and plays d5. } 7... d5 { And now you can simply take the pawn with your bishop. } 8. Bxd5!! { Now this looks incredibly dubious, like what the hell are we doing. } 8... cxd5 { But now you can play Rc1. } 9. Rc1 { Yes, you just randomly sacrificed the bishop. It's because of how bad your opponent's development really is. Their variation if they want to take the pawn is 9...dxe4 10. Nd5 exf3+ 11.Nxe7 Nxe7 12. Qxf3 and this is completly equal. Everything else is completly lost. Let's say after they take the pawn they play Qd7 when you attack their queen, Ne5 is +3.5 alredy which is completly lost for black. } 9... Nc6 { Now Nxd5. } 10. Nxd5! { Only move. } 10... Qxe4+ { And Kf1. } 11. Kf1 { And I'm not even kidding, this is how you need to play. Btw, you are threatening a fork. Your opponent can try to stop it. Your opponent cannot stop it. Everything is protected. So you will just get the rook back and will safely come back with your knight. This is how sharp this opening really is. And if your opponent tries to play Kd8... } { [%csl Rc7,Rg7,Re5,Re7,Rf4,Rb4,Rd5][%cal Rd5c7,Rc7e8,Rc7a8,Rb2g7,Rd1d5,Rd5e7,Rf3e5,Rd5f4,Rd5b4] } 11... Kd8 { He losses the queen after Nc3. } 12. Nc3+ Ke8 { [%cal Gc3e4] } 13. Nxe4 { And then your opponent can just resign. That also shows how quickly black can actually lose. } *
+
+[Event "Ultimate Guide - Danish Gambit: Chigorin Defense"]
+[Date "2023.08.31"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "C21"]
+[Opening "Danish Gambit Accepted: Chigorin Defense"]
+[StudyName "Ultimate Guide - Danish Gambit"]
+[ChapterName "Chigorin Defense"]
+[ChapterURL "https://lichess.org/study/v0lhOcWH/8SP7Wf25"]
+[Annotator "https://lichess.org/@/Green_Frog96"]
+[UTCDate "2023.08.31"]
+[UTCTime "05:30:42"]
+[Orientation "white"]
+[ChapterMode "gamebook"]
+
+{ Please enter the Chigorin Defense again. }
+1. e4 e5 2. d4 exd4 3. c3 dxc3 4. Bc4 cxb2 5. Bxb2 Qe7 6. Nc3 c6 7. Nf3 d6 { Now this is correct way to play this opening as black. You now castle. } 8. O-O { Also, everything except Nd7 here is completly lossing because of Re1 and Nd5 combinations. } { [%cal Rc3d5,Rf1e1,Re1e8] } 8... Nd7 { Re1 } 9. Re1 Ne5 { Take their knight. } 10. Nxe5 dxe5 { And now incredible Nd5. } 11. Nd5!! { I mean, why not sacrifice the knight if you can, no? } 11... cxd5 { Now you can play exd5. } 12. exd5 { And black must play f6 or they just immediatly lose since all of your forces are here, you just obliterate your opponent in the attack. } { [%csl Ge5][%cal Gb2e5,Ge1e7,Gd1d8,Gc4f7,Gd5d7,Gd1a4,Ga4e8] } 12... f6 { Now d6. } 13. d6! { Now this looks even more stupid, like why would you sacrifice another pawn? } 13... Qxd6 { Qb3. } 14. Qb3 { But look at this, you are just attacking black. Like you should do in the Danish Gambit. } { [%csl Gf7][%cal Gb3f7,Ga1d1,Gc4b5,Gb5e8] } 14... Be7 { Only way black lives for now as it's the only way to give the king the breathing room. Now just take black's knight. Other options are Nd7 which losses to Rad1 where black either gives up the queen or gets mated with Bf7. Bd7 leads to impressive attack with Bf7 and Red1 where you are likely to have a beautiful mate with some sacrifice of the rook. And Bf5 which losses to Bf7+ and Rad1 winning the queen. } 15. Bxg8 { You regained your knight. You are also the aggressor and black is almost completly helpless. This is a knightmare position for black to defend. } *
+
+[Event "Ultimate Guide - Danish Gambit: Schlechter Defense"]
+[Date "2023.08.31"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "C21"]
+[Opening "Danish Gambit Accepted: Schlechter Defense"]
+[StudyName "Ultimate Guide - Danish Gambit"]
+[ChapterName "Schlechter Defense"]
+[ChapterURL "https://lichess.org/study/v0lhOcWH/vEoTc1j3"]
+[Annotator "https://lichess.org/@/Green_Frog96"]
+[UTCDate "2023.08.31"]
+[UTCTime "05:30:42"]
+[Orientation "white"]
+[ChapterMode "gamebook"]
+
+{ Now enter our loved Danish Gambit position. }
+1. e4 e5 2. d4 exd4 3. c3 dxc3 4. Bc4 cxb2 5. Bxb2 d5 { This is Schlechter Defense. It's extremly boring and not a lot of people play it thankfully. You take the pawn with the bishop. } 6. Bxd5 { Usually when black faces a gambit player, giving some material back is good to get quick development. } 6... Nf6 { Now you must play Bxf7+ or you lose. } 7. Bxf7+ Kxf7 { And take the queen. } 8. Qxd8 { Allthough you didn't win the queen. } 8... Bb4+ { This is a discovered attack on the queen so make sure you take that bishop black has down with your queen. } { [%csl Rd8,Re1][%cal Rh8d8,Rb4e1] } 9. Qd2 Bxd2+ { [%cal Gb1d2] } 10. Nxd2 { And this position is completly equal. 0.0. Just complete equality and just an end game which is a draw. This is the least fun it gets, but it is not played as much really. } *
+
+[Event "Ultimate Guide - Danish Gambit: Your Worst Nemesis"]
+[Date "2023.08.31"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "C21"]
+[Opening "Danish Gambit Declined: Sörensen Defense"]
+[StudyName "Ultimate Guide - Danish Gambit"]
+[ChapterName "Your Worst Nemesis"]
+[ChapterURL "https://lichess.org/study/v0lhOcWH/1GwYMq9u"]
+[Annotator "https://lichess.org/@/Green_Frog96"]
+[UTCDate "2023.08.31"]
+[UTCTime "05:30:42"]
+[Orientation "white"]
+[ChapterMode "gamebook"]
+
+{ Now I'm going to show you the reason why this is not played at top level despite looking so good at intermediate level where you will be winning tons and tons of games. Enter the starting position of Danish Gambit. }
+1. e4 e5 2. d4 exd4 3. c3 { Now, the reason why this doesn't see enough play today is because of d5. } 3... d5 { This is the way black is trying to fight against Danish Gambit. Here take the pawn on d5. } 4. exd5 Qxd5 { And now with the pawn take the pawn on d4 (so cxd4). } 5. cxd4 { And here both sides are going to try and fight for the d pawn. } 5... Nc6 { Nf3 } 6. Nf3 Bg4 { Now Be2. } 7. Be2 O-O-O { Now continue with Be3. } 8. Be3 Bb4+ { Nc3. } 9. Nc3 { And her the best move for black is Bxf3, but nobody plays that. Everyone is in for Nf6 where you then castle and actually get a better position. } { [%cal Gg8f6,Ge1g1] } 9... Bxf3 { [%cal Ge2f3] } 10. Bxf3 Qc4 { Now Qb3 is the only move. } 11. Qb3 Qxb3 { [%cal Ga2b3] } 12. axb3 Nxd4 { [%cal Ge3d4] } 13. Bxd4 Rxd4 { [%cal Ga1a7] } 14. Rxa7 { And we are in an endgame. This is slightly better for white, but just slightly. You will need some endgame knowledge for this to work in your favor. This is your worse nemesis, but you need to expect it. } *
+
+[Event "Ultimate Guide - Danish Gambit: Sorensen Defense Trap"]
+[Date "2023.08.31"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "C21"]
+[Opening "Danish Gambit Declined: Sörensen Defense"]
+[StudyName "Ultimate Guide - Danish Gambit"]
+[ChapterName "Sorensen Defense Trap"]
+[ChapterURL "https://lichess.org/study/v0lhOcWH/Z0LHw9oe"]
+[Annotator "https://lichess.org/@/Green_Frog96"]
+[UTCDate "2023.08.31"]
+[UTCTime "05:30:42"]
+[Orientation "white"]
+[ChapterMode "gamebook"]
+
+{ Enter the position of your worst nemesis. }
+1. e4 e5 2. d4 exd4 3. c3 d5 4. exd5 Qxd5 5. cxd4 Nc6 6. Nf3 Bg4 7. Be2 { Now, someone might think they can win the pawn on d4 by taking your knight. } 7... Bxf3 { [%cal Ge2f3] } 8. Bxf3 Qxd4?? { But this is a huge blunder after Bxc6+! } 9. Bxc6+! { Queen lost it's protector and you will be up a full queen for just a pawn. Isn't that great? } { [%csl Rd4,Re8][%cal Rd1d4,Rc6e8] } *
+
+[Event "Ultimate Guide - Danish Gambit: Sorensen Defense Modern Line"]
+[Date "2023.09.04"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "C21"]
+[Opening "Danish Gambit Declined: Sörensen Defense"]
+[StudyName "Ultimate Guide - Danish Gambit"]
+[ChapterName "Sorensen Defense Modern Line"]
+[ChapterURL "https://lichess.org/study/v0lhOcWH/gO3LJ5MW"]
+[Annotator "https://lichess.org/@/Green_Frog96"]
+[UTCDate "2023.09.04"]
+[UTCTime "17:23:57"]
+[Orientation "white"]
+[ChapterMode "gamebook"]
+
+{ So this is an adittional chapter that people who came originaly didn't saw. I'm going to show you a modern line of Sorensen Defense that is starting to see play and for which you should be prepared. Please enter the Sorensen Defense. }
+1. e4 e5 2. d4 exd4 3. c3 d5 { Take. } 4. exd5 Nf6 { Now this is a modern line in Sorense Defense. This is starting to see some play and I think it's important to mention. Here you want to play Bb5+. } 5. Bb5+ { Now if black plays Nbd7, black is slightly worse after you play Qxd4. If black plays c6, black is worse (+0.6) after 5... c6 6. dxc6 Nxc6 and then Nf3 where you are arguing that you are better developed and have more activity and if black takes your c pawn, you will develope your knight quicker and material will be equal, but you are more active and more developed. If he doesn't take the c pawn and plays something like Bc5, you are going to take it with the pawn. } 5... Bd7 { But if this you play Bc4. } 6. Bc4 { And while this doesn't look logical at all, your moves are very simple. } 6... dxc3 { Nxc3 } { [%cal Gb1c3] } 7. Nxc3 { Qe2+ and Nf3. That is all you need to do and this is slightly better for white because black is extremly passive, d5 pawn is extremly strong and black's pieces are missplaced. } { [%cal Gd1e2,Gg1f3] } *
+
+[Event "Ultimate Guide - Danish Gambit: Qe7 outside of Chigorin Defense"]
+[Date "2023.08.31"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "C21"]
+[Opening "Danish Gambit"]
+[StudyName "Ultimate Guide - Danish Gambit"]
+[ChapterName "Qe7 outside of Chigorin Defense"]
+[ChapterURL "https://lichess.org/study/v0lhOcWH/Dtww1PvJ"]
+[Annotator "https://lichess.org/@/Green_Frog96"]
+[UTCDate "2023.08.31"]
+[UTCTime "05:30:42"]
+[Orientation "white"]
+[ChapterMode "gamebook"]
+
+{ Enter the Danish Gambit position. }
+1. e4 e5 2. d4 exd4 3. c3 Qe7 { This is a modern idea. It's a really interesting one. You can just take the pawn on d4. Also, what's funny about this one is that computer is suggesting Bd3 which is lossing for white. } 4. cxd4 Qxe4+ { Now you need to block with the bishop. } 5. Be3 Bb4+ { Block with the knight with Nc3. } 6. Nc3 Nf6 { Now Nf3. } 7. Nf3 { And here the main idea is Nd5 for black. } 7... Nd5 { But then you just play Qd2. } 8. Qd2 Nxe3 { [%cal Gf2e3] } 9. fxe3 { And now queen is under the attack. } { [%csl Re4][%cal Rc3e4] } 9... Qe7 { And Bd3. } 10. Bd3 d5 { And castle. } 11. O-O { You now have the semi-open f-file on which you can attack and you are completly developed while black still has 2 pieces on the back rank. He will develope them, but you have tempo advantage there as you are alredy developed. The way you want to attack here is with combination of Qc2, Rae1 and e4 to open up the center and attack black through semi-open f-file and on h7 square since black is going to castle short probably. In a way you are preventing black from castling since an attack will be right there. Also after Qc2 you will alredy start pressure on the pawn on d5 so you will very likely get rid of black's bishop pair and have the same colour bishop, meaning that the end game is winnable by either side. } { [%csl Rh7,Rf7,Rd5][%cal Ga1e1,Gd2c2,Ge3e4,Rc2h7,Re1e8,Rf1f7,Rc3d5] } *
+
+[Event "Ultimate Guide - Danish Gambit: Outro"]
+[Date "2023.08.31"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "?"]
+[Opening "?"]
+[StudyName "Ultimate Guide - Danish Gambit"]
+[ChapterName "Outro"]
+[ChapterURL "https://lichess.org/study/v0lhOcWH/TfwJWLcC"]
+[Annotator "https://lichess.org/@/Green_Frog96"]
+[UTCDate "2023.08.31"]
+[UTCTime "05:30:42"]
+[Orientation "white"]
+[ChapterMode "gamebook"]
+
+{ And that's my Ultimate Guide on the Danish Gambit. It's an easy to study opening even in depth, really 16 chapters to study is not a lot. It's an extremly powerfull gambit, the third most powerfull gambit you can play as white. The first is of course the Evans Gambit (which I have a study on so go check it out) and the second one is King's Gambit of course.
+
+Again, if you like this study and find it useful click the ❤️ under the h1 square so that more people can see it and I want you to have a wonderful day 😀. }
+ *
+
+[Event "Ultimate Guide - Danish Gambit: Thank You!"]
+[Date "2023.09.05"]
+[Result "*"]
+[Variant "Standard"]
+[ECO "?"]
+[Opening "?"]
+[StudyName "Ultimate Guide - Danish Gambit"]
+[ChapterName "Thank You!"]
+[ChapterURL "https://lichess.org/study/v0lhOcWH/8FhAK29Q"]
+[Annotator "https://lichess.org/@/Green_Frog96"]
+[FEN "rnbqkbnr/pppp1ppp/8/8/3pP3/2P5/PP3PPP/RNBQKBNR b KQkq - 0 1"]
+[SetUp "1"]
+[UTCDate "2023.09.05"]
+[UTCTime "08:33:51"]
+[Orientation "white"]
+[ChapterMode "gamebook"]
+
+{ Wow, we did it again. Number 1 in hot section. Over 1000 likes. I have to say thank you to you all that have came and that like this study. Every time I click on the study, tons of different usernames pop up to watch my study at and to use it to learn something new.
+
+Thank You All! Big hearts for everyone ❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️ }
+ *
