@@ -43,7 +43,7 @@ const S = {
   key: null,
 };
 
-let board, summaryGraph, reviewGraph, progressGraph;
+let board, summaryGraph, reviewGraph;
 
 /* ====================================================================== */
 /* Initialisation                                                          */
@@ -78,7 +78,6 @@ async function init() {
   };
   summaryGraph = new EvalGraph($('summary-graph'), { onSelect: ply => { setView('review'); goTo(ply); }, tooltip });
   reviewGraph = new EvalGraph($('review-graph'), { onSelect: ply => goTo(ply), tooltip });
-  progressGraph = new EvalGraph($('progress-graph'), {});
 
   bindUi();
   applyVisualSettings();
@@ -304,6 +303,8 @@ async function startGame(game, { force = false, evals = null, key = null } = {})
   S.positions = buildPositions(game.startFen, game.moves);
   S.result = null;
   S.evals = null;
+  S.narrative = null;
+  renderStory();
   S.variation = null;
   S.retry = null;
   S.cur = S.positions.length - 1;
@@ -365,7 +366,6 @@ async function runAnalysis() {
     await pool.init();
     if (pool.cancelled) return null;
     $('progress-title').textContent = 'Analyse en cours…';
-    const wins = new Array(total).fill(null);
     const evals = await evaluatePositions(S.positions, pool, {
       depth: s.searchMode === 'depth' ? s.depth : 0,
       movetime: s.searchMode === 'time' ? s.movetime : 0,
@@ -375,8 +375,6 @@ async function runAnalysis() {
         const secs = (performance.now() - t0) / 1000;
         const eta = done ? Math.round(secs / done * (tot - done)) : 0;
         $('progress-sub').textContent = `Position ${done}/${tot} · ${s.searchMode === 'depth' ? 'profondeur ' + s.depth : s.movetime + ' ms/position'} · ${workers} moteur${workers > 1 ? 's' : ''}${eta ? ` · ~${eta}s restantes` : ''}`;
-        ev.forEach((e, i) => { if (e) wins[i] = winPct(scoreToCp(e.lines[0].score)); });
-        progressGraph.set({ wins: wins.map(w => w ?? 50), classes: [], cur: null });
       },
     });
     if (pool.cancelled) return null;
@@ -581,7 +579,7 @@ function coachSummary(players) {
   if (myColor) head = winner === 'draw' ? 'Partie nulle.' : winner === myColor ? 'Belle victoire !' : winner ? 'Défaite, mais il y a de quoi apprendre.' : 'Partie analysée.';
   else head = winner === 'draw' ? 'Partie nulle.' : winner ? `Victoire des ${COLOR_NAME[winner]} (${esc(winner === 'w' ? g.white?.name : g.black?.name)}).` : 'Partie analysée.';
   const parts = [`<b>${head}</b>`];
-  if (g.termination) parts.push(`<span style="color:#6b6966">${esc(g.termination)}</span>`);
+  if (g.termination) parts.push(`<span style="color:#6b6966">${esc(frTermination(g.termination))}</span>`);
   const focus = myColor ? [myColor] : ['w', 'b'];
   for (const c of focus) {
     const p = players[c];
@@ -693,6 +691,7 @@ function display({ animate = true, sound = false } = {}) {
 }
 
 function updateGraphs() {
+  $('review-graph').hidden = !S.evals || !S.settings.showGraph;
   if (!S.evals) return;
   const wins = S.evals.map(e => winPct(scoreToCp(e.lines[0].score)));
   const classes = S.result ? S.result.moves.map(m => m?.cls) : [];
@@ -845,7 +844,7 @@ function renderMoves() {
   }
   const res = document.createElement('div');
   res.className = 'game-result';
-  res.innerHTML = `${esc(S.game.result || '*')}${S.game.termination ? `<small>${esc(S.game.termination)}</small>` : ''}`;
+  res.innerHTML = `${esc(S.game.result || '*')}${S.game.termination ? `<small>${esc(frTermination(S.game.termination))}</small>` : ''}`;
   el.appendChild(res);
   highlightMove();
 }
@@ -951,6 +950,25 @@ const capFirst = h => h.replace(/^(<b>)?([a-zàâéèêëîïôûùç])/, (m, t,
 /** Lignes compactes du coach : étiquette colorée + texte, suite de coups en petit. */
 function renderExplainItems(items) {
   return items.map(it => `<div class="ex-row ex-${it.kind}"><span class="ex-tag">${esc(it.tag)}</span><div class="ex-txt">${capFirst(it.html)}${it.line ? `<span class="ex-line">${esc(it.line)}</span>` : ''}</div></div>`).join('');
+}
+
+/** Traduit la fin de partie renvoyée par chess.com (« X won by resignation »…). */
+function frTermination(t) {
+  const m = /^(.+?) won (?:by|on) (.+)$/i.exec(t || '');
+  const how = {
+    resignation: 'par abandon', checkmate: 'par échec et mat', time: 'au temps', 'game abandoned': 'par abandon de la partie',
+    abandonment: 'par abandon de la partie',
+  };
+  if (m) return `${m[1]} gagne ${how[m[2].toLowerCase()] || m[2]}`;
+  const d = /^game drawn by (.+)$/i.exec(t || '');
+  if (d) {
+    const why = {
+      repetition: 'répétition', agreement: 'accord mutuel', stalemate: 'pat', 'insufficient material': 'matériel insuffisant',
+      'timeout vs insufficient material': 'temps écoulé contre matériel insuffisant', '50-move rule': 'règle des 50 coups',
+    };
+    return `Nulle par ${why[d[1].toLowerCase()] || d[1]}`;
+  }
+  return t;
 }
 
 function myColor() {

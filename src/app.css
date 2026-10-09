@@ -127,7 +127,7 @@
 .progress-bar { width: 100%; height: 12px; border-radius: 6px; background: #1b1a18; overflow: hidden; }
 #progress-fill { height: 100%; width: 0; background: linear-gradient(90deg, #6fa13f, var(--green-hi)); transition: width .25s; }
 .progress-sub { color: var(--muted); font-size: 13px; }
-.mini-graph { width: 100%; height: 80px; }
+.mini-graph { width: 100%; height: 90px; cursor: default; }
 
 /* Graphique */
 .graph { position: relative; width: 100%; height: 110px; border-radius: 6px; overflow: hidden; background: #403d39; cursor: pointer; flex: none; }

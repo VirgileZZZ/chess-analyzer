@@ -4,6 +4,12 @@ Extension de navigateur (Chrome, Opera, Opera GX, Edge, Brave) qui remplace le *
 
 Tout tourne dans le navigateur : rien à installer d'autre, aucun serveur.
 
+![Bilan de la partie](docs/bilan.png)
+
+| Le coach explique chaque coup | Le récit de la partie |
+|---|---|
+| ![Coach](docs/coach.png) | ![Récit](docs/recit.png) |
+
 ## Fonctionnalités
 
 - **Bilan de partie** au clic sur « Bilan de la partie / Game Review » ou « Analyse » sur chess.com.
